@@ -1,3 +1,0 @@
-tellraw @a [{"color":"white","text":""},{"bold":true,"color":"#E0E0E0","text":"["},{"bold":true,"color":"#8A2BE2","text":"CD"},{"bold":true,"color":"#4169E1","text":"DP"},{"bold":true,"color":"#E0E0E0","text":"]"},{"color":"white","text":" "},{"color":"#FFD700","text":"⟡"},{"color":"white","text":" "},{"bold":true,"color":"#20B2AA","italic":true,"text":"Datapack reloading..."},{"color":"white","text":": "},{"color":"#E6E6FA","text":"Q325OreGenModification"}]
-datapack disable "file/Q325OreGenModification"
-datapack enable "file/Q325OreGenModification"

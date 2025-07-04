@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_swamp",
+  "features": [
+    "cacodion:ore_coal_extra"
+  ],
+  "step": "underground_ores"
+}

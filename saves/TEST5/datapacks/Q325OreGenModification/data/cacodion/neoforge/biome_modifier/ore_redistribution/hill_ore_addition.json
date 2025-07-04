@@ -1,8 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#c:is_hill",
-  "features": [
-    "cacodion:ore_copper_extra"
-  ],
-  "step": "underground_ores"
-}

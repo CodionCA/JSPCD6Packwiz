@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#c:is_wasteland",
-  "features": [
-    "cacodion:ore_ow_nether_gold",
-    "cacodion:ore_redstone_extra"
-  ],
-  "step": "underground_ores"
-}
