@@ -173,32 +173,8 @@ file = "config/accessories.json5"
 hash = "3d846f2d6c3a62e331f6471ed6846f5381039452445e06a402ccaf749ae3399d"
 
 [[files]]
-file = "config/accessorify-client-1.toml.bak"
-hash = "61dd75de32ea5273c8fc7bf01a7e48971767355079dc2cd6f58cf496f3181f43"
-
-[[files]]
-file = "config/accessorify-client-2.toml.bak"
-hash = "c8ff5eca7adc9ad5247dce947c55c2d5fe774662e3d71a8fedc5e3492d9edf66"
-
-[[files]]
-file = "config/accessorify-client-3.toml.bak"
-hash = "69ee064ec46bb89e63ab5853aa4102f1d44eccb7684762a62fd49ebb665968ff"
-
-[[files]]
-file = "config/accessorify-client-4.toml.bak"
-hash = "c8ff5eca7adc9ad5247dce947c55c2d5fe774662e3d71a8fedc5e3492d9edf66"
-
-[[files]]
 file = "config/accessorify-client.toml"
 hash = "3b3075869a4ec2004301578077e703708b0369a3b1012c40b902b47adb6f00a8"
-
-[[files]]
-file = "config/accessorify-common-1.toml.bak"
-hash = "ab0a9635a2cb2b912f3a1de285a0684be5054c2b14e9ed4c6dd090927d9662e6"
-
-[[files]]
-file = "config/accessorify-common-2.toml.bak"
-hash = "30f7cb4ed74bdaf2c022e8e712b80a2181bacfed44f761fe9b204164b2cb504e"
 
 [[files]]
 file = "config/accessorify-common.toml"
@@ -2491,34 +2467,6 @@ hash = "f67759e4d3daee5a63656516f0db960bf84026c9c815c4e9f445f793f81350f5"
 [[files]]
 file = "config/world-host.json5"
 hash = "da1c5624e49170467645060e595530ca920a12b3581c846678911db9e6857204"
-
-[[files]]
-file = "config/xaerominimap-common.txt"
-hash = "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f"
-
-[[files]]
-file = "config/xaerominimap.txt"
-hash = "68596adfd308cd1858e4668709cff24b43a8892e349e0a4a13bbee582e1b7962"
-
-[[files]]
-file = "config/xaerominimap_entities.json"
-hash = "332eb8e452fc696788baa18bad33d3cacb38e0ef8b44247275c60f263443ac46"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
-
-[[files]]
-file = "config/xaeroplus.txt"
-hash = "8ebe6fae00645f7c2f7f248a9fc164efb70452cb23f0e59ac9be55c4d5e4cc5a"
-
-[[files]]
-file = "config/xaeroworldmap-common.txt"
-hash = "f02ca95d7246bd4b9c7de895c46108fff42fd5fcf9d56816b7bdba821597b58f"
-
-[[files]]
-file = "config/xaeroworldmap.txt"
-hash = "26dc3520bbc121b17ccc5cd2f39d31a47e2b4c1dfb9567e0728ef593991f4187"
 
 [[files]]
 file = "config/xptome.toml"
