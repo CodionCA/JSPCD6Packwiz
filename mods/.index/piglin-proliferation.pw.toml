@@ -1,0 +1,16 @@
+filename = 'piglinproliferation-1.21.1-2.0.11.jar'
+name = 'Piglin Proliferation'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'eafd3f3c3099a8e73bb076baff54b0acc10b71282e04b6040290fd7fd8632e08d0e86968400e852483e70d1c63b62d7eed9f632ed12ce865ff8c390890f5cfe3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iRE67WIn/versions/INufuf0B/piglinproliferation-1.21.1-2.0.11.jar'
+
+[update.modrinth]
+mod-id = 'iRE67WIn'
+version = 'INufuf0B'

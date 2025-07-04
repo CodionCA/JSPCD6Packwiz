@@ -1,0 +1,13 @@
+name = "Quicker Connect Button"
+filename = "quickerconnectbutton-neoforge-2.2.1+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fdfb72b64b92575eae54ccd776f461a67abf19e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5496061
+project-id = 898092

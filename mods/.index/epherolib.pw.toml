@@ -1,0 +1,30 @@
+filename = 'EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar'
+name = 'EpheroLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ef0e4655edfec20d68cc2e0baa915938866084d2ef915d91fd9865555881e74f2830db5675026fe7a5102fe0d80e909dad0090845884be57dd6a0a4233406ca0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DIIgdJzf/versions/irMqtqYp/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'DIIgdJzf'
+version = 'irMqtqYp'

@@ -1,0 +1,13 @@
+name = "Ender's Delight"
+filename = "endersdelight-neoforge-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f2762e0d871eb0b0cae7d83807d06be0917cc14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6391835
+project-id = 827163

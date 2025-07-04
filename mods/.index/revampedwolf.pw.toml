@@ -1,0 +1,16 @@
+filename = 'revampedwolf-1.21.1-13.0.0.jar'
+name = 'RevampedWolf'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'db6b5f6d0bc8269fb8bba01f7194701812a32e9b712e832b7659a4dab9fee2ce19ffd995aeb1da4a40ed4ffb63c03474ff13b606123f7630e69aaf75ee6c4d6c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AV4N1OZQ/versions/CgQqPROG/revampedwolf-1.21.1-13.0.0.jar'
+
+[update.modrinth]
+mod-id = 'AV4N1OZQ'
+version = 'CgQqPROG'

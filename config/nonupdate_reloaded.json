@@ -1,0 +1,13 @@
+{
+  "isWhitelist": true,
+  "list": [
+    "$eminecraftservices.com",
+    "$emojang.com",
+    "$eminecraft.net",
+    "127.0.0.1:59210",
+    "127.0.0.1:60206",
+    "mc.codion.ca",
+    "kgn.codion.ca"
+  ],
+  "allowServerConnects": true
+}

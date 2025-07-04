@@ -1,0 +1,16 @@
+filename = 'EuphoriaPatcher-1.6.5-r5.5.1-neoforge.jar'
+name = 'Euphoria Patches'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.6', '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '515765fef207868ded815b7576742aed63c677fb2053d97128838a7b963381de8b789b35396eac61f8dfd0cb67837dc5c5c2bfb550fe10a3b3d4f7ecf86b1beb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4H6sumDB/versions/scDivmFv/EuphoriaPatcher-1.6.5-r5.5.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = '4H6sumDB'
+version = 'scDivmFv'

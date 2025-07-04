@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Farmer's Delight Compat Mod"
+filename = "repurposed_structures_farmers_delight_compat_v7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7304ad83540513d16926dec8c1a9ba98c0e8d424"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5566549
+project-id = 1071336

@@ -1,0 +1,13 @@
+name = "Trimmable Tools"
+filename = "trimmable_tools-neoforge-1.21.1-2.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ee84fec0880af4530670673a204b815f5226cc1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5955842
+project-id = 834329

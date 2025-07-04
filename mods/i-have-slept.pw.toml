@@ -1,0 +1,13 @@
+name = "I have slept"
+filename = "i_have_slept-neoforge-1.1.1+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "788504d341e9db0f48edd2eb1e9d7266de536c0b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5875240
+project-id = 1129410

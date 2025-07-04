@@ -1,0 +1,42 @@
+{
+	"essential": {
+		"msg": "The Essential mod is completely incompatible with all Luna Pixel modpacks, and there's no reason to use it.\nAll of our modpacks already come with built-in, free world hosting, by clicking the <strong>Share World</strong> button in the <strong>Open to LAN</strong> menu. If you are ever playing a modpack not made by Lunapixel, you can use mods such as e4mc or World Host to host your world instead of Essential, as Essential has many issues.",
+		"should_crash_on_startup": true
+	},
+	"essential-container": {
+		"should_crash_on_startup": true,
+		"msg": "The Essential mod is completely incompatible with all Luna Pixel modpacks, and there's no reason to use it.\nAll of our modpacks already come with built-in, free world hosting, by clicking the <strong>Share World</strong> button in the <strong>Open to LAN</strong> menu. If you are ever playing a modpack not made by Lunapixel, you can use mods such as e4mc or World Host to host your world instead of Essential, as Essential has many issues."
+	},
+	"e4mc_minecraft": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>e4mc</strong> mod to the modpack. e4mc is not needed, as all Luna Pixel Studios modpacks already include our custom fork of the e4mc mod by default. If you are having issues with our own world sharing, hosting a server on your own PC via the serverpack is easy. You can learn more here: https://github.com/chorbintime/LPS-readme/wiki"
+	},
+	"tlskincape": {
+		"should_crash_on_startup": true,
+		"msg": "It appears that you are using <strong>TLauncher</strong>, a launcher known to be infected with spyware that can steal your passwords and monitor your computer activity. <strong>TLauncher</strong> also does not install modpacks correctly, which results in many missing files that will potentially break the modpack. It is heavily encouraged to delete all traces of TLauncher off of your computer, do an antivirus scan, and buy Minecraft so you can use a better launcher, such as https://atlauncher.com/downloads."
+	},
+	"despawn_tweaker": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>Despawn Tweaker</strong> mod to the modpack. The <strong>Despawn Tweaker</strong> mod is not needed, as a better mod with similar functionality (<strong>Despawn Tweaks</strong>) is already present in the modpack."
+	},
+	"doespotatotick": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>DoesPotatoTick</strong> mod to the modpack. The <strong>DoesPotatoTick</strong> mod is not needed, as a better mod with similar functionality (<strong>Does It Tick</strong>) is already present in the modpack."
+	},
+	"dynamiclights": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>Dynamic Lights mod</strong> to the modpack. The <strong>Dynamic Lights</strong> mod is not needed, as a better mod with similar functionality (<strong>Sodium/Embeddium Dynamic Lights</strong>) is already present in the modpack."
+	},
+	"epicfight": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>Epic Fight</strong> mod to the modpack. <strong>Epic Fight</strong> is known to cause frequent crashes and is widely incompatible with other mods. If you would like a more stable alternative to <strong>Epic Fight</strong>, you may want to try out the <strong>Better Combat</strong> mod."
+	},
+	"valkyrienskies": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>Valkyrien Skies</strong> mod to the modpack. <strong>Valkyrien Skies</strong> has many incompatibilities, and it's not possible to add it to a pre-existing modpack without experiencing many crashes."
+	},
+	"optifine": {
+		"should_crash_on_startup": true,
+		"msg": "If you are seeing this, you have manually added the <strong>Optifine mod</strong> to the modpack. The <strong>Optifine</strong> mod is completely unnecessary, and has been for almost ten years now. Alternatives such as Sodium/Xenon and Iris/Oculus are already present in all modern modpacks."
+	}
+}

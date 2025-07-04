@@ -1,0 +1,16 @@
+filename = 'platform-neoforge-1.21.1-1.2.10.2.jar'
+name = 'Platform'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e87f965630bf02b63509430faf0daafdba5c2f990bd2a520cab1c21036daa5250f7c33c49ee9465c1593049cbd2db999f57f77e85b64f783109cc1030df1e390'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/i6fiqm5y/versions/CcI8gluH/platform-neoforge-1.21.1-1.2.10.2.jar'
+
+[update.modrinth]
+mod-id = 'i6fiqm5y'
+version = 'CcI8gluH'

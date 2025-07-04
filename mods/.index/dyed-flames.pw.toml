@@ -1,0 +1,16 @@
+filename = 'DyedFlames-v21.1.1-1.21.1-NeoForge.jar'
+name = 'Dyed Flames'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'dde2ca7111557064c1ade8a9a406b8338a1ade5f5c4377ec11abae222546d183e3c8a3f78810714fd6dce8fc77de6d9a5b4ad105fafdc515b258f970b574636d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/66H5fc9R/versions/HcqOZDaC/DyedFlames-v21.1.1-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = '66H5fc9R'
+version = 'HcqOZDaC'

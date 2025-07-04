@@ -1,0 +1,16 @@
+filename = 'CraftPresence-2.6.1+1.21.1-neoforge.jar'
+name = 'CraftPresence'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2bcca798167d4ac722db43d058360cab266f64eb762380521fba87c46712e3bed3c36081a06f4eecbff6fe5623e1c319e18731868144f593ee715492fe62d829'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DFqQfIBR/versions/P6M5nES1/CraftPresence-2.6.1%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'DFqQfIBR'
+version = 'P6M5nES1'

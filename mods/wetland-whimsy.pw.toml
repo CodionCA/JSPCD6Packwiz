@@ -1,0 +1,13 @@
+name = "Wetland Whimsy"
+filename = "wetland_whimsy-1.2.3-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6584f2937e7dd2451bb4e410965a33b5f81fe2cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6713509
+project-id = 1164728

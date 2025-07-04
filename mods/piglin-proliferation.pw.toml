@@ -1,0 +1,13 @@
+name = "Piglin Proliferation"
+filename = "piglinproliferation-1.21.1-2.0.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5fe1309e1b94aaa5da1a35e3bceddcc8d67967b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6304429
+project-id = 657831

@@ -1,0 +1,13 @@
+name = "Dyed Flames"
+filename = "DyedFlames-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25cea136906ba978c553c2f38016cd7c6af2f0ff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6498028
+project-id = 1254590

@@ -1,0 +1,16 @@
+filename = 'AutochefsDelight-1.21.1-NeoForge-2.0.2.jar'
+name = "Autochef's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a3778d5dc8953600d803816ed91e585418cef04bd992a6c812d910b44d7cd7d6a2d242ddb8c82e0f007f92bc4039cb28f270d452a4fa5b05aa3a8f552222cecd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HY0PMpa3/versions/sWOmklbu/AutochefsDelight-1.21.1-NeoForge-2.0.2.jar'
+
+[update.modrinth]
+mod-id = 'HY0PMpa3'
+version = 'sWOmklbu'

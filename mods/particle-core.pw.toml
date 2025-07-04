@@ -1,0 +1,13 @@
+name = "Particle Core"
+filename = "particle_core-0.2.6+1.21+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9328bf90e73071c3239197d5133ef7f1eb2f8269"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6427563
+project-id = 985426

@@ -1,0 +1,16 @@
+filename = 'createpickywheels-neoforge-1.21.1-6.0.1-1.jar'
+name = 'Create Picky Wheels'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '66d877a9ac8ff5a4d1164aa91463c59de014f3b582770ed24b72c2c60bb67ba10b0fa31c4bc7c1997ac3a967212b616ac01f2a50d634c54e6b3884dda8970f96'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Zotbxaw6/versions/MwUNOQaq/createpickywheels-neoforge-1.21.1-6.0.1-1.jar'
+
+[update.modrinth]
+mod-id = 'Zotbxaw6'
+version = 'MwUNOQaq'

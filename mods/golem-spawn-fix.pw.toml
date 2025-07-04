@@ -1,0 +1,13 @@
+name = "Golem Spawn Fix"
+filename = "golem_spawn_fix-1.0.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89cfa526bf3d883afbf5adf8be2921beced1857b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6467851
+project-id = 1217787

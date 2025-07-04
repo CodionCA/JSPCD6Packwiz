@@ -1,0 +1,16 @@
+filename = 'ok_zoomer-neo-10.0.0-beta.10.jar'
+name = 'Ok Zoomer'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '43428c76af367b5f741ec0f65f6a4c0f44c38edf845bd162561a0a787b3d8399010336ec8b4a85fa3356ef83e602d8b61c67a14944627d34b7a757d46d982425'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aXf2OSFU/versions/9r90qGm7/ok_zoomer-neo-10.0.0-beta.10.jar'
+
+[update.modrinth]
+mod-id = 'aXf2OSFU'
+version = '9r90qGm7'

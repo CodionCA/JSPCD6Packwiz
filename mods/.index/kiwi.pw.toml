@@ -1,0 +1,16 @@
+filename = 'Kiwi-1.21.1-NeoForge-15.6.1.jar'
+name = 'Kiwi Library'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1270a11c3732fb8217804000d18080c995508b3cda32a000241645a0eb36ee86827262d82ff3cf0bae1a7f695c2c73cac24a64d752699481875dca3ea91cb8a5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ufdDoWPd/versions/EWWtrwik/Kiwi-1.21.1-NeoForge-15.6.1.jar'
+
+[update.modrinth]
+mod-id = 'ufdDoWPd'
+version = 'EWWtrwik'

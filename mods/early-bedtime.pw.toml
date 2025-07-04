@@ -1,0 +1,13 @@
+name = "Early Bedtime"
+filename = "earlybedtime-neoforge-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebed1289c85a84e777d3f4040c0f781f887aaf8a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6541439
+project-id = 1268064
