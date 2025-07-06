@@ -1,0 +1,13 @@
+name = "Quicker Connect Button"
+filename = "quickerconnectbutton-neoforge-2.2.1+1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1SruaFxM/versions/2Lc4X747/quickerconnectbutton-neoforge-2.2.1%2B1.21.jar"
+hash-format = "sha512"
+hash = "2bdea090fe7fbfe434ffba78dc57584c7bf57b55fc695f6ff2337759d523283824e2aa20221d95bb933173c39d8ff2bb1dfa1a4f7559e14d16daf9abb1b00e03"
+
+[update]
+[update.modrinth]
+mod-id = "1SruaFxM"
+version = "2Lc4X747"

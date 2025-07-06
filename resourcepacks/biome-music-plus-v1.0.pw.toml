@@ -1,0 +1,13 @@
+name = "Biome Music Plus v1.0"
+filename = "Biome Music plus v1.0 1.21-1.21.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/F6KifYgV/versions/XyIue46P/Biome%20Music%20plus%20v1.0%201.21-1.21.1.zip"
+hash-format = "sha512"
+hash = "411c1700d0a17892256de9c34f2dec414d4f420025cec9100baa80b9d315b07bdfc3f988daa58dc08c086736cca385092e47b5ac884f30fe092a3ecd74aeb39b"
+
+[update]
+[update.modrinth]
+mod-id = "F6KifYgV"
+version = "XyIue46P"

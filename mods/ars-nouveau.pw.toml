@@ -1,0 +1,13 @@
+name = "Ars Nouveau"
+filename = "ars_nouveau-1.21.1-5.9.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TKB6INcv/versions/XbkLdBPV/ars_nouveau-1.21.1-5.9.4.jar"
+hash-format = "sha512"
+hash = "a00a9fccc2b6f052c57cb17f7c5f33fe1c1644dd9e425009d3de9c34f096e0bd77a0de6f6dd23961d498d39c58989c4982e08536bb85027653a79a94a4503d97"
+
+[update]
+[update.modrinth]
+mod-id = "TKB6INcv"
+version = "XbkLdBPV"

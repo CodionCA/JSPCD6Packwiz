@@ -1,0 +1,13 @@
+name = "Multi Summon (Multisummon command)"
+filename = "MultiSummon-2.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JqPKxACJ/versions/uNgfbrTL/MultiSummon-2.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "c933e78279e2d1dec62037d197dd0e3d316401c88e39c8ab0cd66325b8a970ee85c4e54e33f5b292fee37795fe08f7cbaa0245846d553c77bc7a1c447771d827"
+
+[update]
+[update.modrinth]
+mod-id = "JqPKxACJ"
+version = "uNgfbrTL"

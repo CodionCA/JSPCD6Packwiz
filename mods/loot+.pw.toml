@@ -1,0 +1,13 @@
+name = "Loot+"
+filename = "Loot Plus V1.1.3-neoforge-1.21.1 (FIXED).jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HXHLSNPN/versions/SScvaS6b/Loot%20Plus%20V1.1.3-neoforge-1.21.1%20%28FIXED%29.jar"
+hash-format = "sha512"
+hash = "87b290285becdbbeec9f27d61ecb3434d5aaa1c10b0feabe95504f1d662772c52b9eba2df31611b221ba076b2169b9e46af711ee6874aead77750e3e9fc74de4"
+
+[update]
+[update.modrinth]
+mod-id = "HXHLSNPN"
+version = "SScvaS6b"

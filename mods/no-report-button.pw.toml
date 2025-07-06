@@ -1,0 +1,13 @@
+name = "No Report Button"
+filename = "no-report-button-neoforge-1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4e46d74b524c3147994e173f92c0336f24143f6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6108203
+project-id = 658722

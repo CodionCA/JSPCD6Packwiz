@@ -1,0 +1,13 @@
+name = "Not Enough Animations"
+filename = "notenoughanimations-neoforge-1.10.0-mc1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/MPCX6s5C/versions/rpygxz2x/notenoughanimations-neoforge-1.10.0-mc1.21.jar"
+hash-format = "sha512"
+hash = "6397bfcc52c887d3ae694b921e8eb74a4c9fac1b2cfe4e620e9c9ec956f35c87928ae8e8466ecc5b790784198ff8744c3f626723378567ab93beca20925c90a7"
+
+[update]
+[update.modrinth]
+mod-id = "MPCX6s5C"
+version = "rpygxz2x"

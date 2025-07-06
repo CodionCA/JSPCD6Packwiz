@@ -1,0 +1,13 @@
+name = "Sounds"
+filename = "sounds-2.4.12+1.21.1+neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/KZ4PpXuH/sounds-2.4.12%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "d28c7683c6974aba6dc01672a3d6549519d5c712cb58416639429101909d2b6b7607d8dba5e1275c3b8958da8c2970ff82a0f8ca7c8c5d276a56f209e24cb8d0"
+
+[update]
+[update.modrinth]
+mod-id = "ZouiUX7t"
+version = "KZ4PpXuH"
