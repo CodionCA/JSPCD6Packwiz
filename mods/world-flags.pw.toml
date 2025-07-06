@@ -1,0 +1,13 @@
+name = "World Flags"
+filename = "world-flags-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oda6tLp8/versions/KlrhpOXo/world-flags-1.2.jar"
+hash-format = "sha512"
+hash = "09d45c723a523dd6cdb3242a360fb1c5b06ded6def22a1ab5fd48a97971f9038605bf78520c7177d5bbf62d70cdfbc8b551c776a0d4f8ca6e83150abad36b0a9"
+
+[update]
+[update.modrinth]
+mod-id = "oda6tLp8"
+version = "KlrhpOXo"

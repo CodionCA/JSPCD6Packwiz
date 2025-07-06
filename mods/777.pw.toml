@@ -1,0 +1,13 @@
+name = "777"
+filename = "777-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4maRBTYh/versions/SrybSlMS/777-1.0.jar"
+hash-format = "sha512"
+hash = "b4a0ae2defc19fc8ae461c7a34eb5e482f0340009fbeb66c05c97c17db1bb18254cfd998d8c094f89b0148dbcf28974bdd68087496c46c6bd7b5a4461e46c416"
+
+[update]
+[update.modrinth]
+mod-id = "4maRBTYh"
+version = "SrybSlMS"

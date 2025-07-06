@@ -1,0 +1,13 @@
+name = "Lead Apple"
+filename = "lead_apple-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OODeFk3o/versions/M7GvaNlq/lead_apple-1.0.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "aadc04fd80e5631a150a19892548319831ce1cf1d53a16bd594f14ffd87048bad3a1d42391ba9e96514f175cf428aefbb3db1dd52bd3272f290fdfb8ab1416a6"
+
+[update]
+[update.modrinth]
+mod-id = "OODeFk3o"
+version = "M7GvaNlq"
