@@ -1609,6 +1609,14 @@ file = "config/twilightforest-common.toml"
 hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
+file = "config/utilitarian-common.toml"
+hash = "c32a7d79a6d9349f699aaaf78b623b354a8680ecdd72282873b510435c750bab"
+
+[[files]]
+file = "config/utilitarian-server.toml"
+hash = "c3fa563239f9d6083df7e4494abb170a5ad43f34559abebf36e7c7cb8b2db356"
+
+[[files]]
 file = "config/variantsandventures.json"
 hash = "488075f69dc9f2e1853336785992293b6061b1d36c4971273b84bab97336650d"
 
@@ -1755,6 +1763,46 @@ hash = "f03258dd68fab838e12affe9c56d7a558a808f0803458b657b77acdc84fd4915"
 [[files]]
 file = "icon.png"
 hash = "3571a0aa82fa15e6bdfffdc43fb34236c66a9adca0ce94b6a3f4df6643f136df"
+
+[[files]]
+file = "journeymap/config/6.0/addons/addon.minecolonies.config"
+hash = "3448077d81137c6e11c9bc314211bd41dc79544801c8fbbe57c94eb1a06cba3a"
+
+[[files]]
+file = "journeymap/config/6.0/addons/addon.seasonhud.config"
+hash = "cb49387a6b4c9fec67f7c192caff700fc5d204520a9bfc89d98e7987ee7cf727"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.core.config"
+hash = "b54a33218e01f4790a7867e19cc93e0df8ed08d0c1a7c49b3620258d24f84433"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.fullmap.config"
+hash = "4be016323db53becd07722d7adf03670601578cd0e7bdd0c7a47c98b96438de4"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.minimap.config"
+hash = "54f1b600c4858343acfd1b3895277fdb45bfc33a5eb82bead3b1b002034e7a4c"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.minimap2.config"
+hash = "72c65e61a19a06618153e2fd135a65465fc9c1c87af2f84bb748bb04533c83ca"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.rendering.config"
+hash = "af27518b19a1bd0500c8ce1e04bc0f672de30a8568bb59536e05b2e01ea0df5c"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.topo.config"
+hash = "156976ebfa39152d252eada202f3649cd32af7a665576127fcb5bb5523fff67c"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.waypoint.config"
+hash = "02bb51256cdee2947ec8124364358c6031192c885962ca1c9f91d3ad35b15a3d"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.webmap.config"
+hash = "92ecaadb674023fb5cd2f67831547f41af6a3a90bc2ef076bc45351d363c6594"
 
 [[files]]
 file = "mods/777-1.0.jar"
