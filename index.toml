@@ -3682,7 +3682,6 @@ metafile = true
 
 [[files]]
 file = "mods/it-takes-a-pillage-continuation.pw.toml"
-hash = "eb673d3fdf4d1e0d8195ce2dd3131701b070d25227677d6492ab07ea5a8f1bec"
 metafile = true
 
 [[files]]
@@ -3692,7 +3691,6 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "c9d048eafc4c07caf5ddbad536c1cfeff9e7a9094ce3e8016540fee9ac691db1"
 metafile = true
 
 [[files]]
@@ -3826,7 +3824,6 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "e54a592ccca790c799017dfad70f1e39f6d85b0a90064c70b11d0615629a4bdb"
 metafile = true
 
 [[files]]
@@ -3946,7 +3943,6 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "6d50d28f67237e06fa80f23ffaf546d4844b503a49ee9e572743e88d543bd683"
 metafile = true
 
 [[files]]
@@ -3981,7 +3977,6 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "61e2ea04c208cc163f556c72de8d19d0ac4221a9c4c6fea93e8874dc43a3269d"
 metafile = true
 
 [[files]]
@@ -4031,7 +4026,6 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "2af847c892839fabb0fa60200d1470d5c570ed7c4fa9e0acee8193c31db21dfb"
 metafile = true
 
 [[files]]
@@ -4211,7 +4205,6 @@ metafile = true
 
 [[files]]
 file = "mods/structure-essentials-forge-fabric.pw.toml"
-hash = "fa83a43df0c7545b4c6d9f82f3c50fb6634c965aa742bab3aa626b7b705f09ac"
 metafile = true
 
 [[files]]
@@ -4226,7 +4219,6 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "b30b2c3d587184eab4896dc66204e1a27883f34016b6cba573449abf936c06f8"
 metafile = true
 
 [[files]]
