@@ -1,0 +1,13 @@
+name = "Create Picky Wheels"
+filename = "createpickywheels-neoforge-1.21.1-6.0.1-1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2676d65d5de293886d572ddf14aec17eda887531"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6271983
+project-id = 866839

@@ -1,13 +1,13 @@
 name = "Luki's Crazy Chambers"
-filename = "lukis-crazy-chambers-1.0.2.jar"
+filename = "lukis-crazy-chambers-1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JeZoobNU/versions/jAyMHDvY/lukis-crazy-chambers-1.0.2.jar"
-hash-format = "sha512"
-hash = "f619d456df67aced2f12fdabf7c33b222254f262327f3d492164f5cc380bd75e193b49a9ba65b1f4b80c52631075cb6104462ff7321d935850d1c8c49f357e27"
+hash-format = "sha1"
+hash = "7f0b04100aaed106cdcddc0a5b251ad19d1ed8a9"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "JeZoobNU"
-version = "jAyMHDvY"
+[update.curseforge]
+file-id = 5623227
+project-id = 1082929

@@ -1,13 +1,13 @@
-name = "MmmMmmMmmMmm"
+name = "MmmMmmMmmMmm (Target Dummy)"
 filename = "dummmmmmy-1.21-2.0.8-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Adega8YN/versions/J1XcbT7Q/dummmmmmy-1.21-2.0.8-neoforge.jar"
-hash-format = "sha512"
-hash = "7af95739e7ef848000767364f8176c8473a461291e3c214215632a09a081d1baed4516f752c8adb9109004c69625c636c912fe902765a1b76b5d1958f880233f"
+hash-format = "sha1"
+hash = "20520cfe2b4a6f6d5a64c07105b19ba9931eca55"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "Adega8YN"
-version = "J1XcbT7Q"
+[update.curseforge]
+file-id = 6608246
+project-id = 225738

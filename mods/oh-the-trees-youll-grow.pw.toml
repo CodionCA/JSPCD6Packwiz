@@ -3,11 +3,11 @@ filename = "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/g8NOG5OR/versions/GaPyECtl/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.14.jar"
-hash-format = "sha512"
-hash = "638b4dd6051919602c1255a9975618bbfd767b087a064e4dee7bff43ce2045160faa35550a21a6fd00141126498f3ac726671349d19a5633f1e130525894ec56"
+hash-format = "sha1"
+hash = "b75bc14388811e1b3d4d3f88e846cb9468b3c162"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "g8NOG5OR"
-version = "GaPyECtl"
+[update.curseforge]
+file-id = 6607561
+project-id = 962544

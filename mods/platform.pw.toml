@@ -3,11 +3,11 @@ filename = "platform-neoforge-1.21.1-1.2.10.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/i6fiqm5y/versions/CcI8gluH/platform-neoforge-1.21.1-1.2.10.2.jar"
-hash-format = "sha512"
-hash = "e87f965630bf02b63509430faf0daafdba5c2f990bd2a520cab1c21036daa5250f7c33c49ee9465c1593049cbd2db999f57f77e85b64f783109cc1030df1e390"
+hash-format = "sha1"
+hash = "0cdfb25956b29fc555a46787e6ee5a82a7291ccf"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "i6fiqm5y"
-version = "CcI8gluH"
+[update.curseforge]
+file-id = 6677047
+project-id = 997634

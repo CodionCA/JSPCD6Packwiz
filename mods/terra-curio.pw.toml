@@ -3,11 +3,11 @@ filename = "terra_curio-1.1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/cylFY5iL/versions/T1PJO1Zy/terra_curio-1.1.0.jar"
-hash-format = "sha512"
-hash = "7777e5bcf483541e2c1e8bf96e4e3a73c18c4543cad757b25cea1a320385bbbc976328ed81be9782b0748546d624e12f72bae2aab894333eef9d68d9379db8a2"
+hash-format = "sha1"
+hash = "0270b334df476bf45fd97ba700cd19f7cdcc0406"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "cylFY5iL"
-version = "T1PJO1Zy"
+[update.curseforge]
+file-id = 6545988
+project-id = 1027625

@@ -1,13 +1,13 @@
 name = "Too Fast"
 filename = "toofast-1.21.0-0.4.3.5.jar"
-side = "server"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/w6JSkKSH/versions/pDkjMI8q/toofast-1.21.0-0.4.3.5.jar"
-hash-format = "sha512"
-hash = "4108ff7d3ca21c4392f99df510bdcc5ca968def79ed0a855c8e77be91b583b4f435ee643b952a8238369db3bdcda3725c2efc84ca105fd0978b76c803ea250ec"
+hash-format = "sha1"
+hash = "7940d2516a492ff687696dfc0f8b66a6c628baad"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "w6JSkKSH"
-version = "pDkjMI8q"
+[update.curseforge]
+file-id = 6010022
+project-id = 550678

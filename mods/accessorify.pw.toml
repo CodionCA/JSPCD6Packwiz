@@ -3,11 +3,11 @@ filename = "accessorify-2.1.1+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CVRzrXGP/versions/mDwBOU8f/accessorify-2.1.1%2B1.21.1.jar"
-hash-format = "sha512"
-hash = "12eb02b8edd54eff44f1414aac4d671d44e49168f23b5e4f5e03872283ab4d3149b2554af71d93e02f26aa80ffcc448e1833ee74cba152c29f57f98acb21b99e"
+hash-format = "sha1"
+hash = "8d5d268bde62ab3b9c31d9c779599ca5dcd64708"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "CVRzrXGP"
-version = "mDwBOU8f"
+[update.curseforge]
+file-id = 6723427
+project-id = 1169634

@@ -3,11 +3,11 @@ filename = "AureljPaintings-1.0.4-1.21.x-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uiADepy3/versions/pikSJqmH/AureljPaintings-1.0.4-1.21.x-neoforge.jar"
-hash-format = "sha512"
-hash = "88b84a7d6855ed7649f97920209a0a13986487eb8be3fa05247140eb9f94250f93ae561fc8b8316ea9ab7569cfc690cc64d585e97345e8253c9c8dff41d03df9"
+hash-format = "sha1"
+hash = "8a45d3811bf628fe4205e6bef6a9f26f445dfb53"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "uiADepy3"
-version = "pikSJqmH"
+[update.curseforge]
+file-id = 5654373
+project-id = 1087786

@@ -3,11 +3,11 @@ filename = "accessories_cclayer-9.3.1-beta.28+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/izkDUlrJ/versions/YNkFAIw4/accessories_cclayer-9.3.1-beta.28%2B1.21.1-neoforge.jar"
-hash-format = "sha512"
-hash = "d453f33b52b23295fd2819aad8c5ebd04421ef80521444054d65ab59462b96b4edc2be9b5973798846872ce73ff1b12514875706b0aafb9f09d94c524be569b8"
+hash-format = "sha1"
+hash = "319aa5f9deb6db6fc7c99de2e9098f6d3b3e5cca"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "izkDUlrJ"
-version = "YNkFAIw4"
+[update.curseforge]
+file-id = 6631484
+project-id = 1005683

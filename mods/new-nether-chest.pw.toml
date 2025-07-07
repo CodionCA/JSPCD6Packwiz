@@ -1,13 +1,13 @@
-name = "Nether Chested"
+name = "Nether Chested [Forge & Fabric]"
 filename = "NetherChested-v21.1.0-1.21.1-NeoForge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bHJp2GRg/versions/93cFQQBq/NetherChested-v21.1.0-1.21.1-NeoForge.jar"
-hash-format = "sha512"
-hash = "a9aa45cbbb2b3658abfece3d37fb596931239881056ad93472407f44ba68725d31c381030445a98854a70aaa8f20af61ad6a8cbba13307290141b4bad064e40f"
+hash-format = "sha1"
+hash = "5741ec9ca2d152a30d7eebb551d11b28117ad7b3"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "bHJp2GRg"
-version = "93cFQQBq"
+[update.curseforge]
+file-id = 5733766
+project-id = 857971

@@ -1,13 +1,13 @@
-name = "Advanced Netherite"
+name = "Advanced Netherite (Forge / NeoForge)"
 filename = "advancednetherite-neoforge-2.3.0-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CFX9ftUJ/versions/WjAccruu/advancednetherite-neoforge-2.3.0-1.21.1.jar"
-hash-format = "sha512"
-hash = "a40115b50fe9b9b5de4fe14b9f3c48bc8b3fac9e46b03a7e7cca71b982116bb62aef4d163c491d399f911182fa95ada50910a506f4ee0944b3fab1077ae3d342"
+hash-format = "sha1"
+hash = "4d77fda77baef0884f41eeb040e16576c0f021e0"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "CFX9ftUJ"
-version = "WjAccruu"
+[update.curseforge]
+file-id = 6660841
+project-id = 495336

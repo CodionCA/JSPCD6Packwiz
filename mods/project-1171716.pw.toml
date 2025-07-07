@@ -1,0 +1,13 @@
+name = "project-1171716"
+filename = "startuptime-1.0.0 (1).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ce4d706876abba39a39ac9037fd05fb0057992f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6053040
+project-id = 1171716

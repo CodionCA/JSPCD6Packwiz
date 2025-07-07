@@ -3,11 +3,11 @@ filename = "Structory_Towers_1.21.x_v1.0.13.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/j3FONRYr/versions/6jIMFcS6/Structory_Towers_1.21.x_v1.0.13.jar"
-hash-format = "sha512"
-hash = "b049e3e3a0ba4d6ff2fda49ea22a617eddf135a7f54ae523bcc0e44d36ac4320fb6a809fa38196fd1cf245896b67e8a196a08f52d5b9f232c8030b1c460746df"
+hash-format = "sha1"
+hash = "afbf3929dbedaa5a485b7f9d847e4f2f49c43e82"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "j3FONRYr"
-version = "6jIMFcS6"
+[update.curseforge]
+file-id = 6713480
+project-id = 783522

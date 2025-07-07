@@ -1,13 +1,13 @@
 name = "I have slept"
 filename = "i_have_slept-neoforge-1.1.1+mc1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/RvCHXBpM/versions/9yFOUKOB/i_have_slept-neoforge-1.1.1%2Bmc1.21.1.jar"
-hash-format = "sha512"
-hash = "e24466bd6ef77e342bdb87c0337878e708748037b7af2ba1e517c7b727970c7bc18fc49f1159fa57f9932f48cbe34549b8cdbc7a583303ee3ed7bd08488c3e9a"
+hash-format = "sha1"
+hash = "788504d341e9db0f48edd2eb1e9d7266de536c0b"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "RvCHXBpM"
-version = "9yFOUKOB"
+[update.curseforge]
+file-id = 5875240
+project-id = 1129410

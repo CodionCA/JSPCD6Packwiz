@@ -3,11 +3,11 @@ filename = "variantsandventures-neoforge-mc1.21.1-1.0.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lNDRiXkY/versions/lTycbopH/variantsandventures-neoforge-mc1.21.1-1.0.14.jar"
-hash-format = "sha512"
-hash = "62647404326acade7ff20d3d9468a7cb2f0d7b4cbe9fd55da3eb9f665de53753e16081c03cf00167fc672019a573bca6ef96e0c2b70488bcbbea3d3e62735a17"
+hash-format = "sha1"
+hash = "3a257efe23a9b608ed443d4805b920b9450ed45a"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "lNDRiXkY"
-version = "lTycbopH"
+[update.curseforge]
+file-id = 6683203
+project-id = 981139
