@@ -2931,6 +2931,11 @@ hash = "8c0b6351fb7c75d8dd77c854a2ddf54e7d490c17249c9833f447a6ecf7467d05"
 metafile = true
 
 [[files]]
+file = "mods/utilitarian.pw.toml"
+hash = "74104b7854f3ee565c7c47e8f01fcbfba464aa33f5d9d1be9e026b8da09abc26"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-fireflies-3.1.jar"
 hash = "3dc6e3b836c9a76da8e7f8a5b2f5b7015124c04beb1901761892b48e046d9e5b"
 
