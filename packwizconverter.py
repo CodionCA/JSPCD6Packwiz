@@ -1,315 +1,266 @@
 #!/usr/bin/env python3
 """
-CurseForge to Modrinth Packwiz Converter v2
-Converts CurseForge mod TOML files to Modrinth equivalents with smart matching
+Robust mod file comparison script
+Compares .jar files in mods directory against TOML configuration files
 """
 
 import os
-import re
-import subprocess
-import time
+import sys
 from pathlib import Path
-from typing import Optional, Tuple
-import threading
-import queue
+import re
+from typing import Dict, List, Tuple, Set
+import difflib
 
-class ModConverter:
-    def __init__(self):
-        self.mods_dir = Path("mods")
-        self.converted_count = 0
-        self.skipped_count = 0
-        self.failed_count = 0
-    
-    def extract_mod_name(self, toml_content: str) -> Optional[str]:
-        """Extract mod name from TOML content"""
-        match = re.search(r'name\s*=\s*"([^"]+)"', toml_content)
-        return match.group(1) if match else None
-    
-    def is_curseforge_mod(self, toml_content: str) -> bool:
-        """Check if mod is from CurseForge"""
-        return ('mode = "metadata:curseforge"' in toml_content or 
-                '[update.curseforge]' in toml_content)
-    
-    def clean_mod_name(self, mod_name: str) -> str:
-        """Clean mod name by removing platform tags"""
-        # Remove common platform indicators
-        cleaned = re.sub(r'\s*\[(Forge|Fabric|NeoForge|Quilt).*?\]', '', mod_name)
-        cleaned = re.sub(r'\s*\((Forge|Fabric|NeoForge|Quilt).*?\)', '', cleaned)
-        return cleaned.strip()
-    
-    def find_matching_option(self, output: str, mod_name: str) -> Optional[str]:
-        """Find matching option number from packwiz output"""
-        lines = output.split('\n')
-        
-        print(f"  → Searching for matches for: '{mod_name}'")
-        print(f"  → Available options:")
-        
-        # Show all available options for debugging
-        for line in lines:
-            line = line.strip()
-            if re.match(r'^\d+\)', line):
-                print(f"    {line}")
-        
-        # First check for starred option (packwiz's best match)
-        for line in lines:
-            line = line.strip()
-            if re.match(r'^\d+\)', line):
-                # Check if this line contains an asterisk anywhere after the number
-                number_match = re.search(r'^(\d+)\)', line)
-                if number_match and '*' in line:
-                    print(f"  → Found starred option: {line}")
-                    return number_match.group(1)
-        
-        # Then try exact match
-        for line in lines:
-            line = line.strip()
-            if re.match(r'^\d+\)', line):
-                # Extract option text (everything after the number, parenthesis, and optional asterisk)
-                option_match = re.search(r'^\d+\)\s*\*?\s*(.+)', line)
-                if option_match:
-                    option_text = option_match.group(1).strip()
-                    if option_text.lower() == mod_name.lower():
-                        number_match = re.search(r'^(\d+)\)', line)
-                        if number_match:
-                            print(f"  → Found exact match: {line}")
-                            return number_match.group(1)
-        
-        # Try partial match with cleaned name
-        cleaned_name = self.clean_mod_name(mod_name)
-        if cleaned_name != mod_name:
-            print(f"  → Trying with cleaned name: '{cleaned_name}'")
-            for line in lines:
-                line = line.strip()
-                if re.match(r'^\d+\)', line):
-                    option_match = re.search(r'^\d+\)\s*\*?\s*(.+)', line)
-                    if option_match:
-                        option_text = option_match.group(1).strip()
-                        if option_text.lower() == cleaned_name.lower():
-                            number_match = re.search(r'^(\d+)\)', line)
-                            if number_match:
-                                print(f"  → Found cleaned match: {line}")
-                                return number_match.group(1)
-        
-        # Try fuzzy match (contains) - but be more selective
-        for line in lines:
-            line = line.strip()
-            if re.match(r'^\d+\)', line):
-                option_match = re.search(r'^\d+\)\s*\*?\s*(.+)', line)
-                if option_match:
-                    option_text = option_match.group(1).strip()
-                    # Only match if there's significant overlap
-                    if (len(cleaned_name) > 3 and 
-                        (cleaned_name.lower() in option_text.lower() or 
-                         option_text.lower() in cleaned_name.lower())):
-                        number_match = re.search(r'^(\d+)\)', line)
-                        if number_match:
-                            print(f"  → Found fuzzy match: {line}")
-                            return number_match.group(1)
-        
-        print(f"  → No match found for '{mod_name}'")
-        return None
-    
-    def read_output_threaded(self, process, output_queue):
-        """Read process output in a separate thread"""
-        try:
-            while True:
-                line = process.stdout.readline()
-                if not line:
-                    break
-                output_queue.put(line)
-        except Exception as e:
-            output_queue.put(f"Error reading output: {e}")
-    
-    def convert_mod(self, mod_name: str) -> Tuple[bool, str]:
-        """Convert a single mod from CurseForge to Modrinth"""
-        try:
-            # Run packwiz mr add
-            process = subprocess.Popen(
-                ['packwiz', 'mr', 'add', mod_name],
-                stdin=subprocess.PIPE,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                text=True,
-                bufsize=1,
-                universal_newlines=True
-            )
-            
-            # Use a queue to handle output in a separate thread
-            output_queue = queue.Queue()
-            output_thread = threading.Thread(target=self.read_output_threaded, args=(process, output_queue))
-            output_thread.daemon = True
-            output_thread.start()
-            
-            full_output = ""
-            selection_made = False
-            dependency_prompt_seen = False
-            waiting_for_deps = False
-            
-            while process.poll() is None:
-                try:
-                    # Get output with timeout
-                    line = output_queue.get(timeout=0.1)
-                    full_output += line
-                    print(line, end='')
-                    
-                    # Check for dependency-related prompts
-                    if "Finding dependencies..." in line:
-                        waiting_for_deps = True
-                        print("  → Detected dependency search...")
-                    
-                    elif "Dependencies found:" in line:
-                        waiting_for_deps = True
-                        print("  → Dependencies found, waiting for prompt...")
-                    
-                    # Check for explicit dependency prompt (multiple possible formats)
-                    elif (waiting_for_deps and not dependency_prompt_seen and 
-                          (re.search(r'\[Y/n\]', line, re.IGNORECASE) or
-                           re.search(r'\[y/N\]', line, re.IGNORECASE) or
-                           "Would you like to add them?" in line or
-                           "Add dependencies?" in line or
-                           (line.strip().endswith("?") and ("add" in line.lower() or "install" in line.lower())))):
-                        
-                        print("  → Auto-accepting dependencies (Y)")
-                        process.stdin.write("Y\n")
-                        process.stdin.flush()
-                        dependency_prompt_seen = True
-                        waiting_for_deps = False
-                        continue
+try:
+    import tomllib  # Python 3.11+
+except ImportError:
+    try:
+        import tomli as tomllib  # fallback for older Python versions
+    except ImportError:
+        print("Error: tomllib/tomli not available. Install with: pip install tomli")
+        sys.exit(1)
 
-                    
-                    # Check if we hit a mod selection prompt - ONLY respond to "Choose a number:"
-                    if "Choose a number:" in line and not selection_made:
-                        # Wait a bit for any remaining output to be flushed
-                        time.sleep(0.1)
-                        
-                        # Look for a matching option
-                        matching_option = self.find_matching_option(full_output, mod_name)
-                        
-                        if matching_option:
-                            print(f"  → Auto-selecting option {matching_option}")
-                            process.stdin.write(f"{matching_option}\n")
-                            process.stdin.flush()
-                            selection_made = True
-                        else:
-                            print(f"  → No good match found, cancelling")
-                            process.stdin.write("0\n")
-                            process.stdin.flush()
-                            selection_made = True
-                    
-                except queue.Empty:
-                    # Check if we're stuck waiting for dependencies
-                    if (waiting_for_deps and not dependency_prompt_seen):
-                        current_time = time.time()
-                        if not hasattr(self, '_last_deps_time'):
-                            self._last_deps_time = current_time
-                        
-                        # If we've been waiting for more than 2 seconds, assume we need to respond
-                        if current_time - self._last_deps_time > 2:
-                            print("  → Timeout waiting for dependency prompt, sending Y")
-                            process.stdin.write("Y\n")
-                            process.stdin.flush()
-                            dependency_prompt_seen = True
-                            waiting_for_deps = False
-                            self._last_deps_time = current_time
-                    
-                    continue
-            
-            # Get any remaining output
-            while not output_queue.empty():
-                try:
-                    line = output_queue.get_nowait()
-                    full_output += line
-                    print(line, end='')
-                except queue.Empty:
-                    break
-            
-            # Wait for process to complete
-            return_code = process.wait()
-            
-            if return_code == 0 and "successfully added" in full_output.lower():
-                return True, "Successfully converted"
-            elif "no valid versions found" in full_output:
-                return False, "No valid versions found"
-            elif "failed to add project" in full_output:
-                return False, "Failed to add project"
-            elif "project selection cancelled" in full_output:
-                return False, "Project selection cancelled"
-            else:
-                return False, "No suitable match found"
-                
-        except FileNotFoundError:
-            return False, "packwiz command not found"
-        except Exception as e:
-            return False, f"Error: {str(e)}"
+
+def safe_read_toml(file_path: Path) -> Dict:
+    """Safely read a TOML file with error handling."""
+    try:
+        with open(file_path, 'rb') as f:
+            return tomllib.load(f)
+    except Exception as e:
+        print(f"Warning: Could not read {file_path}: {e}")
+        return {}
+
+
+def extract_mod_info_from_toml(toml_content: Dict) -> Dict:
+    """Extract mod information from TOML content."""
+    info = {
+        'name': toml_content.get('name', 'Unknown'),
+        'filename': toml_content.get('filename', ''),
+        'side': toml_content.get('side', ''),
+        'mod_id': '',
+        'version': ''
+    }
     
-    def process_all_mods(self):
-        """Process all mod files in the mods directory"""
-        if not self.mods_dir.exists():
-            print("Error: mods directory not found!")
-            return 1
-        
-        toml_files = list(self.mods_dir.glob("*.pw.toml"))
-        total_mods = len(toml_files)
-        
-        if total_mods == 0:
-            print("No .pw.toml files found in mods directory!")
-            return 0
-        
-        print(f"Found {total_mods} mod files to process")
-        print("=" * 50)
-        
-        for counter, file_path in enumerate(toml_files, 1):
-            try:
-                # Read TOML file
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                
-                # Extract mod name
-                mod_name = self.extract_mod_name(content)
-                
-                if not mod_name:
-                    print(f"[{counter}/{total_mods}] ⚠️  {file_path.name}: Couldn't extract mod name")
-                    self.failed_count += 1
-                    continue
-                
-                # Check if it's a CurseForge mod
-                if not self.is_curseforge_mod(content):
-                    print(f"[{counter}/{total_mods}] ⏭️  {mod_name}: Already converted")
-                    self.skipped_count += 1
-                    continue
-                
-                print(f"[{counter}/{total_mods}] 🔄 Processing: {mod_name}")
-                
-                # Convert the mod
-                success, message = self.convert_mod(mod_name)
-                
-                if success:
-                    print(f"  ✅ {message}")
-                    self.converted_count += 1
-                else:
-                    print(f"  ❌ {message}")
-                    self.failed_count += 1
-                
-                print()  # Add spacing between mods
-                
-            except Exception as e:
-                print(f"[{counter}/{total_mods}] ⚠️  Error processing {file_path.name}: {e}")
-                self.failed_count += 1
-        
-        # Print summary
-        print("=" * 50)
-        print("CONVERSION SUMMARY:")
-        print(f"✅ Successfully converted: {self.converted_count}")
-        print(f"⏭️  Already converted: {self.skipped_count}")
-        print(f"❌ Failed/Skipped: {self.failed_count}")
-        print(f"📊 Total processed: {self.converted_count + self.skipped_count + self.failed_count}")
-        
-        return 0
+    # Try to extract mod-id and version from update section
+    if 'update' in toml_content:
+        update_section = toml_content['update']
+        if 'modrinth' in update_section:
+            modrinth = update_section['modrinth']
+            info['mod_id'] = modrinth.get('mod-id', '')
+            info['version'] = modrinth.get('version', '')
+        elif 'curseforge' in update_section:
+            curseforge = update_section['curseforge']
+            info['mod_id'] = str(curseforge.get('project-id', ''))
+            info['version'] = str(curseforge.get('file-id', ''))
+    
+    return info
+
+
+def normalize_filename(filename: str) -> str:
+    """Normalize filename by removing version numbers and common suffixes."""
+    # Remove .jar extension
+    base = filename.replace('.jar', '')
+    
+    # Remove common version patterns
+    patterns = [
+        r'-\d+\.\d+\.\d+.*$',  # -1.21.4, -1.21.4-forge, etc.
+        r'-v\d+\.\d+.*$',      # -v1.21, -v1.21.4, etc.
+        r'-\d+\.\d+.*$',       # -1.21, -1.21-forge, etc.
+        r'-forge.*$',          # -forge, -forge-1.21, etc.
+        r'-neoforge.*$',       # -neoforge, -neoforge-1.21, etc.
+        r'-fabric.*$',         # -fabric, -fabric-1.21, etc.
+        r'-quilt.*$',          # -quilt variants
+        r'-\d+\.\d+\.\d+\+.*$' # -1.21.4+forge, etc.
+    ]
+    
+    normalized = base
+    for pattern in patterns:
+        normalized = re.sub(pattern, '', normalized, flags=re.IGNORECASE)
+    
+    return normalized.lower()
+
+
+def find_similar_names(target: str, candidates: List[str], threshold: float = 0.6) -> List[Tuple[str, float]]:
+    """Find similar names using difflib."""
+    similarities = []
+    for candidate in candidates:
+        ratio = difflib.SequenceMatcher(None, target.lower(), candidate.lower()).ratio()
+        if ratio >= threshold:
+            similarities.append((candidate, ratio))
+    
+    return sorted(similarities, key=lambda x: x[1], reverse=True)
+
 
 def main():
-    converter = ModConverter()
-    return converter.process_all_mods()
+    # Define paths
+    mods_dir = Path(r"S:\Portable\Programs\PrismLauncher\instances\JSPCD6Minecolonies25Q3PrismINST\minecraft\mods")
+    toml_dir = Path(r"S:\Portable\Code\JSPCD6Packwiz\mods")
+    
+    # Validate directories exist
+    if not mods_dir.exists():
+        print(f"Error: Mods directory does not exist: {mods_dir}")
+        sys.exit(1)
+    
+    if not toml_dir.exists():
+        print(f"Error: TOML directory does not exist: {toml_dir}")
+        sys.exit(1)
+    
+    print("=== MOD FILE COMPARISON REPORT ===\n")
+    print(f"Mods directory: {mods_dir}")
+    print(f"TOML directory: {toml_dir}")
+    print("-" * 60)
+    
+    # Get all .jar files
+    jar_files = list(mods_dir.glob("*.jar"))
+    print(f"Found {len(jar_files)} .jar files in mods directory")
+    
+    # Get all .toml files
+    toml_files = list(toml_dir.glob("*.toml"))
+    print(f"Found {len(toml_files)} .toml files in packwiz directory")
+    print()
+    
+    # Read all TOML files and extract mod info
+    toml_mods = {}
+    toml_filenames = []
+    
+    for toml_file in toml_files:
+        toml_content = safe_read_toml(toml_file)
+        if toml_content:
+            mod_info = extract_mod_info_from_toml(toml_content)
+            toml_mods[toml_file.name] = mod_info
+            if mod_info['filename']:
+                toml_filenames.append(mod_info['filename'])
+    
+    # Analysis results
+    exact_matches = []
+    version_mismatches = []
+    missing_from_toml = []
+    missing_from_mods = []
+    potential_matches = []
+    
+    # Check each jar file against TOML files
+    jar_filenames = [jar.name for jar in jar_files]
+    
+    for jar_file in jar_files:
+        jar_name = jar_file.name
+        found_exact = False
+        found_similar = False
+        
+        # Check for exact filename match
+        for toml_name, mod_info in toml_mods.items():
+            if mod_info['filename'] == jar_name:
+                exact_matches.append((jar_name, toml_name, mod_info))
+                found_exact = True
+                break
+        
+        if not found_exact:
+            # Check for similar filenames (potential version mismatches)
+            normalized_jar = normalize_filename(jar_name)
+            
+            for toml_name, mod_info in toml_mods.items():
+                if mod_info['filename']:
+                    normalized_toml = normalize_filename(mod_info['filename'])
+                    
+                    if normalized_jar == normalized_toml:
+                        version_mismatches.append((jar_name, mod_info['filename'], toml_name, mod_info))
+                        found_similar = True
+                        break
+            
+            if not found_similar:
+                # Try fuzzy matching
+                similar_names = find_similar_names(jar_name, toml_filenames, threshold=0.7)
+                if similar_names:
+                    # Find the corresponding TOML file
+                    for toml_name, mod_info in toml_mods.items():
+                        if mod_info['filename'] == similar_names[0][0]:
+                            potential_matches.append((jar_name, similar_names[0][0], similar_names[0][1], toml_name, mod_info))
+                            found_similar = True
+                            break
+        
+        if not found_exact and not found_similar:
+            missing_from_toml.append(jar_name)
+    
+    # Check for TOML files without corresponding jar files
+    for toml_name, mod_info in toml_mods.items():
+        if mod_info['filename'] and mod_info['filename'] not in jar_filenames:
+            # Check if it's just a version mismatch we already found
+            already_found = any(mod_info['filename'] == item[1] for item in version_mismatches)
+            if not already_found:
+                missing_from_mods.append((mod_info['filename'], toml_name, mod_info))
+    
+    # Print results
+    print("=== EXACT MATCHES ===")
+    if exact_matches:
+        for jar_name, toml_name, mod_info in exact_matches:
+            print(f"✓ {jar_name}")
+            print(f"  → {toml_name} ({mod_info['name']})")
+    else:
+        print("No exact matches found")
+    print()
+    
+    print("=== VERSION MISMATCHES ===")
+    if version_mismatches:
+        for jar_name, toml_filename, toml_name, mod_info in version_mismatches:
+            print(f"⚠ {jar_name}")
+            print(f"  Expected: {toml_filename}")
+            print(f"  TOML: {toml_name} ({mod_info['name']})")
+            print()
+    else:
+        print("No version mismatches found")
+    print()
+    
+    print("=== POTENTIAL MATCHES (Similar Names) ===")
+    if potential_matches:
+        for jar_name, toml_filename, similarity, toml_name, mod_info in potential_matches:
+            print(f"? {jar_name}")
+            print(f"  Similar to: {toml_filename} (similarity: {similarity:.2f})")
+            print(f"  TOML: {toml_name} ({mod_info['name']})")
+            print()
+    else:
+        print("No potential matches found")
+    print()
+    
+    print("=== MISSING FROM TOML (jar files without TOML) ===")
+    if missing_from_toml:
+        for jar_name in missing_from_toml:
+            print(f"✗ {jar_name}")
+    else:
+        print("All jar files have corresponding TOML entries")
+    print()
+    
+    print("=== MISSING FROM MODS (TOML files without jar files) ===")
+    if missing_from_mods:
+        for toml_filename, toml_name, mod_info in missing_from_mods:
+            print(f"✗ {toml_filename}")
+            print(f"  From: {toml_name} ({mod_info['name']})")
+    else:
+        print("All TOML files have corresponding jar files")
+    print()
+    
+    # Summary
+    print("=== SUMMARY ===")
+    print(f"Total jar files: {len(jar_files)}")
+    print(f"Total TOML files: {len(toml_files)}")
+    print(f"Exact matches: {len(exact_matches)}")
+    print(f"Version mismatches: {len(version_mismatches)}")
+    print(f"Potential matches: {len(potential_matches)}")
+    print(f"Missing from TOML: {len(missing_from_toml)}")
+    print(f"Missing from mods: {len(missing_from_mods)}")
+    
+    if version_mismatches or missing_from_toml or missing_from_mods:
+        print("\n⚠ Issues found that need attention!")
+        return 1
+    else:
+        print("\n✓ All files are properly matched!")
+        return 0
 
-# ──── entry‑point ──────────────────────────────────────────────────────
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        print("\nOperation cancelled by user")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        sys.exit(1)

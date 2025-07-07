@@ -2938,6 +2938,10 @@ hash = "2e4db70b776508ba981714dbf74593c2799af601b34fe11b7ed4f3dfa28c23d7"
 metafile = true
 
 [[files]]
+file = "mods/CraftPresence-2.6.1+1.21.1-neoforge.jar"
+hash = "c86963696b516fe5846741fb4effe7b5c20763c891343d5ca2c8dbadc9883a6f"
+
+[[files]]
 file = "mods/accessories-cc-layer.pw.toml"
 hash = "8f90a500df28d497fe7e323b40ee55640bc63141284ce2189a7766c976a91378"
 metafile = true
@@ -3173,16 +3177,6 @@ hash = "d362a013bef0c4e8ade6bf77e97478833902210cc70ad7d133aece3f1c3e37a6"
 metafile = true
 
 [[files]]
-file = "mods/connector-extras.pw.toml"
-hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
-metafile = true
-
-[[files]]
-file = "mods/connector.pw.toml"
-hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
@@ -3200,11 +3194,6 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
-metafile = true
-
-[[files]]
-file = "mods/craftpresence.pw.toml"
-hash = "ef9a6da83be95d05a9328f74e3ef7378d7a5c82f191001bce69efb220f6c2498"
 metafile = true
 
 [[files]]
@@ -3689,7 +3678,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "e4f786fea5a34b6b910bc98a5a8a67de98671d5e13113edfd46a07bd91356bde"
+hash = "dabc6ff8c4c4e1c28f471b6a4874ce111152af526d696f70bf4bc37c5e65ede9"
 metafile = true
 
 [[files]]
@@ -3793,11 +3782,6 @@ hash = "f3f5f631ee96a2b701c5f396f887a33a96955387e8c5085e8ebd72cb6996605c"
 metafile = true
 
 [[files]]
-file = "mods/modmenu.pw.toml"
-hash = "c2fe9a1900ceb3a6014ccb83344aa4ab5ddf65c8bf660044469c3c90c7ed9010"
-metafile = true
-
-[[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
 hash = "8860fcec1f5f58e201c5a2454a404fa0d8231dc417c5b174f0f3df17aeacadb6"
 metafile = true
@@ -3805,11 +3789,6 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "2bd1220d157ebe5c3a15a222840bc05739de0c797e1847e6a82ed41960a9f203"
-metafile = true
-
-[[files]]
-file = "mods/more-essentials.pw.toml"
-hash = "2dccc5d4ff090bf5a7a744490bd508cbf6fec4efb133ee41627cb74c3e96177f"
 metafile = true
 
 [[files]]
@@ -3904,7 +3883,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "416ee94b2c30e1dbc01a9cc1ac2419c736e95467c0c9c0ee27e7ec5c063f5663"
+hash = "53a9c86028ea785fd0cb0da3756cb592f12246212e45de7891a86becafdbeaff"
 metafile = true
 
 [[files]]
@@ -3995,11 +3974,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
-metafile = true
-
-[[files]]
-file = "mods/rei.pw.toml"
-hash = "f527c21279cbfc2025d9cdf8267fe22cd43b42a2f994fc4ae0d76c069a844387"
 metafile = true
 
 [[files]]
@@ -4133,6 +4107,11 @@ hash = "24e58ffc236237b2a11915d907bef33b76e88db2221dc616689981940228b24d"
 metafile = true
 
 [[files]]
+file = "mods/startup-time.pw.toml"
+hash = "c0001103aced12828413ff8ddd10c37634939f12241757d82ebdaa31d0d4af9e"
+metafile = true
+
+[[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "5f34acf1abde884e2e955103bcadfbd03652e0cd1d3e224ced4c4a1e9e1664c6"
 metafile = true
@@ -4210,11 +4189,6 @@ metafile = true
 [[files]]
 file = "mods/unilib.pw.toml"
 hash = "2dda0b5d6b386fbbf9cf0deae33bdb4491b6aabda716a2d65040e4a730530473"
-metafile = true
-
-[[files]]
-file = "mods/unnamed-framework.pw.toml"
-hash = "20d3e099a09985abf7aa79d5483c5464f141ef3006987dda0061c53657257a26"
 metafile = true
 
 [[files]]
@@ -4303,7 +4277,7 @@ hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "packwizconverter.py"
-hash = "3a7332e80308004a4bb8e986bf46fe5d4107dba64af3f7d39f46ceebc3bdda2d"
+hash = "3c7efc88823350c91c9189790ef643e079c7c2cffa5801f98ad7e00c4f2a3d43"
 
 [[files]]
 file = "resourcepacks/Fast Better Grass.zip"
