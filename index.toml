@@ -3358,11 +3358,6 @@ hash = "318c32e6252f6912193221f911b9dbe08741c0774dd34d79eee1c39dc5278753"
 metafile = true
 
 [[files]]
-file = "mods/embeddium.pw.toml"
-hash = "778c42263b2ba7c9e73553bdcd70f48a3e485ba52b6a83474160d48be696b71f"
-metafile = true
-
-[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "bbf03bec2bd4927ace16eef106c45b0f3ec53c48d5f43119520123ad98f3fdf1"
 metafile = true
@@ -3840,11 +3835,6 @@ metafile = true
 [[files]]
 file = "mods/multi-piston.pw.toml"
 hash = "68d96b63880db1937ba20afb6c37c3edcdfb82906d5b8f09ee8bd1909b6a4bbb"
-metafile = true
-
-[[files]]
-file = "mods/multisummon.pw.toml"
-hash = "8ea37f29f182563cbb7446fdd6a0d371495a87722360207c667cdef3369aadb7"
 metafile = true
 
 [[files]]
