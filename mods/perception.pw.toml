@@ -1,0 +1,13 @@
+name = "Perception"
+filename = "Perception-NEOFORGE-0.1.4+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/P8STLvzB/versions/Znu2Fu0c/Perception-NEOFORGE-0.1.4%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "a9416ceba023caa5a2181dd2f823acd2bdad6c56478fe7f0f2a22d1e3a065986b6f56265db4c423da0b992cab13401d96abde8f2b24091a2a676db4d48d2dc75"
+
+[update]
+[update.modrinth]
+mod-id = "P8STLvzB"
+version = "Znu2Fu0c"

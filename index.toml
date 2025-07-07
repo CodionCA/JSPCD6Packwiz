@@ -1610,11 +1610,11 @@ hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
 file = "config/utilitarian-common.toml"
-hash = "c32a7d79a6d9349f699aaaf78b623b354a8680ecdd72282873b510435c750bab"
+hash = "7c280841a274a7f00423d602b149d86637e77c15b59203e33f5fec909f181da8"
 
 [[files]]
 file = "config/utilitarian-server.toml"
-hash = "c3fa563239f9d6083df7e4494abb170a5ad43f34559abebf36e7c7cb8b2db356"
+hash = "21a130b04c210e5117d0931f577fb97a1a46b182d73dd6d793f0d2fd7448651e"
 
 [[files]]
 file = "config/variantsandventures.json"
@@ -1879,7 +1879,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -2316,6 +2316,11 @@ hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
 metafile = true
 
 [[files]]
+file = "mods/fog.pw.toml"
+hash = "2154e3980c3701985223d695640eabab57b5fbb26fe23d8892a2e63c6cb43f87"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port-fabric.pw.toml"
 hash = "1e37fc9a0dc04ca8dc84bfb99566135fa924ce3823c986bb1a633874496e3101"
 metafile = true
@@ -2628,7 +2633,7 @@ metafile = true
 
 [[files]]
 file = "mods/mru.pw.toml"
-hash = "8dd1efd984ad97b7ddd040c6f8d8306a1a3e43b6c4d5597f2344559c6e83a458"
+hash = "741334c0b04ce1321a30ac548b4dd663670c2e1daa53ecf0d6308541c65f0c98"
 metafile = true
 
 [[files]]
@@ -2691,6 +2696,11 @@ hash = "60959e2d411a9a57e1eb3f64d75761ee9728eb1e480e3911d6714de71c2bf51f"
 metafile = true
 
 [[files]]
+file = "mods/octo-lib.pw.toml"
+hash = "94828636fa5e8b258a60049250c84ba8c5a0310a98bc1530fc02c351a06aab8b"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "601a6eb9548783238ed9c61049cd2ca630480cd6e8d7c4fc3b1ef1300ff40542"
 metafile = true
@@ -2728,6 +2738,11 @@ metafile = true
 [[files]]
 file = "mods/paxi-neoforge.pw.toml"
 hash = "3581c37e3c9c7cdd1150bb7ad7e47e3e8107914a5cd9113ddfa74ff2f8b8e09a"
+metafile = true
+
+[[files]]
+file = "mods/perception.pw.toml"
+hash = "4e499d1525a77e4cfecc8d7b1aa57133fc140d0081eb6339aa607485a1cca89d"
 metafile = true
 
 [[files]]
@@ -3047,7 +3062,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "5aaab5c3140ac335cf0345f9f280fc5774a2834faecc290272b3d24b8a97274a"
+hash = "aa9070a0e763f00f0d0b325e9bb980e53faabe9854bae25f2e542a7b81b7492e"
 metafile = true
 
 [[files]]

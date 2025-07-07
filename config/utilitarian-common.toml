@@ -1,10 +1,10 @@
 #Enable No Startup Messages module
 noStartupMessagesEnabled = true
 #A list of word sequences that if contained in a message will be stopped.
-noStartupMessagesMessages = ["This game is using an alpha build of Ender IO"]
+noStartupMessagesMessages = ["This game is using an alpha build of Ender IO", "Ars Nouveau adds built in dynamic lights. Enable with /ars-light on. This won't appear again!", "Our main mod 'Confluence: Otherworld' has been announced! [https://www.curseforge.com/minecraft/mc-mods/confluence]"]
 #Disable recipe advancements
 disableRecipeAdvancements = true
 #Enable startup ding sound
-enableDingDongStartupSound = true
+enableDingDongStartupSound = false
 #Name of sound to play. Default is entity.experience_orb.pickup
 dingDongSound = "entity.experience_orb.pickup"
