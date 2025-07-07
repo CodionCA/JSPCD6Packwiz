@@ -3689,7 +3689,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "dabc6ff8c4c4e1c28f471b6a4874ce111152af526d696f70bf4bc37c5e65ede9"
+hash = "e4f786fea5a34b6b910bc98a5a8a67de98671d5e13113edfd46a07bd91356bde"
 metafile = true
 
 [[files]]
@@ -3904,7 +3904,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "184d32c89a90ae8e36ccc8b314767ea591e2338bb21afeb0d9c3e9e11269d360"
+hash = "416ee94b2c30e1dbc01a9cc1ac2419c736e95467c0c9c0ee27e7ec5c063f5663"
 metafile = true
 
 [[files]]
@@ -4045,11 +4045,6 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "8f31049728cb784a0216ddbfa3de06751b2a631a3907c84c2d7b2428466d5fc3"
-metafile = true
-
-[[files]]
-file = "mods/rubidium-extra.pw.toml"
-hash = "ac974e4fe5aae03fbe1a39aa969ad180b237c1986826c7473459da17fb873264"
 metafile = true
 
 [[files]]
