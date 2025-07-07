@@ -2040,6 +2040,11 @@ hash = "90f38f6a4539b7f69be95865e409157605e7aad6d3a7f673b84f552caec3ccd1"
 metafile = true
 
 [[files]]
+file = "mods/create-dreams-and-desires.pw.toml"
+hash = "b299e9a1001b2a035f93a1e2cc0873f648032b31f89b1aaea24af98eab6f9d61"
+metafile = true
+
+[[files]]
 file = "mods/create-dreams-desires.pw.toml"
 hash = "8f9e593868b57bbe7c0a1fb34aa23af9c3f923283d9c805b247e732226975468"
 metafile = true
@@ -2066,7 +2071,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "1070f0faa541f5be34e84140f981d12e08d6d4ee753a7b0b0938c3b8760b2bd2"
+hash = "7f25446123f66f57e7cc8e148155a3da39d85b31963c663b5b9be77fc1bacbe6"
 metafile = true
 
 [[files]]
@@ -2135,6 +2140,11 @@ metafile = true
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "9d614d9330738bbecfef22abda669f6bec1405da9e1c3e71039a449082fa85b2"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-woodland-mansion-replacement.pw.toml"
+hash = "c8383c70201cb18414db84f85f4326dd0ca564f0d57500cad8f7f22a42f41e73"
 metafile = true
 
 [[files]]
@@ -2209,7 +2219,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "b945b849d8570b452fae214ab90add58d7f421156f2dc46886fcd39c71c3d14e"
+hash = "ebac4adabaa55172ac0fef5f0fa5edcd4306f78aa13f1e23763d35099d238ca2"
 metafile = true
 
 [[files]]
@@ -2474,6 +2484,11 @@ hash = "3c4da499a2fd3071525f97c3f7d009325f12a229635d3d529ce9dede2242a980"
 metafile = true
 
 [[files]]
+file = "mods/loading-invincibility.pw.toml"
+hash = "117af7f7407e572a222fa1ee017d21c4da9bb7a9465ce12975ccc54ccd031006"
+metafile = true
+
+[[files]]
 file = "mods/loot-integrations-bygone-nether-it-takes-a-pillage.pw.toml"
 hash = "15af8ee91d7ef975c56b31426a3a874c522180c8000d0d4dd1051fe92e12f34a"
 metafile = true
@@ -2634,7 +2649,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "03a370e79fef40daca8af2df93bdb511862f6581847cc8fd15fd4c7b8f5b6699"
+hash = "357a22e9cc8fadd4a31868b4a23ced6abbdd095eafd1e92daf048807806474cf"
 metafile = true
 
 [[files]]
@@ -2856,6 +2871,11 @@ hash = "39f04c55a2bd99df584fe260b0cccfcbda4bb1dfb553fb615517bf4449f4d446"
 metafile = true
 
 [[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+metafile = true
+
+[[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "dc97ef16a6526c12945cf70ca642148a9bdcb75a98d986245a7e20d35cabb5d5"
 metafile = true
@@ -2872,7 +2892,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "dbb08b67a58ecaa67889a928e785b498e3aa6ccdbe6354c01d942bdb58a17327"
+hash = "9c5ef39a8ae37a70e5a9c689e5978b3bbdb22429056756ad7a25247fd6d95952"
 metafile = true
 
 [[files]]
