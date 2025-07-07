@@ -1,0 +1,10 @@
+clockAccessory = true
+compassAccessory = true
+recoveryCompassAccessory = true
+elytraAccessory = true
+spyglassAccessory = true
+totemOfUndyingAccessory = true
+shulkerBoxAccessory = true
+# Default: 3
+# Range: > 1
+allowedShulkerBoxes = 3
