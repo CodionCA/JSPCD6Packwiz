@@ -2045,11 +2045,6 @@ hash = "b299e9a1001b2a035f93a1e2cc0873f648032b31f89b1aaea24af98eab6f9d61"
 metafile = true
 
 [[files]]
-file = "mods/create-dreams-desires.pw.toml"
-hash = "8f9e593868b57bbe7c0a1fb34aa23af9c3f923283d9c805b247e732226975468"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "d225f436d245791b859fba618e997ef5741ef5fc5b7ed4e557b5331d52dcb31d"
 metafile = true
@@ -2130,11 +2125,6 @@ metafile = true
 [[files]]
 file = "mods/dnt-ancient-city-overhaul.pw.toml"
 hash = "58096a477ce5489d4c283d910b0e8b285c6fea7ed8dd9010136f6af9464cc6e9"
-metafile = true
-
-[[files]]
-file = "mods/dnt-woodland-mansion-replacement.pw.toml"
-hash = "0947d5dec0900825fee662b384e2bfe96813c4cfc1b6110caac0dad82bbf1107"
 metafile = true
 
 [[files]]
@@ -2385,11 +2375,6 @@ metafile = true
 [[files]]
 file = "mods/improved-village-placement.pw.toml"
 hash = "6f88b7793211597db480b66457ba6efae2f0c8cf174faa3a31910c3acce370b0"
-metafile = true
-
-[[files]]
-file = "mods/invincible-loading.pw.toml"
-hash = "d244a5eb09f4b55d973332abed4280a61c562e2056d563dba6607393aad9e710"
 metafile = true
 
 [[files]]
@@ -2863,11 +2848,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
-metafile = true
-
-[[files]]
-file = "mods/sparse-structures.pw.toml"
-hash = "39f04c55a2bd99df584fe260b0cccfcbda4bb1dfb553fb615517bf4449f4d446"
 metafile = true
 
 [[files]]
