@@ -2370,7 +2370,7 @@ hash = "017a059c3994d538129686a331a107714ba52c8852597da72f168780cb1c2f69"
 
 [[files]]
 file = "config/simplesplashscreen.json5"
-hash = "440d07d8574b49bbf4b7f2e2206c1a63241fb2abae96cb6e0e185aaa3d3af12e"
+hash = "fe53ab7139a2927f47d94024caf0f44998e58044482afe973e25f8b0b9fec3f9"
 
 [[files]]
 file = "config/simplesplashscreen/mojangstudios.png"

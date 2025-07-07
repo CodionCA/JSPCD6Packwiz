@@ -6,11 +6,11 @@
 	// Enable/Disable the background image
 	"backgroundImage": false,
 	// Change the color of the background
-	"backgroundColor": 7034194,
+	"backgroundColor": 3615525,
 	// Change the color of the progress bar
-	"progressBarColor": 14471588,
+	"progressBarColor": 5522237,
 	// Change the color of the progress bar frame
-	"progressFrameColor": 14471588,
+	"progressFrameColor": 5522237,
 	// Change the mode of the custom loading bar
 	"customProgressBarMode": "",
 	// Enable/Disable the custom progress bar background
