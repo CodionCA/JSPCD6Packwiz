@@ -2942,6 +2942,10 @@ file = "mods/CraftPresence-2.6.1+1.21.1-neoforge.jar"
 hash = "c86963696b516fe5846741fb4effe7b5c20763c891343d5ca2c8dbadc9883a6f"
 
 [[files]]
+file = "mods/Stony Cliffs FML v1.1.2.jar"
+hash = "f07a2db60d1e3dea51bd640fae23277df64239a09b45e919be0a47a31bec72c3"
+
+[[files]]
 file = "mods/accessories-cc-layer.pw.toml"
 hash = "8f90a500df28d497fe7e323b40ee55640bc63141284ce2189a7766c976a91378"
 metafile = true
@@ -3677,9 +3681,8 @@ hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
 metafile = true
 
 [[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "dabc6ff8c4c4e1c28f471b6a4874ce111152af526d696f70bf4bc37c5e65ede9"
-metafile = true
+file = "mods/lithostitched-neoforge-1.21.1-1.4.10.jar"
+hash = "5c482ce9cbbadc1ad24f7ca4442264575a956ee9287cad239bbcecaa13434336"
 
 [[files]]
 file = "mods/lmft.pw.toml"
@@ -4114,11 +4117,6 @@ metafile = true
 [[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "5f34acf1abde884e2e955103bcadfbd03652e0cd1d3e224ced4c4a1e9e1664c6"
-metafile = true
-
-[[files]]
-file = "mods/stony-cliffs-are-cool.pw.toml"
-hash = "43a6c7daa5bc03db44b9c514c3f92ae6e398802d2fb8a9e9bd5b63168b4e4807"
 metafile = true
 
 [[files]]
