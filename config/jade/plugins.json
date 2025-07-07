@@ -52,9 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -65,6 +62,10 @@
   "toms_storage": {
     "inventory_config": true,
     "inventory_connector": true
+  },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true
@@ -79,6 +80,9 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "balm": {
     "jade": true

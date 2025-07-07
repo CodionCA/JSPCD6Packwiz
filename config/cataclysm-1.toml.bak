@@ -7,6 +7,14 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
+	#custombossbar(on/off)
+	"custombossbar(on/off)" = true
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	# Default: 1
+	# Range: 1 ~ 1000000
+	BossMusicVolume = 1
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -182,7 +190,7 @@
 	# Range: 0 ~ 100
 	EnderGuardianDamageTime = 30
 	#EnderGuardian's Healing with out target
-	# Default: 20.0
+	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
 	EnderGuardianNatureHealing = 10.0
 	#Ender guardian's block breaking ignore the MobGriefing
@@ -250,7 +258,7 @@
 	# Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
 	# Monstrosity's Healing with out target
-	# Default: 20.0
+	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's DamageCap
@@ -273,14 +281,6 @@
 	"Monstrosity's prevent attacks from far away Range" = 18.0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = true
-	#Lava Bomb of Monstrosity's Duration
-	# Default: 350
-	# Range: 1 ~ 10000
-	LavaBombDuration = 350
-	#Lava Bomb of Monstrosity's additional random duration size
-	# Default: 150
-	# Range: 1 ~ 10000
-	LavaBombRandomDuration = 150
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -308,7 +308,7 @@
 	# Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 1.0
 	#Ignis's Healing with out target
-	# Default: 20.0
+	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
 	#Ignis's Healing Multiplier
@@ -404,7 +404,7 @@
 	# Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 1.0
 	#Leviathan's Healing with out target
-	# Default: 20.0
+	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
 	#Leviathan's Immune to Long distance attack range.
@@ -490,7 +490,7 @@
 	# Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 1.0
 	#AncientRemnant's Healing with out target
-	# Default: 20.0
+	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
 	AncientRemnantNatureHealing = 10.0
 	#Ancient Remnant's Immune to Long distance attack range.
@@ -580,11 +580,11 @@
 	# Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 12.0
 	#Maledictus's Healing with out target
-	# Default: 20.0
+	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
 	MaledictusNatureHealing = 10.0
 	#Maledictus's Phantom Halberd Damage
-	# Default: 10.0
+	# Default: 13.0
 	# Range: 0.0 ~ 1000000.0
 	"Maledictus' Phantom Halberd Damage'" = 10.0
 	#Maledictus's DamageCap
@@ -705,17 +705,3 @@
 	# Default: 2
 	# Range: 0 ~ 32
 	cursedPyramidHeightVariance = 2
-
-["bosses Common settings"]
-	#custombossbar(on/off)
-	"custombossbar(on/off)" = true
-	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
-	#BossMusicVolume(denominator)
-	# Default: 1
-	# Range: 1 ~ 1000000
-	BossMusicVolume = 1
-	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
-	# Default: 20
-	# Range: 0 ~ 200
-	ReturnHome = 20

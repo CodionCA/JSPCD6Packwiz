@@ -221,14 +221,10 @@
 
 		[functional.cannon.cannonball]
 			enabled = true
-			#Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
-			# Default: 3.5
-			# Range: 0.0 ~ 100.0
-			power_scaling = 3.5
-			#Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
+			#Cannonball pierce radius. The bigger this is the less piercing power it will have as it will waste more energy breaking these blocks
 			# Default: 1.1
-			# Range: 0.0 ~ 10.0
-			break_radius = 1.1
+			# Range: 0.0 ~ 5.0
+			radius = 1.1
 
 	[functional.present]
 		enabled = true
@@ -664,12 +660,16 @@
 		tinted_blocks_on_maps = true
 
 	[tweaks.placeable_books]
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		book_power = 1.0
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		# Default: 1.334
+		# Range: 0.0 ~ 5.0
+		enchanted_book_power = 1.334
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
-		#Allow books and enchanted books to be placed on the ground
-		enabled = true
-		#Allows written books to be placed down. Requires shift clicking
-		written_books = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse

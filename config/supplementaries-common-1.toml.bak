@@ -221,21 +221,10 @@
 
 		[functional.cannon.cannonball]
 			enabled = true
-			#Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
-			# Default: 3.5
-			# Range: 0.0 ~ 100.0
-			power_scaling = 3.5
-			#Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
+			#Cannonball pierce radius. The bigger this is the less piercing power it will have as it will waste more energy breaking these blocks
 			# Default: 1.1
-			# Range: 0.0 ~ 10.0
-			break_radius = 1.1
-
-		[functional.cannon.cannon_boat]
-			enabled = true
-			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
-			# Default: 0.5
 			# Range: 0.0 ~ 5.0
-			recoil_multiplier = 0.5
+			radius = 1.1
 
 	[functional.present]
 		enabled = true
@@ -384,8 +373,6 @@
 	[building.globe]
 		enabled = true
 		sepia_globe = true
-		#Displays current coordinates when using a globe
-		show_coordinates = true
 
 	[building.way_sign]
 		enabled = true
@@ -483,10 +470,6 @@
 			lifetime = 1200
 			#Can bubble break when touched on?
 			break_when_touched = true
-			#Max number of charges a bubble blower can hold
-			# Default: 200
-			# Range: 1 ~ 1000000
-			max_charges = 200
 
 	[tools.wrench]
 		enabled = true
@@ -496,7 +479,7 @@
 
 	[tools.rope_arrow]
 		enabled = true
-		#Max number of rope items allowed to be stored inside a rope arrow
+		#Max number of robe items allowed to be stored inside a rope arrow
 		# Default: 32
 		# Range: 1 ~ 256
 		capacity = 32
@@ -603,7 +586,7 @@
 		enabled = true
 
 	[tweaks.traders_open_doors]
-		#Allows traders to open doors (because they couldn't apparently)
+		#Allows traders to open doors (because they couldnt aparently)
 		enabled = true
 
 	[tweaks.dispenser_tweaks]
@@ -675,8 +658,14 @@
 	[tweaks.placeable_books]
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
-		#Allow books and enchanted books to be placed on the ground
-		enabled = true
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		book_power = 1.0
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		# Default: 1.334
+		# Range: 0.0 ~ 5.0
+		enchanted_book_power = 1.334
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -712,6 +701,8 @@
 		enabled = true
 		#Allow slimeballs to be thrown
 		throwable_slimeballs = true
+		#Show a slime overlay when you hit an entity with a slimeball
+		overlay = true
 		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
 		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
 		hinders_jump = "NORMAL_DIFFICULTY"
@@ -727,9 +718,3 @@
 	[tweaks.dragon_banner_pattern]
 		#Adds dragon banner pattern made from dragon head
 		enabled = true
-
-	[tweaks.clock_and_compass]
-		#Allow to right click with a clock to display current time in numerical form
-		clock_right_click = true
-		#Allow to right click with a compass to display current coordinates in numerical form
-		compass_right_click = false

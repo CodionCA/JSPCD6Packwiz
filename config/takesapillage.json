@@ -1,11 +1,7 @@
 {
-	"enablePillageSieges": true,
-	"enableClayGolem": true,
-	"replaceIronGolemsWithClayGolems": false,
-	"enableArcher": true,
-	"enableArcherInRaids": true,
-	"enableLegioner": true,
-	"enableLegionerInRaids": true,
-	"enableSkirmisher": true,
-	"enableSkirmisherInRaids": true
+  "replaceIronGolemsWithClayGolems": false,
+  "enablePillageSieges": true,
+  "enableArcherInRaids": true,
+  "enableLegionerInRaids": true,
+  "enableSkirmisherInRaids": true
 }

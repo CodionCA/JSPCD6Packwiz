@@ -470,6 +470,10 @@
 			lifetime = 1200
 			#Can bubble break when touched on?
 			break_when_touched = true
+			#Max number of charges a bubble blower can hold
+			# Default: 200
+			# Range: 1 ~ 1000000
+			max_charges = 200
 
 	[tools.wrench]
 		enabled = true
@@ -479,7 +483,7 @@
 
 	[tools.rope_arrow]
 		enabled = true
-		#Max number of robe items allowed to be stored inside a rope arrow
+		#Max number of rope items allowed to be stored inside a rope arrow
 		# Default: 32
 		# Range: 1 ~ 256
 		capacity = 32
@@ -586,7 +590,7 @@
 		enabled = true
 
 	[tweaks.traders_open_doors]
-		#Allows traders to open doors (because they couldnt aparently)
+		#Allows traders to open doors (because they couldn't apparently)
 		enabled = true
 
 	[tweaks.dispenser_tweaks]
@@ -658,14 +662,10 @@
 	[tweaks.placeable_books]
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
-		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
-		# Default: 1.0
-		# Range: 0.0 ~ 5.0
-		book_power = 1.0
-		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
-		# Default: 1.334
-		# Range: 0.0 ~ 5.0
-		enchanted_book_power = 1.334
+		#Allow books and enchanted books to be placed on the ground
+		enabled = true
+		#Allows written books to be placed down. Requires shift clicking
+		written_books = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse

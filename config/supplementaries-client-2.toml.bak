@@ -172,6 +172,8 @@
 	# Default: 0.0
 	# Range: -10.0 ~ 10.0
 	test3 = 0.0
+	#unfunny
+	"I am very boring" = false
 
 #Game tweaks
 [tweaks]
@@ -197,8 +199,6 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
-	#Placeable books random colors
-	placeable_books_random_colors = ["brown", "orange", "yellow", "red", "green", "lime", "cyan", "blue", "purple"]
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors

@@ -22,11 +22,6 @@
 	index-source: creative;
 
 	/**
-	 * Which sidebar should be searched using the search bar.
-	 */
-	search-sidebar: right;
-
-	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;
@@ -98,17 +93,7 @@
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: empty;
-
-	/**
-	 * Whether the EMI config button should be visible.
-	 */
-	emi-config-button-visibility: shown;
-
-	/**
-	 * Whether the recipe tree button should be visible.
-	 */
-	recipe-tree-button-visibility: auto;
+	empty-search-sidebar-focus: none;
 
 	/**
 	 * The maximum height the recipe screen will grow to be if space is available in
@@ -167,7 +152,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: craftables;
+	left-sidebar-pages: favorites;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -177,7 +162,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 10, 10;
+	left-sidebar-size: 12, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -187,7 +172,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: right, center;
+	left-sidebar-align: left, top;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -197,12 +182,12 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: modern;
+	left-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index;
+	right-sidebar-pages: index, craftables;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -232,12 +217,12 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: modern;
+	right-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the top sidebar
 	 */
-	top-sidebar-pages: favorites;
+	top-sidebar-pages: none;
 
 	/**
 	 * The subpanels in the top sidebar
@@ -247,7 +232,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the top sidebar to
 	 */
-	top-sidebar-size: 12, 4;
+	top-sidebar-size: 9, 9;
 
 	/**
 	 * How much space to maintain between the top sidebar and obstructions, in pixels
@@ -257,12 +242,12 @@
 	/**
 	 * Where to position the top sidebar
 	 */
-	top-sidebar-align: left, top;
+	top-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the top sidebar
 	 */
-	top-sidebar-header: invisible;
+	top-sidebar-header: visible;
 
 	/**
 	 * Which theme to use for the top sidebar
