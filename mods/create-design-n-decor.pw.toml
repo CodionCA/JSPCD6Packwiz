@@ -3,11 +3,11 @@ filename = "Design-n-Decor-1.21.1-2.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4d9b15c2395868c93a214281ced82e21b74f46ef"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/x49wilh8/versions/uJVdwDMZ/Design-n-Decor-1.21.1-2.0.2.jar"
+hash-format = "sha512"
+hash = "c11acffdc8153502eb91d72c0fa4a9f461c9b328d178f939d75682e91560a6f53f74c638570e2b59a08b135193a345da6885ddf3d9d138f9e501c183c797718d"
 
 [update]
-[update.curseforge]
-file-id = 6598795
-project-id = 923238
+[update.modrinth]
+mod-id = "x49wilh8"
+version = "uJVdwDMZ"

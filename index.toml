@@ -1783,17 +1783,17 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "08d5b42c63b13a05a5ad962fb2782126b6a1dbbd76ef383608da7e39009f8b06"
+hash = "ce5d0cd5986126c23dc35c89a6d2124751071693c034afc3799b4f633466997f"
 metafile = true
 
 [[files]]
 file = "mods/accessorify.pw.toml"
-hash = "b0556ef3b40c9e69da4156aad010cdef2c2e56911ad222f3098bb06e5aadcb63"
+hash = "7740342eb90fe7a7797aa249aa9a9e7bdc9a29232fbdb3c6ce04563c3c88e336"
 metafile = true
 
 [[files]]
 file = "mods/adorabuild-structures.pw.toml"
-hash = "42cfdf60039cb971b6c13d8fa25029cb75aea3af8bc54b873b0d9608877c1084"
+hash = "645d62622dc3aa067a87b61d42aa4ebe6d6bb68f5b25f202192e2f73cc88df03"
 metafile = true
 
 [[files]]
@@ -1904,7 +1904,7 @@ metafile = true
 
 [[files]]
 file = "mods/blended-compat.pw.toml"
-hash = "1a7394708c1570d74096dbeca8c5fc8c713b3622b2ad741b3072232ecd1f78e6"
+hash = "b06960445108306ece8c5135e84eb00dd50a5d008445aad52648b7dd3a6f1448"
 metafile = true
 
 [[files]]
@@ -2031,7 +2031,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-hash = "a5aef868749ee5f46aa3ae29664ca2155d4a27a56416a0aa88145f01fceb8c42"
+hash = "8d8c1d2270148b02ab4aa92275a55e879daf4fb9eab94750cf50c1d8b598e8d2"
 metafile = true
 
 [[files]]
@@ -2299,7 +2299,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "b772e8a158c45c21844c4acf10f2031335ccc8d05837532ad01034057221bdbd"
+hash = "37a1086360571a34cfadd0088cd331b405857c942b5611caafebc27fb8ea1a42"
 metafile = true
 
 [[files]]
@@ -2867,7 +2867,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory-towers.pw.toml"
-hash = "27cb7f620013f352abc153571992b5ae6e75f4a6b94844d36f8361d27d360f5c"
+hash = "a0dbd38eace0a67288b27d2463d7383b4e28183f844bbf8521c505a932c41363"
 metafile = true
 
 [[files]]
