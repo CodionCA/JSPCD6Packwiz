@@ -1,0 +1,1421 @@
+[20:12:45] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:12:45] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[20:12:45] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[20:12:45] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
+[20:12:45] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.simibubi.create.compat.trainmap.JourneyTrainMap
+[20:12:45] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.core.compatibility.journeymap.JourneymapPlugin
+[20:12:45] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: club.iananderson.seasonhud.impl.minimaps.journeymap.JourneymapSeasonPlugin
+[20:12:45] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[20:12:45] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[20:12:45] [Render thread/INFO] [?] Version: JourneyMap 1.21.1-6.0.0-beta.52, built with neoforge 21.1.55
+neoforge: 21.1.186
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_ca, locale=en_ca
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.52, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=night, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.0-beta.52, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.0-beta.52, zoomLevel=512, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.52, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.52, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.52, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=6.0.0-beta.52, announceMod=false, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=false, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=6.0.0-beta.52, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Purist, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[20:12:45] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 220.27ms
+[20:13:16] [Render thread/INFO] [JourneymapClientNeoForge] Journeymap PostInit
+[20:13:16] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[20:13:16] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[20:13:16] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/S:/Portable/Programs/PrismLauncher/instances/-%20JSPCD6%20-%20NeoForge%201.21.1%20TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/DEBUG] [FileHandler] ZipFilePath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar zipEntryName:assets/journeymap/theme/victorian_ destDir:S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\icon\theme\victorian_ overWrite:true fromPath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/S:/Portable/Programs/PrismLauncher/instances/-%20JSPCD6%20-%20NeoForge%201.21.1%20TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/DEBUG] [FileHandler] ZipFilePath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar zipEntryName:assets/journeymap/theme/flat destDir:S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\icon\theme\flat overWrite:true fromPath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/S:/Portable/Programs/PrismLauncher/instances/-%20JSPCD6%20-%20NeoForge%201.21.1%20TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/DEBUG] [FileHandler] ZipFilePath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar zipEntryName:assets/journeymap/theme/vault_flat destDir:S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\icon\theme\vault_flat overWrite:true fromPath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/S:/Portable/Programs/PrismLauncher/instances/-%20JSPCD6%20-%20NeoForge%201.21.1%20TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/DEBUG] [FileHandler] ZipFilePath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar zipEntryName:assets/journeymap/theme/vault destDir:S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\icon\theme\vault overWrite:true fromPath:S:/Portable/Programs/PrismLauncher/instances/- JSPCD6 - NeoForge 1.21.1 TEST/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar
+[20:13:16] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[20:13:16] [Render thread/INFO] [VersionCheck] Update check disabled in properties file.
+[20:13:16] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 397.31ms
+[20:13:28] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[20:14:38] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[20:14:38] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[20:14:38] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[20:14:38] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[20:14:38] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[20:14:38] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[20:14:38] [Server thread/INFO] [NeoForgeConfig] Loading JourneyMap Forge Configs
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:15:01] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:15:02] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:15:12] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[20:15:13] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[20:15:13] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[20:15:13] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[20:15:13] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[20:15:13] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\colorpalette.json
+[20:15:13] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\data\sp\New World (1)\colorpalette.json
+[20:15:13] [Render thread/INFO] [JourneymapClient] Mapping started in S:\Portable\Programs\PrismLauncher\instances\- JSPCD6 - NeoForge 1.21.1 TEST\minecraft\journeymap\data\sp\New World (1)\overworld. Memory: 8192MB total, 3040MB free 
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:15:13] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:28:55] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException: class com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox cannot be cast to class net.minecraft.client.model.geom.ModelPart (com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox is in module lionfishapi@2.6 of loader 'TRANSFORMER' @271e851e; net.minecraft.client.model.geom.ModelPart is in module minecraft@1.21.1 of loader 'TRANSFORMER' @271e851e)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.addIconIfMissing(MobIconCache.java:555)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.getMobIcon(MobIconCache.java:98)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityDTO.update(EntityDTO.java:301)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getEntitiesNearby(EntityHelper.java:87)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getMobsNearby(EntityHelper.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:34)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:24)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3571)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2313)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2190)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2080)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.get(LocalCache.java:4012)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.DataCache.getMobs(DataCache.java:355)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.map.MapState.generateDrawSteps(MapState.java:474)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:275)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:203)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.UIManager.drawMiniMap(UIManager.java:394)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.handlers.HudOverlayHandler.onRenderOverlay(HudOverlayHandler.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.NeoForgeHudOverlayEvents.postGuiOverlay(NeoForgeHudOverlayEvents.java:61)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)
+	at TRANSFORMER/neoforge@21.1.186/net.neoforged.neoforge.client.gui.GuiLayerManager.render(GuiLayerManager.java:61)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$132(Gui.java:234)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$132$133(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$zmn000$iris$handleHudHidingScreens(Gui.java:1522)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$134(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$134$135(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$epp000$ok_zoomer$zoomGui(Gui.java:4553)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$260(GameRenderer.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.md0ee464$immediatelyfast$lambda$hudBatching$0$0(GameRenderer.java:8816)
+	at TRANSFORMER/immediatelyfast@1.6.5+1.21.1/net.raphimc.immediatelyfast.feature.batching.BatchingBuffers.runBatched(BatchingBuffers.java:59)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.wrapOperation$eae000$immediatelyfast$hudBatching(GameRenderer.java:8816)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1073)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1195)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+[20:28:58] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException: class com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox cannot be cast to class net.minecraft.client.model.geom.ModelPart (com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox is in module lionfishapi@2.6 of loader 'TRANSFORMER' @271e851e; net.minecraft.client.model.geom.ModelPart is in module minecraft@1.21.1 of loader 'TRANSFORMER' @271e851e)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.addIconIfMissing(MobIconCache.java:555)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.getMobIcon(MobIconCache.java:98)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityDTO.update(EntityDTO.java:301)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getEntitiesNearby(EntityHelper.java:87)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getMobsNearby(EntityHelper.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:34)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:24)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3571)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2313)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2190)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2080)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.get(LocalCache.java:4012)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.DataCache.getMobs(DataCache.java:355)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.map.MapState.generateDrawSteps(MapState.java:474)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:275)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:203)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.UIManager.drawMiniMap(UIManager.java:394)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.handlers.HudOverlayHandler.onRenderOverlay(HudOverlayHandler.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.NeoForgeHudOverlayEvents.postGuiOverlay(NeoForgeHudOverlayEvents.java:61)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)
+	at TRANSFORMER/neoforge@21.1.186/net.neoforged.neoforge.client.gui.GuiLayerManager.render(GuiLayerManager.java:61)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$132(Gui.java:234)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$132$133(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$zmn000$iris$handleHudHidingScreens(Gui.java:1522)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$134(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$134$135(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$epp000$ok_zoomer$zoomGui(Gui.java:4553)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$260(GameRenderer.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.md0ee464$immediatelyfast$lambda$hudBatching$0$0(GameRenderer.java:8816)
+	at TRANSFORMER/immediatelyfast@1.6.5+1.21.1/net.raphimc.immediatelyfast.feature.batching.BatchingBuffers.runBatched(BatchingBuffers.java:59)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.wrapOperation$eae000$immediatelyfast$hudBatching(GameRenderer.java:8816)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1073)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1195)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+[20:29:01] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException: class com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox cannot be cast to class net.minecraft.client.model.geom.ModelPart (com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox is in module lionfishapi@2.6 of loader 'TRANSFORMER' @271e851e; net.minecraft.client.model.geom.ModelPart is in module minecraft@1.21.1 of loader 'TRANSFORMER' @271e851e)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.addIconIfMissing(MobIconCache.java:555)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.getMobIcon(MobIconCache.java:98)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityDTO.update(EntityDTO.java:301)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getEntitiesNearby(EntityHelper.java:87)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getMobsNearby(EntityHelper.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:34)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:24)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3571)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2313)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2190)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2080)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.get(LocalCache.java:4012)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.DataCache.getMobs(DataCache.java:355)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.map.MapState.generateDrawSteps(MapState.java:474)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:275)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:203)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.UIManager.drawMiniMap(UIManager.java:394)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.handlers.HudOverlayHandler.onRenderOverlay(HudOverlayHandler.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.NeoForgeHudOverlayEvents.postGuiOverlay(NeoForgeHudOverlayEvents.java:61)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)
+	at TRANSFORMER/neoforge@21.1.186/net.neoforged.neoforge.client.gui.GuiLayerManager.render(GuiLayerManager.java:61)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$132(Gui.java:234)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$132$133(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$zmn000$iris$handleHudHidingScreens(Gui.java:1522)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$134(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$134$135(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$epp000$ok_zoomer$zoomGui(Gui.java:4553)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$260(GameRenderer.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.md0ee464$immediatelyfast$lambda$hudBatching$0$0(GameRenderer.java:8816)
+	at TRANSFORMER/immediatelyfast@1.6.5+1.21.1/net.raphimc.immediatelyfast.feature.batching.BatchingBuffers.runBatched(BatchingBuffers.java:59)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.wrapOperation$eae000$immediatelyfast$hudBatching(GameRenderer.java:8816)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1073)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1195)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+[20:29:07] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException: class com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox cannot be cast to class net.minecraft.client.model.geom.ModelPart (com.github.L_Ender.lionfishapi.client.model.tools.AdvancedModelBox is in module lionfishapi@2.6 of loader 'TRANSFORMER' @271e851e; net.minecraft.client.model.geom.ModelPart is in module minecraft@1.21.1 of loader 'TRANSFORMER' @271e851e)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.addIconIfMissing(MobIconCache.java:555)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.render.draw.MobIconCache.getMobIcon(MobIconCache.java:98)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityDTO.update(EntityDTO.java:301)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getEntitiesNearby(EntityHelper.java:87)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.entity.EntityHelper.getMobsNearby(EntityHelper.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:34)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.MobsData.load(MobsData.java:24)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3571)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2313)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2190)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2080)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.get(LocalCache.java:4012)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035)
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.data.DataCache.getMobs(DataCache.java:355)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.model.map.MapState.generateDrawSteps(MapState.java:474)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:275)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:203)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.ui.UIManager.drawMiniMap(UIManager.java:394)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.handlers.HudOverlayHandler.onRenderOverlay(HudOverlayHandler.java:134)
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.52/journeymap.client.event.NeoForgeHudOverlayEvents.postGuiOverlay(NeoForgeHudOverlayEvents.java:61)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)
+	at TRANSFORMER/neoforge@21.1.186/net.neoforged.neoforge.client.gui.GuiLayerManager.render(GuiLayerManager.java:61)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$132(Gui.java:234)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$132$133(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$zmn000$iris$handleHudHidingScreens(Gui.java:1522)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render$mixinextras$wrapped$134(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.mixinextras$bridge$render$mixinextras$wrapped$134$135(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.wrapMethod$epp000$ok_zoomer$zoomGui(Gui.java:4553)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.Gui.render(Gui.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.mixinextras$bridge$render$260(GameRenderer.java)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.md0ee464$immediatelyfast$lambda$hudBatching$0$0(GameRenderer.java:8816)
+	at TRANSFORMER/immediatelyfast@1.6.5+1.21.1/net.raphimc.immediatelyfast.feature.batching.BatchingBuffers.runBatched(BatchingBuffers.java:59)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.wrapOperation$eae000$immediatelyfast$hudBatching(GameRenderer.java:8816)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1073)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1195)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+[20:29:10] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:13] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:19] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:22] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:25] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:28] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:31] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:38] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:42] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:47] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:54] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:29:57] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:30:00] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:30:06] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:30:10] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:30:13] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:30:16] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:31:16] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:31:22] [Render thread/WARN] [EntityHelper] Failed to getMobsNearby: java.lang.ClassCastException
+
+[20:31:29] [Render thread/WARN] [JMLogger] Image is null: endermanoverhaul:textures/entity_icon/default/default_enderman.png
+[20:32:54] [Render thread/INFO] [DeathPointHandler] Codion died at BlockPos{x=392, y=85, z=-134}. Deathpoints enabled: true. Deathpoint created: true
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:54] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:55] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:56] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:57] [Render thread/WARN] [StatTimer] MiniMap1.Circle is not running.
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:32:58] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:49] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null
+[20:34:53] [Render thread/WARN] [Constants] Message key 'null' threw exception: null

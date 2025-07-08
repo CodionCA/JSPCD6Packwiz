@@ -886,7 +886,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "958970f9bb8af634ab80aa5d5484754017e2991fdf89c4fc4c91873fa40f3261"
+hash = "ec2ba29f659f64e4fc26fa7d05ace620924f9ef0fa4da4e26dd74e692b3abeb5"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
@@ -1782,7 +1782,7 @@ hash = "4be016323db53becd07722d7adf03670601578cd0e7bdd0c7a47c98b96438de4"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "54f1b600c4858343acfd1b3895277fdb45bfc33a5eb82bead3b1b002034e7a4c"
+hash = "918c84b17c91f21d48165fc52537175d8078caf2da47385913ce51b4bc982066"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
@@ -1798,11 +1798,15 @@ hash = "156976ebfa39152d252eada202f3649cd32af7a665576127fcb5bb5523fff67c"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.waypoint.config"
-hash = "02bb51256cdee2947ec8124364358c6031192c885962ca1c9f91d3ad35b15a3d"
+hash = "900c183bff6cf05a8d626f1fd0ee0ece4b8bcd15de9074df8c29632e72e00488"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.webmap.config"
 hash = "92ecaadb674023fb5cd2f67831547f41af6a3a90bc2ef076bc45351d363c6594"
+
+[[files]]
+file = "journeymap/journeymap.log"
+hash = "0d38e43118b070b1e523fafbec03594613c066edee2586b1d130ebf522b5d63f"
 
 [[files]]
 file = "mods/777-1.0.jar"
@@ -1823,6 +1827,10 @@ hash = "31589ffc136ac031319db88fa7ce2599ba789ae5d18bd5125e1857e20a834993"
 [[files]]
 file = "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 hash = "0c49b5ef447a7f09100e9a210888a7347fbda0aa75322063991f6063b25fe3f9"
+
+[[files]]
+file = "mods/UniLib-1.1.0+1.21.1-neoforge.jar"
+hash = "081e73dcb133282a252ddfa6dd63e2e9684ccf42192b7456c0aeae836cb4011d"
 
 [[files]]
 file = "mods/accessories-cc-layer.pw.toml"
@@ -2316,11 +2324,6 @@ hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
 metafile = true
 
 [[files]]
-file = "mods/fog.pw.toml"
-hash = "2154e3980c3701985223d695640eabab57b5fbb26fe23d8892a2e63c6cb43f87"
-metafile = true
-
-[[files]]
 file = "mods/forge-config-api-port-fabric.pw.toml"
 hash = "1e37fc9a0dc04ca8dc84bfb99566135fa924ce3823c986bb1a633874496e3101"
 metafile = true
@@ -2362,7 +2365,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "033965cc4d3b58e2765c3a712ca8a226663ffae25eee8d3b81f72ed84cc5e484"
+hash = "9e80e6f2a680b052f2a66ade20a5abbd98a0abbebde6f30472d6ae6b993e9464"
 metafile = true
 
 [[files]]
@@ -2622,13 +2625,13 @@ hash = "729c7821919b9e17d83cbf8b8c59b6107527d4b5e2e5cbb1608fe2aee458f872"
 metafile = true
 
 [[files]]
-file = "mods/moreculling.pw.toml"
-hash = "d720ecbf6097102b3243462928c0453f1b4df24a6a0edfa57b83d655fdb2ef75"
+file = "mods/mouse-tweaks.pw.toml"
+hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mouse-tweaks.pw.toml"
-hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+file = "mods/mowzies-mobs.pw.toml"
+hash = "db3d3f1719c6f643a64565e3cf10c5cfe015deecd102e4059e37bf35dbda6364"
 metafile = true
 
 [[files]]
@@ -2649,11 +2652,6 @@ metafile = true
 [[files]]
 file = "mods/nanny.pw.toml"
 hash = "6cc0b4f7848405ec1eeab1df639aab3952273c7d0c2b47cc8056b0ea7dd0ff97"
-metafile = true
-
-[[files]]
-file = "mods/natures-compass.pw.toml"
-hash = "b5be9033308bb88924ddbc0eb95011a6ad1674099f0db976ab5e05a28afc4971"
 metafile = true
 
 [[files]]
@@ -2989,11 +2987,6 @@ hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
 metafile = true
 
 [[files]]
-file = "mods/unilib.pw.toml"
-hash = "d2d68169fa02f615906ff4d6ded17e42739bbb03431e45b99c593c6bf466569b"
-metafile = true
-
-[[files]]
 file = "mods/utilitarian.pw.toml"
 hash = "74104b7854f3ee565c7c47e8f01fcbfba464aa33f5d9d1be9e026b8da09abc26"
 metafile = true
@@ -3054,11 +3047,6 @@ metafile = true
 [[files]]
 file = "mods/world-flags-1.2.jar"
 hash = "4210e7bb6a41788049ccd88011eba88711cf1d6ce3980bc8267c195fd7de3798"
-
-[[files]]
-file = "mods/xp-tome.pw.toml"
-hash = "9bcbe02b08ed5615447959152d7c2bd21c859a37b7d6dad4605e2e97a64a6321"
-metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
