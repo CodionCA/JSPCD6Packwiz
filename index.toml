@@ -2254,6 +2254,11 @@ hash = "d79818e801019eeaedc8a3188d0d1ed778c9d261c6fdda12c20470e5b07b8994"
 metafile = true
 
 [[files]]
+file = "mods/ends-phantasm.pw.toml"
+hash = "e99bc192266affa7203e3536f96a9a584e2fb348a20d780a7c0afcb60623fa7d"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "7703a93c0d884145f7d148e33e968d5b17680477d4e088b4f8406b0d88448978"
 metafile = true
@@ -2721,6 +2726,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "74c69f8c8f04009f6af96905022321b7ea07cf760d6e31bc9b8de42f1c298e2f"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "54b1a62c202dd0406129bb15c76e1c5e4677a033b375de2ccd456e9a31b95d1a"
 metafile = true
 
 [[files]]
