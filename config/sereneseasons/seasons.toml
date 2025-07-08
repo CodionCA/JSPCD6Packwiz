@@ -22,7 +22,7 @@
 	#4 - 6 = Early/Mid/Late Summer
 	#7 - 9 = Early/Mid/Late Autumn
 	#10 - 12 = Early/Mid/Late Winter
-	starting_sub_season = 10
+	starting_sub_season = 1
 	#The duration of a sub season in days.
 	sub_season_duration = 168
 	#If the season should progress on a server with no players online

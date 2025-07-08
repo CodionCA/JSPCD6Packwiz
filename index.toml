@@ -1410,11 +1410,11 @@ hash = "1678703113a153784451115efee005856a88885d02d6dad10a8f28188446f83e"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
-hash = "f63f94b985285add146c73a8747d278cec3d386807855b25de0e1db9962c153f"
+hash = "c8b6d090d0efe91db518bd2985c19936af414fa459e0c7b0e8eb226b0467455c"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "272d98ea34ba961068ce8d5cc0d4a582d640e80329cd9307e7f5558d85688be1"
+hash = "f25a1e02d22fd112274d3f6f80995944096e5cdc962ecc66e2e4257f2148920a"
 
 [[files]]
 file = "config/simple_snowy_fix_common.json"
@@ -1853,11 +1853,6 @@ hash = "645d62622dc3aa067a87b61d42aa4ebe6d6bb68f5b25f202192e2f73cc88df03"
 metafile = true
 
 [[files]]
-file = "mods/advanced-netherite.pw.toml"
-hash = "aa46a4ee72007fef238f8a442523effa94e864a7741db5538decc710119a02a9"
-metafile = true
-
-[[files]]
 file = "mods/adventure-dungeons-mod-edition.pw.toml"
 hash = "3571243aea97321410039ab44f35dd5f295761b888a3a7503069e03d87dfb7ed"
 metafile = true
@@ -2031,13 +2026,18 @@ hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
-file = "mods/clumps.pw.toml"
-hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+file = "mods/collective.pw.toml"
+hash = "d3c143c5b518d2a57888cf1916e06bdb0f50e83b8341bf65885cdc769886647f"
 metafile = true
 
 [[files]]
-file = "mods/collective.pw.toml"
-hash = "d3c143c5b518d2a57888cf1916e06bdb0f50e83b8341bf65885cdc769886647f"
+file = "mods/colorwheel-patcher.pw.toml"
+hash = "7f73ce8baa7b27b1b6681c89c727ac216122e5e7a6ba34dc3844f425135585c2"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "3e8a5d92b96baa31d7e22bb473d77db092dbfa5cf250db6a6172483ce06ae474"
 metafile = true
 
 [[files]]
@@ -2736,11 +2736,6 @@ metafile = true
 [[files]]
 file = "mods/paxi-neoforge.pw.toml"
 hash = "3581c37e3c9c7cdd1150bb7ad7e47e3e8107914a5cd9113ddfa74ff2f8b8e09a"
-metafile = true
-
-[[files]]
-file = "mods/perception.pw.toml"
-hash = "4e499d1525a77e4cfecc8d7b1aa57133fc140d0081eb6339aa607485a1cca89d"
 metafile = true
 
 [[files]]
