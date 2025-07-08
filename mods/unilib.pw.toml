@@ -1,13 +1,13 @@
 name = "UniLib"
-filename = "UniLib-1.1.0+1.21.1-neoforge.jar"
+filename = "UniLib-1.1.0+0.0.8-flint.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e02ae730a3ae947645d9d42e78f82abf163f9324"
+hash = "3656111ea02ab5884b3d521ecefa9b1edab2e0e7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6509722
+file-id = 6510148
 project-id = 1056812
