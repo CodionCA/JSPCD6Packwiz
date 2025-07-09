@@ -1009,270 +1009,6 @@ file = "config/paxi/datapacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip"
 hash = "26e66358fc8de45c068e02fc5dd42b1ba555a0001ce763528f6cda13318a7be7"
 
 [[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/function/load.mcfunction"
-hash = "77268d24aec73240bc7b3a2dd95b161666adaef919c3859e7573180c207e71c6"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/function/reload.mcfunction"
-hash = "f0345f49ce87598b83ff732c1a12001ebc4bee52ce533c6410cd6964ce288fff"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/function/tick.mcfunction"
-hash = "3020aea7f95333b4d0e478e64a89e8d46ff978713845c85648ef6bf551613d2a"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/generate.py"
-hash = "9e2f16d1bc4ed07476d04e63c78907d25d0fb4aea11223a934dc0ca8f2c38e27"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/badlands_ore_addition.json"
-hash = "3d9e6ff1431b31027e67c05b92f99a161ce7dbc666f5471e7009702325eff2c3"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/badlands_ore_removal.json"
-hash = "6a1ff545e26e7041ea2927906bc52673fccc9bdea2f27286c91a82ab963e890d"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/beach_ore_addition.json"
-hash = "42d913f6c5a793dcd2383ac2853f32ba63bf00e1ef7797367821a8329a9c92da"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/beach_ore_removal.json"
-hash = "8563e69c9a1766b309be9094b05b78bc3c0f429ac6f883dfbd0b3e6337d57e17"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/cave_ore_addition.json"
-hash = "9dae72dc0a18eec399aedd97c810d09965e69a7bea4eff24b9ca2ef32cf9a927"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/cave_ore_removal.json"
-hash = "72a93e26c7713d3a5fe000dd9855bd53bb3282f0e29576fa79b7caa716dbdba6"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/complete_ore_removal.json.disabled"
-hash = "e8ab2dcd0c2fd6b406e59a1c929150042d67278609d5f74e440c16ba935526e8"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/desert_ore_addition.json"
-hash = "722fa01e4d1b41c072b4b9e9e82193b31dacdeef0b89eb43ea4f93f9dfe8b4e4"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/desert_ore_removal.json"
-hash = "8659f0f559b889d56403bb00f85d1e82244047fe6cd7dc8ca73ec148bcf93f5d"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/distribution_summary.json.disabled"
-hash = "37dc99954709bc406a32d664294da2916ebbd02fdf4f04344eb97a0956c3b554"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/forest_ore_addition.json"
-hash = "b69cdf1972744a26d834f13d8e2caf678e206f7d5ba2a2060e0affe05917a10f"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/forest_ore_removal.json"
-hash = "180e267c24d967236af5a216dbea1227fa5fbd765322fbf875969e7dd6806f05"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/hill_ore_addition.json"
-hash = "6fe9cdb8f103e5341227fe59cb00adaf3cbbf3bdda34a11a98563ecaa1e70ed2"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/hill_ore_removal.json"
-hash = "5fac8fb26c308be8b7f3febc93d3222ac7cfa4e26a3ca09aecf42cebfc65abf4"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/jungle_ore_removal.json"
-hash = "f3ec96246e7b08b5d06c9fbc7c581b8751c52dba399a0c32e8bff39259321648"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/mountain_ore_addition.json"
-hash = "30521298649e944228def050d8a624c180e7ab8d4fc872095b43c0e0dfd0b895"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/mountain_ore_removal.json"
-hash = "d9c7dbe8f145953680a5977103710e4c64e8f01d8771db303076e980b638f374"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/mushroom_ore_addition.json"
-hash = "3fffbc6308c347c4b07d5599b11c2dd985afc0b61779dfab84af26af4362d0cc"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/mushroom_ore_removal.json"
-hash = "0822d18307be1a6d4834afae342d33939de14c57876b08ab641471b216316300"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/ocean_ore_addition.json"
-hash = "f564b9f31e1e8657a22e83b6d49c5b6178c76c3aa4f6a641ad6590c9597ac55b"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/ocean_ore_removal.json"
-hash = "bc723d3eb8c953143d40a2c17dea7645c54df1555bb34801e4b87400616f830b"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/plains_ore_addition.json"
-hash = "7ae621b2986dd97994da2426bd0ad60e2c247ad6b8d113ffdcccafcbe03dfed6"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/plains_ore_removal.json"
-hash = "6fceb038fc496241626e3a69eba74094d107f5c49aa94711dde3049aa3ea2f7c"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/river_ore_addition.json"
-hash = "0690d57c924d56d3c8e7da03c59e6fa1b44bbb11ff7a4d13cf521c3535714dc7"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/river_ore_removal.json"
-hash = "1b554759ae2e3e274a4edb3f7b7d50744103a34ddf01e0267a21d1eac7e5e066"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/savanna_ore_addition.json"
-hash = "baf258b781fb1bda78daf9a163a7733009bcc008720dabd6c389361575f1a280"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/savanna_ore_removal.json"
-hash = "22c215a0514fe31167dc7b38a9dd9333910f7f2aac0a234a5bee9af8959aa822"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/swamp_ore_addition.json"
-hash = "8b92a6848f597e5189f58397ea1608f9b85600a4c5642dbea8d8970ed49c9dba"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/swamp_ore_removal.json"
-hash = "9175a1213fea000ed10bec5245c853f97852d2306c2cdf22d15c7f8d4889a5ee"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/taiga_ore_addition.json"
-hash = "5d87b7d1bdaca32d2fa0f4fc9c19a6dd3f4100c7f7260db9bf730b84a53009b1"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/taiga_ore_removal.json"
-hash = "b87720a8ca8428c8ee53c13ec81af665e41d846de9de4acf5645696e41c1c0d2"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/wasteland_ore_addition.json"
-hash = "62c5195e9737f59242c7e2b7b30aa2961ac3d65f65905d484fe0c41352518c22"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/neoforge/biome_modifier/ore_redistribution/wasteland_ore_removal.json"
-hash = "a6ca2fabc66c859b8ebdde2bcefb9d2fe0be5004448b871b302362bf08b66cea"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_calcite.json"
-hash = "0f64e6ad46df1da6e7254ead1e821b8259fd159dd3456d9e7c13b0a6390482ec"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_coal_extra.json"
-hash = "0ef99699ed606996d229e0e382f21a0e57c7d95396e7d826ebf9c06da50f7aed"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_copper_extra.json"
-hash = "d980f6134e45e69a87e5742b5ea5572b018179629afcf0f6fdff674851ddd940"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_copper_large_node.json"
-hash = "5146a38ed1e21e04e3efce181e460748bc7215c8c66040ff45e1eb9525b3fea9"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_dacite.json"
-hash = "7b1196cfce0ad47c75492bd8b91692634cbf8b7cc467c79e6ae4e443c3cd129b"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_diamond_extra.json"
-hash = "700c3e0ab1ef0f71fa37ad5d78f84e7b05c370b346e73964c6e6e535091358a2"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_emerald_extra.json"
-hash = "41b5f7fce57ce9c2c3b6f09babb77f7fed9519231546a2b345825992be5b2706"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_gold_large_node.json"
-hash = "f4ac648fac69780bc8bcd8643ce9ca8fe5703d183f526d1de72be7076f6e3661"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_iron_extra.json"
-hash = "0f2f4d3a4f2f94d95defdc893323627964f1d4872205ece764d3bdffac969836"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_lapis_extra.json"
-hash = "94dee9e5d0bb79bd7fc01e2e77f6ff43ac250f9eb0f40c2fad1658a5b10c82a1"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_ow_nether_gold.json"
-hash = "a14cf37faac218e50fa6effa3e69fa1522a4695ecc930d348f99e84e81e72e21"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/configured_feature/ore_redstone_extra.json"
-hash = "79748531edcc58a58cace48b477acb8617156a8018fde15cd3d6bf7953d6aee8"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_calcite.json"
-hash = "538eb80f65edb4706271d7f4ade84358701904c37cca8ad284c9f376e4fdbf35"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_coal_extra.json"
-hash = "b6f24b79427f154d4423e8acf9d00798819d6fd4f3f0078fe759aa5f935f46cb"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_copper_extra.json"
-hash = "7d186c759dd98b484cba193f48bc06afe8b58f24230d48a8793a0af1f4c94890"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_dacite.json"
-hash = "2718c1436a26c9ff9aebc982ded8ec19ab1e782f3735f6b1906d026d9c46f097"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_diamond_extra.json"
-hash = "2bc6270e60f186360aaafc801d8d3a639147e6efce377a09547802017df8dd2c"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_emerald_extra.json"
-hash = "a007a2ae7639ad5ee39086545c193bc576726bf90d4bd64ac35a492d0c801875"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_gold_large_node.json"
-hash = "7018397fdaeda90a45c0838b160cd619184128773b39d7074f2289358e76f6ef"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_iron_extra.json"
-hash = "354196106541aa99e744eef79cf7c3fecdb355fcb40e2a53d13a9b8c54706988"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_lapis_extra.json"
-hash = "e4b2b846f7eea4b63b0512b48c8040f4acc8e6479175d17ea70bc0e022e314da"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_ow_nether_gold.json"
-hash = "fb95aa60d769c3e3a35a3f8f508d98fbe337894bebf0b813b93bde681abda34b"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/cacodion/worldgen/placed_feature/ore_redstone_extra.json"
-hash = "e481ceaadca4f1ee6c1aade671e44bf125ec5801f8e8df51ad48d0d7ad3454f4"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/minecraft/loot_table/blocks/deepslate_lapis_ore.json"
-hash = "b15f3477556e04f650a170fee4842c83ed61ab93eb362d1d739f03d99895a80a"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/minecraft/loot_table/blocks/lapis_ore.json"
-hash = "978ffd638a46a682b8e0db1552f91e600207cfd20fd59e84ca891eb1b86268ca"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/minecraft/tags/function/load.json"
-hash = "75a13897b99e1768d4037d716530d405de5779d141d4f8ab3b87fe538fd21e02"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/data/minecraft/tags/function/tick.json"
-hash = "5e08a42a0a8bc8b1f6353b672b135d19f05163d48e024bb7306068d3b7f45daa"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/pack.mcmeta"
-hash = "bfab424acd215901aca13c3c84c418a6a2a044b164335ac3e706978305faa398"
-
-[[files]]
-file = "config/paxi/datapacks/Q325OreGenModification/pack.png"
-hash = "5f302497030a0fe08e7f31d4abe3d77378db9654c387fed899da738198be2358"
-
-[[files]]
 file = "config/paxi/datapacks/Scarecrow_Obliterator.zip"
 hash = "5ba8f63dc84da829249049813403b343c40557b643af9c4b7e95268b380de32a"
 
@@ -1911,12 +1647,12 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "ae182620b5b407b0ffb828ac1cfdfcc980656d41d232c65fceca5ea0b69ce3f3"
+hash = "e154689e20a180df709539c30075b3492c5661bf6de02a7a2622fc31a0e9ce99"
 metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "7c8aab4707f5b816df47c3bcb6f330337fee960ad91844a66a9920ae3585b6b1"
+hash = "21782cf50547212bf6fca41564043a520971c80277ded0f20c94acbdc2ff86ba"
 metafile = true
 
 [[files]]
@@ -2012,7 +1748,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "1b6a077b9c37a379bf6554b8a9fd550c3ffa4a341a292835084cf9f86a17417c"
+hash = "34d8e28f3e8f815361b9e867234c7bfe83e27f6cf7d3d77b8bb8f7bbff894043"
 metafile = true
 
 [[files]]
@@ -2415,7 +2151,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "f0b46153b8357899eb45c1c1991da11d5ae3dab28dbc92e6b8f49dbe2967c464"
+hash = "4a86edd7760d87df421ffb0a37540944f5e3b63c4e7e1c367f32d0f31985c090"
 metafile = true
 
 [[files]]
@@ -2521,7 +2257,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "8acadeadcc54c2e10e6e59127b530ee37ffd9c555a4d5394af9cd42a920a586e"
+hash = "a77c051483c3182542400b0eb644bbead02ed7f63aca6cf4a0063516c2bfbe4b"
 metafile = true
 
 [[files]]
@@ -2576,7 +2312,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "15a45e8af8967dffb5d618fac969cf8b3c4fd8c2778f56405831229267c559d8"
+hash = "fd88c22267204a4272e4025da9e36507e9ccf3cf9a3609e4f867ab66e5078f4f"
 metafile = true
 
 [[files]]
@@ -2586,7 +2322,7 @@ metafile = true
 
 [[files]]
 file = "mods/misc-tweaks.pw.toml"
-hash = "7176ebc1436dab3e5d45ecebabbdbafe1e651497d7b9141fa32e2672853a6251"
+hash = "18206c7b1dab4e63f6b645237d53045f1032f8102090dc19fbe1e58ef4a6c5a0"
 metafile = true
 
 [[files]]
@@ -2597,11 +2333,6 @@ metafile = true
 [[files]]
 file = "mods/mns-moogs-nether-structures.pw.toml"
 hash = "c4e39e80bcb65f9fb5593cfa8675a27db12350d9977e0b64e5a7c5d108ace000"
-metafile = true
-
-[[files]]
-file = "mods/mobblocker.pw.toml"
-hash = "2b17c5f6f75b32a9e8a423c68dde92576cd7e2369144c25193a24a27a97aaad9"
 metafile = true
 
 [[files]]
@@ -2775,7 +2506,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "f0c2445dda5e79aa150cced34bd42320cb0a7f3003ea0cbaa7086446d42351df"
+hash = "640797ec5f5d25d21334942afbc9c6acfafd73288ce22b4a163634d40e8c576b"
 metafile = true
 
 [[files]]
