@@ -1545,6 +1545,10 @@ file = "journeymap/journeymap.log"
 hash = "0d38e43118b070b1e523fafbec03594613c066edee2586b1d130ebf522b5d63f"
 
 [[files]]
+file = "mods/1RealisticOreGen-neoforge-0.5.0+1.21.1.jar"
+hash = "f8bed86828f3fd133f8a96d0ff034ce5e877391b0621d2ced99ca59bb18e10df"
+
+[[files]]
 file = "mods/777-1.0.jar"
 hash = "5cad9690184c4a90a83930905a70b91923690c4479fdadd9ae7c4902b0e95b7c"
 
@@ -1614,6 +1618,11 @@ metafile = true
 [[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "7969859aac684577ce0235eb20c2d1560599b0d646b8544e39f7e2765b873a13"
+metafile = true
+
+[[files]]
+file = "mods/anti-xray.pw.toml"
+hash = "17b18053866060ac19d564e721d035febcdba82fd94adaadde43a35cbd9eedcf"
 metafile = true
 
 [[files]]
@@ -2768,6 +2777,11 @@ hash = "1ebfff4eec10cc175d492ba8e699ad4d85c66e9e0e72dbaab30f3f80661879a6"
 [[files]]
 file = "mods/wetland-whimsy.pw.toml"
 hash = "f61772815324212c23e047e57582f3d0c29793f75a557963842dfc1606a455bd"
+metafile = true
+
+[[files]]
+file = "mods/wfs-cave-overhaul.pw.toml"
+hash = "2018fd7a163fe82dd29c2b4f890880f94ece4c00e8c2c76feb0d44d4fcdd3a6c"
 metafile = true
 
 [[files]]
