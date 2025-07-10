@@ -1545,8 +1545,8 @@ file = "journeymap/journeymap.log"
 hash = "0d38e43118b070b1e523fafbec03594613c066edee2586b1d130ebf522b5d63f"
 
 [[files]]
-file = "mods/1RealisticOreGen-neoforge-0.5.0+1.21.1.jar"
-hash = "f8bed86828f3fd133f8a96d0ff034ce5e877391b0621d2ced99ca59bb18e10df"
+file = "mods/1realisticoregen-neoforge-0.6.0.jar"
+hash = "fc6a602d03072d86ca83e5a09e46373660a338accff49721499a5fd5624e9ed0"
 
 [[files]]
 file = "mods/777-1.0.jar"
