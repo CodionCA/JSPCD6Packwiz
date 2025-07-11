@@ -1,0 +1,12 @@
+#Login invincibility in ticks. 1 second = 20 ticks
+# Default: 600
+# Range: > 0
+loginInv = 600
+#Respawn invincibility in ticks. 1 second = 20 ticks
+# Default: 200
+# Range: > 0
+respawnInv = 200
+#Dimension change invincibility in ticks. 1 second = 20 ticks.
+# Default: 400
+# Range: > 0
+dimensionInv = 400

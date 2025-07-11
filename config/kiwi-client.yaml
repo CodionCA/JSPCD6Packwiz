@@ -12,7 +12,7 @@ qol:
 debug:
   showTranslatedTagsByDefault: false
   tagsTooltip: true
-  debugTooltipMsg: true
+  debugTooltipMsg: false
   tagsTooltipAppendKeybindHint: true
   F3CopyInInventory: true
   tagsPerPage: 6

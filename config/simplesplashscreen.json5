@@ -6,7 +6,7 @@
 	// Enable/Disable the background image
 	"backgroundImage": false,
 	// Change the color of the background
-	"backgroundColor": 00000000,
+	"backgroundColor": 0,
 	// Change the color of the progress bar
 	"progressBarColor": 22777215,
 	// Change the color of the progress bar frame
