@@ -1,0 +1,13 @@
+name = "Jupiter"
+filename = "Jupiter-2.2-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XbiLGMMU/versions/x176pwu6/Jupiter-2.2-neoforge.jar"
+hash-format = "sha512"
+hash = "927c51d35886803775cd609e2e41d8eed50fa029fd96c7e015176695c5ce63e5b5af5972f95805aff5c84369403e5ad1aaa988529d2fe15a47ce686142cc2194"
+
+[update]
+[update.modrinth]
+mod-id = "XbiLGMMU"
+version = "x176pwu6"

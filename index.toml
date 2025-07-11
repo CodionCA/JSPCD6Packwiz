@@ -1606,6 +1606,16 @@ file = "mods/afk-sleep-1.3.2.jar"
 hash = "6a52e880baa50bb9a770c4ae1bda53ff1d203541cc78eebb14ebaff82284e521"
 
 [[files]]
+file = "mods/all-the-wood-weve-got.pw.toml"
+hash = "39bacb8c9b775f0b38947a43e320c5fc01e49fd4b58aa49660df2a9cc8d4c673"
+metafile = true
+
+[[files]]
+file = "mods/alltheleaks.pw.toml"
+hash = "65a166188636a6e60aad7189b7b90e4cb452654acf63dc4a541fde4400b1d1e6"
+metafile = true
+
+[[files]]
 file = "mods/almanac-lib.pw.toml"
 hash = "4a23eeb043648049dd1ef5d2cdabdba609602aa7c9ccc70bef8fd5c70d2d0c53"
 metafile = true
@@ -1919,6 +1929,11 @@ hash = "36899ae409d7c9bf4a5b322328f3eba6c8de4812a4f8594140a4953b05d62f88"
 metafile = true
 
 [[files]]
+file = "mods/disconnect-packet-fix.pw.toml"
+hash = "a1a3d0ee9d63e183124e37abb009ad398064ff8268a68b40f836579774893f89"
+metafile = true
+
+[[files]]
 file = "mods/distraction-free-recipes.pw.toml"
 hash = "68379d0a55b328fd389cbab544b62d66a1336647102e9222de183c04b1e3ef12"
 metafile = true
@@ -1945,7 +1960,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "4fa1d6b802032c2335bd0f2263e2977b376fd22ee07dc5f57dae9797d0c267d3"
+hash = "975f1280c712d2e86dd4ecddf89c516afbf3f1fb684499d3e5c71fc666c4888c"
 metafile = true
 
 [[files]]
@@ -2069,6 +2084,11 @@ hash = "9d093b62fbc3006495ba111bff1ffa120287bb294214f7dd7456e99014fd9503"
 metafile = true
 
 [[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "c3b0a110f11f64466cb233d2c06a7ab449f8f00165c87e468fcaee659a0eadc9"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
 metafile = true
@@ -2134,6 +2154,11 @@ hash = "13e5e67f38f0045957f01c7bdfefe465c9bd11f8b8e8982a9b45adc24ad04904"
 metafile = true
 
 [[files]]
+file = "mods/gputape.pw.toml"
+hash = "08481ad00651a7603f846d9bbb4285e995eee8d883e024ffead443524c640ee4"
+metafile = true
+
+[[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
@@ -2146,6 +2171,11 @@ metafile = true
 [[files]]
 file = "mods/i-have-slept.pw.toml"
 hash = "6a01b10c808fcacc4612f2b835d19e32c5b8984971df2ee19fafc7524bf758b8"
+metafile = true
+
+[[files]]
+file = "mods/iceandfire-ce.pw.toml"
+hash = "d460c42122622993993b0d711e975573f1f66f32dc917a74eebcf1901f8b9a0c"
 metafile = true
 
 [[files]]
@@ -2216,6 +2246,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar"
 hash = "1eb931a3b0e333c537be14231eee3ec67d262bc338ba6ecc36922690142c37a2"
+
+[[files]]
+file = "mods/jupiter.pw.toml"
+hash = "12eb8f4204a21fb985a3758f86bb8de46a131ef2c0fbefca26f4532158e1b33f"
+metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
@@ -2504,6 +2539,11 @@ hash = "4307d9c3e3077c7dbdb3f3d60e86da43a6668b5cdfe35625859038ac52ac6694"
 metafile = true
 
 [[files]]
+file = "mods/placebo.pw.toml"
+hash = "c5ca38fd4e54c1c59f0caa0b696da20186eb6484432804012557a01af9948457"
+metafile = true
+
+[[files]]
 file = "mods/platform.pw.toml"
 hash = "58992066f622dfee52a6ed7ad835e461c88ac64f485ef20b0d8662871abe0c3f"
 metafile = true
@@ -2712,6 +2752,11 @@ hash = "ad2135b5f7d167f0b30bf823cc77ea4c9113386077688313401d8c4d32d2d6f5"
 metafile = true
 
 [[files]]
+file = "mods/threadtweak-reforged.pw.toml"
+hash = "a778178142291a92adbc31f57914b8366964a1f81038969c9e53a670dfc004f1"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "27f23c2bc5266717f83de1376149ed67107630e0e89f21ec204aa806a448dcfe"
 metafile = true
@@ -2734,6 +2779,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
+metafile = true
+
+[[files]]
+file = "mods/uranus.pw.toml"
+hash = "327aed7decb757e32009f4246c4874073e054b54cf444408abdf4080b6b91c86"
 metafile = true
 
 [[files]]

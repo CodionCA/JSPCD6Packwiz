@@ -1,0 +1,13 @@
+name = "All The Wood We've Got"
+filename = "All-The-Wood-Weve-Got-NeoForge-2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qvq8iHWh/versions/EHdEUy1S/All-The-Wood-Weve-Got-NeoForge-2.2.2.jar"
+hash-format = "sha512"
+hash = "8514a5f473e560cdfe3a7dbaf82bc81959fe941733a5424b97c2105391baceff217c80d13d97e52b30c4fb5b896c5f2758adb9d6f1a1d8552b36dae12f00ca2b"
+
+[update]
+[update.modrinth]
+mod-id = "qvq8iHWh"
+version = "EHdEUy1S"
