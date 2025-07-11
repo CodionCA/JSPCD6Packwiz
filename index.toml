@@ -677,14 +677,6 @@ file = "config/c2me.toml"
 hash = "82085fa768ac1d812acb3f2bdb84674294490336c3abdf4e8c51b5b2be766170"
 
 [[files]]
-file = "config/carryon-client.toml"
-hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
-
-[[files]]
-file = "config/carryon-common.toml"
-hash = "08186597e80c758556d97ada974506a597e2f8cec22bf036b32b4bd9da8898ce"
-
-[[files]]
 file = "config/cataclysm.toml"
 hash = "a9aaae04a5b7298407c952aaf0dfb923a319d1a580d1e77b34029817793a0594"
 
@@ -707,10 +699,6 @@ hash = "023b994dceb56b540c3c7228ee0a3a0bcf008114f292a0e17e7cf35d64d90424"
 [[files]]
 file = "config/cerulean.yml"
 hash = "d9b33f8022bfa4b9818b3abcc197414c1e88272d21b0df4a01db016c7887d5d2"
-
-[[files]]
-file = "config/charmofundying-server.toml"
-hash = "4a4687d0d8eb4ef48c97044bf1e7dc0c69475a9d95331ceb0d1fde3495d17ba4"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -941,44 +929,8 @@ file = "config/doubledoors.json5"
 hash = "b1bcf5aef44e25fdb83ce068e45ebd7f413c285a37457948bfa07eff7912d43c"
 
 [[files]]
-file = "config/dummmmmmy-client.toml"
-hash = "3fff764d23dd7d644d2888c0fc58619fcffd43b76651479f31aaf08120536023"
-
-[[files]]
-file = "config/dummmmmmy-common.toml"
-hash = "9507a75143689ab6f0da55929059652c6cab8dcd7d5e5b14697836232274e6d3"
-
-[[files]]
 file = "config/earlybedtime-common.toml"
 hash = "2ca844447b5084c70ea43c5665b0aa6f7629875f0f62bfa0dd046f18dc9f7da5"
-
-[[files]]
-file = "config/easyanvils-client.toml"
-hash = "e7f75aee2a53eee492917c12e6ee3f7f69808877e59e6b2e8024408e961d8754"
-
-[[files]]
-file = "config/easyanvils-common.toml"
-hash = "f447750708cb0c1773477734490a287ec21161610edac38cf7551ce486702b83"
-
-[[files]]
-file = "config/easyanvils-server.toml"
-hash = "a5ccc7c1080a0f8a33d45ebb941b38dc607597ade1d128cba504a9cc1a873766"
-
-[[files]]
-file = "config/easydisenchanting-common.toml"
-hash = "5b5bef9f016a86580319c8ea13348adcdf8a7c41b6996570b37e280ee0dfda82"
-
-[[files]]
-file = "config/easymagic-client.toml"
-hash = "2ad457c78882a34057f2fb5748398e9614a7fb5e491e8a868534de40cd2c1c6d"
-
-[[files]]
-file = "config/easymagic-common.toml"
-hash = "7a98b95d82e470d071fd0f51d97f4fceb59f7de4af3129e9447f7241f8cac700"
-
-[[files]]
-file = "config/easymagic-server.toml"
-hash = "b2860a71cdc35a6f3cee847622a7085c35d3691f26ca7b4c84098e14bc4369dc"
 
 [[files]]
 file = "config/emi.css"
@@ -1257,10 +1209,6 @@ file = "config/leavesbegone-server.toml"
 hash = "24ff0a6e8d2d18678868edbb77056c1818dc0a02990e626f0d91c6d683c5b632"
 
 [[files]]
-file = "config/letmedespawn.json"
-hash = "4e84f1984c625fbebe688e6e3d16af491b7cecaa881bf18233f251d27e73c550"
-
-[[files]]
 file = "config/lithium.properties"
 hash = "51c13073a88f5ecdd36980ef403d0171775c57d1f0521d20d9de30d2942afefe"
 
@@ -1274,23 +1222,11 @@ hash = "9c6d50ee15da7ed165a4e4df8c4d9e1f30d5a22610ebb6193a6713b27f257cc7"
 
 [[files]]
 file = "config/loadinvincible-server.toml"
-hash = "f26682a8a14ecf65ab6c1183277ddc2429aebd7f57e01ae61b0dcc1f23a13397"
-
-[[files]]
-file = "config/logbegone.json"
-hash = "011b06360e04a15c93305b993c249eae9795a330a283b4ed69e0dbcf5b473879"
-
-[[files]]
-file = "config/longnbtkiller-common.toml"
-hash = "b427525cd67235d00c3caf99c9da19321694ee97125bd28d8a6e5d981eae65ce"
+hash = "ca6849fb3e6063dcfddf6532bb0e73c943cf704ef9cfc73a583d7da031a6976b"
 
 [[files]]
 file = "config/lootintegrations.json"
 hash = "898873bac11398a75f7faddeb31410246d43be578868ba58d390b58667b44d31"
-
-[[files]]
-file = "config/magnumtorch-server.toml"
-hash = "875e213c33c118b1b2edb924c1a770991bb8b9fd94c7280f8a74f5622c39a67f"
 
 [[files]]
 file = "config/minecolonies-client.toml"
@@ -1359,14 +1295,6 @@ hash = "d5e74317691aaf86af3a2729c27795f35a06e35e12e5e39c08fdd8331fa9b84a"
 [[files]]
 file = "config/nanny-server.toml"
 hash = "784d1aeb9489aa1b3e44ecd1a6e9e17aed9a20e2362a762fff6edb61eef3f1e1"
-
-[[files]]
-file = "config/naturescompass-client.toml"
-hash = "a5d664ed8aeecd77bd09611cba93d5f8e3194da8140666d3e97a0c4973dd0981"
-
-[[files]]
-file = "config/naturescompass-common.toml"
-hash = "a48da137411293b525a07b42e4f355484c990f7f7e29cf7dff3e3deebf5af051"
 
 [[files]]
 file = "config/necronomicon.json5"
@@ -1533,14 +1461,6 @@ file = "config/quickerconnectbutton.json5"
 hash = "2307626635dfd883f59c3eacfa93fa7d1a8e87cbe50692d9167320b73adcc878"
 
 [[files]]
-file = "config/raided-common.toml"
-hash = "cf820899e347bdbc87c147feeed634351c6c609798af76043ef2becafb8fdda1"
-
-[[files]]
-file = "config/randomenchantfix-common.toml"
-hash = "61280276e07d2fddc49975d45bc6399d96afa67c3f51ce4971486722f1ea6109"
-
-[[files]]
 file = "config/recipeessentials.json"
 hash = "f8cb1ba8412401a2d8cf5ae05af85e13af1bbda8b3c71dfe087e680075b78440"
 
@@ -1573,14 +1493,6 @@ file = "config/satisfying_buttons-client.toml"
 hash = "d032da8f9949a7b5bb7b4d94fac45e4d10a8820eeb54afbf13363ed5cb97931a"
 
 [[files]]
-file = "config/sawmill-common.toml"
-hash = "d8e1426255686edb79385c41eeda8a77ba29bad6f5cb81bf5873dfe22fa8d788"
-
-[[files]]
-file = "config/sawmill-common_synced.toml"
-hash = "e2dd20f09c193013561502c11cbd164a22bf75e713286080f088d75709b3ad53"
-
-[[files]]
 file = "config/sdrp-common.json"
 hash = "1678703113a153784451115efee005856a88885d02d6dad10a8f28188446f83e"
 
@@ -1611,10 +1523,6 @@ hash = "c36fa99cd9c2e7fb67f0db0347320549a0c6f19e6b32e377646727942e4321c7"
 [[files]]
 file = "config/skinlayers.json"
 hash = "45b0868483a96eac16a4dd6503eacc1e3b30c7540b006131b533c40ebb87720d"
-
-[[files]]
-file = "config/smarterfarmers-common.toml"
-hash = "efab33e9527939c2f77334c7f5cbbdc6283022f9c2299b21a5d873112f938d95"
 
 [[files]]
 file = "config/smoothchunk.json"
@@ -1701,10 +1609,6 @@ file = "config/structurize-server.toml"
 hash = "5f78df4438e8a664da1ac348991f61a138acdaf8e43c9d17daf86cc9e179aa89"
 
 [[files]]
-file = "config/stylisheffects-client.toml"
-hash = "a4a0f8b0237e0f092b0d7c662b1c12a191c567000583a98ca246c89ce0f0a195"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 hash = "912742927f053288f58133d04fbda60343c60a457a28e993fb600d013dc8995b"
 
@@ -1747,22 +1651,6 @@ hash = "786927374dcd74929a3b069fd7b8774e165ac3eec900c99c23e755d1cc9a3b43"
 [[files]]
 file = "config/trimmable_tools.json"
 hash = "c69c4ed8dec4580670d5b41bb5175d9d78ebe331070dd9f5cce02488385a6df2"
-
-[[files]]
-file = "config/twilightdelight-client.toml"
-hash = "cc631d040c7c49df641883ddbfd215865eb6f2ec54b8b5e25b51a376caabc331"
-
-[[files]]
-file = "config/twilightdelight-server.toml"
-hash = "5cfdb2c50288b0d9c78555d0250cd25f198bf8e82d114a830fccb866eda6fb07"
-
-[[files]]
-file = "config/twilightforest-client.toml"
-hash = "ffc2211914005f7dd791908435e35e305f70eb91a07094740a63a639b2a8489a"
-
-[[files]]
-file = "config/twilightforest-common.toml"
-hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
 file = "config/utilitarian-common.toml"
@@ -1869,10 +1757,6 @@ file = "config/watut-server.toml"
 hash = "77c32650cc543180e5d03cf079956b631da769ef0c845cc75f34d95718be91f3"
 
 [[files]]
-file = "config/waystones-common.toml"
-hash = "7b09821ef1b5c95f32e7fc3824b9264cbc56400bc66063702429c0cd08824440"
-
-[[files]]
 file = "config/wetland_whimsy-common.toml"
 hash = "f48e61f1be506340e747a2975b8defb3cc8ccd08846d5283e0669c5378c69ace"
 
@@ -1891,10 +1775,6 @@ hash = "308c7ce7c6c19e00ba27919602663af528964d03ddcc7abf6efcbe45d4b17337"
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
-
-[[files]]
-file = "config/yigd.json"
-hash = "222549b2e4bbb28dca0b0d6e15e7637765622823bf776efa1fcb81cd8d4fe6c8"
 
 [[files]]
 file = "config/yungsmenutweaks-neoforge-1_21.toml"
