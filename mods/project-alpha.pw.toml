@@ -1,0 +1,13 @@
+name = "Project Alpha"
+filename = "project_alpha-0.21-neoforge-1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8zAU4tG7/versions/1dJGUYN8/project_alpha-0.21-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "8b084786033ad8713a7fbe2c2fea6cab9de35c13cda35b7d2cdfca81ab990fad1f989fa74eed5989ba6a2594734eab5b19e4198e34f8b3924ee90afe3920f049"
+
+[update]
+[update.modrinth]
+mod-id = "8zAU4tG7"
+version = "1dJGUYN8"

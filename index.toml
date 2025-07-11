@@ -1545,8 +1545,8 @@ file = "journeymap/journeymap.log"
 hash = "0d38e43118b070b1e523fafbec03594613c066edee2586b1d130ebf522b5d63f"
 
 [[files]]
-file = "mods/1realisticoregen-neoforge-0.7.2+1.21.1.jar"
-hash = "12d7bd337033fd3f04b43f0286e480ddb6991b12dffa1ddfbed8e6c235b1f743"
+file = "mods/1realisticoregen-neoforge-0.9.5+1.21.1.jar"
+hash = "fcc27cbca5aa7f7d58402534eb9684b523672ec6e4a8a835a1fc761254cbacd7"
 
 [[files]]
 file = "mods/777-1.0.jar"
@@ -2526,6 +2526,11 @@ metafile = true
 [[files]]
 file = "mods/project-1171716.pw.toml"
 hash = "9e27067c6b5cf9ba6716bb6e67d564940214bde3cd749a48430a80dc5449cf27"
+metafile = true
+
+[[files]]
+file = "mods/project-alpha.pw.toml"
+hash = "ca38af84952cc1fea1e95986c529f3593e437ff55acee92f8335b15e4713adb2"
 metafile = true
 
 [[files]]
