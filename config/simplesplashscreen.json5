@@ -20,11 +20,6 @@
 	// Change the style of the boss loading bar
 	"bossBarType": "NOTCHED_6",
 	"textures": {
-		"BackgroundTexture": "background.png",
 		"MojangLogo": "mojangstudios.png",
-		"Aspect1to1Logo": "mojank.png",
-		"BossBarTexture": "textures/gui/bars.png",
-		"CustomBarTexture": "progressbar.png",
-		"CustomBarBackgroundTexture": "progressbar_background.png"
 	}
 }

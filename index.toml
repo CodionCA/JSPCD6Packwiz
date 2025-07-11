@@ -1033,18 +1033,6 @@ file = "config/friendsandfoes.json"
 hash = "5378186838edcf828c352a47b0ea7e5f87efcadc7230eef08dc7d2c9ed6d27c7"
 
 [[files]]
-file = "config/ftblibrary-client.snbt"
-hash = "fa3dce4220936b46e31475ca89760708661f74484d11a0e91dbcf0d844bb5552"
-
-[[files]]
-file = "config/ftbquests-client.snbt"
-hash = "bb2f80fcfdb7ea32a04791c8e0b9bf7551f8caff497675254986d410141f3909"
-
-[[files]]
-file = "config/ftbxmodcompat.snbt"
-hash = "ed4b456a630b577b331627f14c444771afd0905417a52fa01a05ca8b4e565a6d"
-
-[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -1401,6 +1389,10 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
 
 [[files]]
+file = "config/paxi/resourcepacks/Biome Music plus v1.0 1.21-1.21.1.zip"
+hash = "12fa0f1b2de5f8b21db7650a61251102272a373846d98d9ee98c372a12889b66"
+
+[[files]]
 file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/edition.png"
 hash = "faaa17abf3b2ca66c8a6cd89561e628f2dbb23e8c892abe6e799f5f5ba23dff2"
 
@@ -1514,7 +1506,7 @@ hash = "017a059c3994d538129686a331a107714ba52c8852597da72f168780cb1c2f69"
 
 [[files]]
 file = "config/simplesplashscreen.json5"
-hash = "ed899b7310afec5c4a41ad23e02282aba97f966ea8629a7484faef821028d211"
+hash = "defddc431ece7cc18516b41c3b7b183344d2b2a0c5cc42284540ece2b3604fbb"
 
 [[files]]
 file = "config/simplesplashscreen/mojangstudios.png"
@@ -1654,7 +1646,7 @@ hash = "c69c4ed8dec4580670d5b41bb5175d9d78ebe331070dd9f5cce02488385a6df2"
 
 [[files]]
 file = "config/utilitarian-common.toml"
-hash = "7c280841a274a7f00423d602b149d86637e77c15b59203e33f5fec909f181da8"
+hash = "55aed32cbe23bbb7c28f2dfdc3d0411623db399f6e6172361855b74eb485808c"
 
 [[files]]
 file = "config/utilitarian-server.toml"
@@ -1989,11 +1981,6 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c495c19a48e96ad7d32d8738a9209539968f7f41db7a5f8d20eed1b0f477fcad"
-metafile = true
-
-[[files]]
-file = "mods/biome-music.pw.toml"
-hash = "d7d497a6c1f81a4f6660f5e17cba8a8a31313479c0b08e964d19e8f71729ad37"
 metafile = true
 
 [[files]]
@@ -2877,6 +2864,11 @@ hash = "fba0893c1da8c6e93beb9dac0e03228ebc108e3016a44d43c6e4d1faea2a16f2"
 metafile = true
 
 [[files]]
+file = "mods/redirected.pw.toml"
+hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "6a48780ffd4bc3b941f81232c84034aba5ff7645ea635c604de6df71e6596bb3"
 metafile = true
@@ -3066,7 +3058,7 @@ metafile = true
 
 [[files]]
 file = "mods/txnilib.pw.toml"
-hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
+hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
