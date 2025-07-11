@@ -1,13 +1,13 @@
 name = "JSPCD 6 Packwiz"
 author = "Codion"
-version = "1.0.0"
+version = "2.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "6232b591f27663561b13a3d763c2a399899b8be1c6c42683ff0ac8bd547d8d3b"
+hash = "5baa4031104b82450a626bf3c5450e094907d905ee40cef0acd1ad3fd202d61d"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.186"
+neoforge = "21.1.191"

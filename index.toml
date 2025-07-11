@@ -1579,12 +1579,12 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "ce5d0cd5986126c23dc35c89a6d2124751071693c034afc3799b4f633466997f"
+hash = "ef5ba56db7a5b69477d4cd673520477af809da16c537de026913fe5417b12811"
 metafile = true
 
 [[files]]
 file = "mods/accessorify.pw.toml"
-hash = "7740342eb90fe7a7797aa249aa9a9e7bdc9a29232fbdb3c6ce04563c3c88e336"
+hash = "7f2b889d381bcf6cb9cd0075567672b467e9de8780dbcb3d4b6f6868fd3241b4"
 metafile = true
 
 [[files]]
@@ -2040,7 +2040,7 @@ metafile = true
 
 [[files]]
 file = "mods/eternal-nether.pw.toml"
-hash = "4a715b35036c1d675a13d8bd9a9402bfdd68b612e559690070cb3ae99d3af311"
+hash = "63c42204d3507e63b104d6fbacf7b516bf80361e8299fcc8a72eeef9faf93dcc"
 metafile = true
 
 [[files]]
@@ -2050,7 +2050,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "1b7bbb527906f5e906a8b02aa03e45141343a5c3af3aedc6ffe7cc776a1d2902"
+hash = "9d5ef968a0955a935959591721cc774ba1f487263a5c76efa1aeee00f0359614"
 metafile = true
 
 [[files]]
@@ -2120,7 +2120,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
-hash = "276d314e482d18421cc3d5675486485685b82b7fca874317e970c6485e31702a"
+hash = "91defd43ae1f8407f483aa97565a9d7745a47c786b5bc7f0d7e804db91cc2f79"
 metafile = true
 
 [[files]]
@@ -2240,7 +2240,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "85a2a7d20c6e6bba9f2dceb2673e5ca772c914f6fd98574f74bb9873576a83eb"
+hash = "888283f82ec13bd4bb1076740c2fec706d237be8a6739cfbcaea5897883acb5e"
 metafile = true
 
 [[files]]
