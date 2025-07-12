@@ -1454,7 +1454,7 @@ hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
 file = "config/quickerconnectbutton.json5"
-hash = "4991403f2cfe3539629913fcfb41361ca0e7505e7d0710f95117db3aaa66cab0"
+hash = "2307626635dfd883f59c3eacfa93fa7d1a8e87cbe50692d9167320b73adcc878"
 
 [[files]]
 file = "config/recipeessentials.json"
@@ -2223,7 +2223,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+hash = "1738064908e96d1bf169a4a50e3781f7d4c9c29e5c172172c800bacbc2bc9952"
 metafile = true
 
 [[files]]
@@ -2468,7 +2468,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "888283f82ec13bd4bb1076740c2fec706d237be8a6739cfbcaea5897883acb5e"
+hash = "d12b5579a7e8a7f64eb3728c8f949c392e055e9f0961f952e8602028f31458f0"
 metafile = true
 
 [[files]]
