@@ -1991,10 +1991,6 @@ hash = "0eb5a072fdf96bbebe654c96a571123e4f4cb25ad67d8e4aaca1160358459531"
 metafile = true
 
 [[files]]
-file = "mods/brutal_respawn-1.0.jar"
-hash = "46176d0eb4d41958456157faf1e9083f684d7f1408ad7b45006d5ff3e94beebf"
-
-[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "c7bc091f4b48122d61f9df0beb9f05a603b5684f87810ce40781eed5bff4ec40"
 metafile = true
