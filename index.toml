@@ -2064,12 +2064,12 @@ metafile = true
 
 [[files]]
 file = "mods/connector-extras.pw.toml"
-hash = "d1e49827d3e37994cd0d94717c19a8bda4efded32a07257eb32e3c90d1563281"
+hash = "179ec97bb6d278f2012c725fdfab2c5b00adb529e4f720587ce6c3409aaa572f"
 metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "5860d3af9951a991d32aa64f31eea4ad7c5e3dde747bd731115cba97854fdc06"
+hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
 metafile = true
 
 [[files]]
