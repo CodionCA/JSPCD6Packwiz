@@ -2227,7 +2227,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+hash = "1738064908e96d1bf169a4a50e3781f7d4c9c29e5c172172c800bacbc2bc9952"
 metafile = true
 
 [[files]]
@@ -2267,7 +2267,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "69b6a7d4d77c7ea9a476891a9a159a6b8d5901c3e860583a1cb88526f3aea06d"
+hash = "322e5753ed863f07771df3f7ab5b145766cf374609556fa4d9d0fc26037ec2d1"
 metafile = true
 
 [[files]]
@@ -2447,7 +2447,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "352bbd56bffa7bb7af6e16ae0e745db85e2d7e9e0ea6037ff866149f6e6e08b8"
+hash = "e34877bf9d74d3f71c69fdd47ce509fa473fadcdf88f87f79754a522cfa1c60b"
 metafile = true
 
 [[files]]
@@ -2472,7 +2472,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "888283f82ec13bd4bb1076740c2fec706d237be8a6739cfbcaea5897883acb5e"
+hash = "d12b5579a7e8a7f64eb3728c8f949c392e055e9f0961f952e8602028f31458f0"
 metafile = true
 
 [[files]]
@@ -2784,7 +2784,7 @@ metafile = true
 
 [[files]]
 file = "mods/quicker-connect-button.pw.toml"
-hash = "b1272c313546b73a3002fc19b4f93289176aaa5276ff1c52935aa6e83abbc1be"
+hash = "bfb3ff9b581060cf94a684a1973e4fbe26f81e4e5eac4e130d8b1f32cd90c29d"
 metafile = true
 
 [[files]]
@@ -2853,7 +2853,7 @@ hash = "879d6677ad94894fda34b6b3d993533c37a8b2dfb914f9407a5ff4f0ba511330"
 
 [[files]]
 file = "mods/seasonhud.pw.toml"
-hash = "c381bda8cace58c9938478ca5eeb0ed0898f8fddd4d9a66c108ef1576d95e7e2"
+hash = "b5e74bb4767e0f797f3c01511ec9f143be450e871b0baa0917907f3947d01e17"
 metafile = true
 
 [[files]]
@@ -2868,7 +2868,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-splash-screen.pw.toml"
-hash = "189d4f5725f29e253319966b573674421512be2dcbed6854aba17dca9702b80e"
+hash = "8154a9f3308ca77ff03412081454ffc4d1969af3e7377dd07c709fa5d507e963"
 metafile = true
 
 [[files]]
@@ -2902,7 +2902,7 @@ metafile = true
 
 [[files]]
 file = "mods/squaremap.pw.toml"
-hash = "faf7ea7a94817783aa5bbf75dfe971c00960dcf7f36f2c93e548eb1e80b6392a"
+hash = "24e58ffc236237b2a11915d907bef33b76e88db2221dc616689981940228b24d"
 metafile = true
 
 [[files]]
@@ -2997,7 +2997,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillin.pw.toml"
-hash = "978e2092174bba920c4b80db81ddb08578cdaace57d650b11b19e94de0295a5c"
+hash = "caedc367395e51354b80a058d491ca45251208f9f17da0502c60d1b87cf6e1c8"
 metafile = true
 
 [[files]]
