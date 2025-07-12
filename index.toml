@@ -1,6 +1,90 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/paxi/datapack_load_order.json"
+hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
+
+[[files]]
+file = "config/paxi/datapacks/BetterEndCities-Vanilla-1.21.zip"
+hash = "37577397d228e112eba127d1dace316b7da7e1348cb931b34958666305adfbee"
+
+[[files]]
+file = "config/paxi/datapacks/Continents_1.21_v1.1.9.zip"
+hash = "3fafc56b776cec33e90499fcdb1ac94513b7ae04fc556cecb6ae55c82ac2da53"
+
+[[files]]
+file = "config/paxi/datapacks/Farmer's Delight Cutting Compat 1.0.zip"
+hash = "e7444cde0a4df808545b1b89daab457516ff6d879ee969a98957c00c5f1923a3"
+
+[[files]]
+file = "config/paxi/datapacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip"
+hash = "26e66358fc8de45c068e02fc5dd42b1ba555a0001ce763528f6cda13318a7be7"
+
+[[files]]
+file = "config/paxi/datapacks/Scarecrow_Obliterator.zip"
+hash = "5ba8f63dc84da829249049813403b343c40557b643af9c4b7e95268b380de32a"
+
+[[files]]
+file = "config/paxi/datapacks/WDA-NoFlyingStructures-1.18.2-1.19.2.zip"
+hash = "78bee139bb66deba62bb3671203556e8a03f306aac320030242e29ac4ead60bf"
+
+[[files]]
+file = "config/paxi/datapacks/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip"
+hash = "3bbcaca8a773be45a2f3f7e04c344d418f797641311d8b9f312bce829858edcb"
+
+[[files]]
+file = "config/paxi/datapacks/comforts_ropenail_fix.zip"
+hash = "e62bee06da90968cfe8d4c3e61d0f96aa21f3ee2d8e975d7028f80efaf49ded3"
+
+[[files]]
+file = "config/paxi/datapacks/formationsoverworldconfig.zip"
+hash = "56e19786aed6858fcb58ba370ffc3390901edbb9e11a92285e38956a1d6509fa"
+
+[[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "1f5409aa902a422380699ec524d83097913196bf27f4ce80d8ea50197b2e43f3"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "65a8f663fc0ab22500027ccf3909eb9e02045b639b8e95cad8f4e1188bb1b73c"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "49cca6e62ada491a2296dee7aa5616e62fba2ad9f7dc8df02a836c67f3b0edff"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "da3c2b904dddc7a0e714b2df9a77b95d7a24a4ca3fba3b6748a86ad5f7048a6d"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "2186daa5cb720989e879f69d0d4ce6cdff48d071e844a3af9600dc1025ae913d"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "4ab0a0c1fdfdc177fb2ce436acc8d1f52fee3e992f4f4c91035efe2b1b831f1d"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/edition.png"
+hash = "faaa17abf3b2ca66c8a6cd89561e628f2dbb23e8c892abe6e799f5f5ba23dff2"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/minecraft.png"
+hash = "97be4b87ec01d3b1da999acac44bb6afbc5a4dede9111fbecbad6a95c5a9651b"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/minecraft.png.mcmeta"
+hash = "a4f5e3c3235dd128ee6d2ce397217e8c77037dbcf641aaa5bef65824e3b4b168"
+
+[[files]]
+file = "config/paxi/resourcepacks/JSPCD6/pack.mcmeta"
+hash = "c77e55cbf12076d31c1978a1f84d00748ed618512128303b72e14b34ef1dc7de"
+
+[[files]]
 file = "configureddefaults/CoroUtil/General.toml"
 hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
@@ -1355,90 +1439,6 @@ hash = "d9a6d7cadb6d473cf087602d9866840d2bb7f2c16915267eb3f6fbf68d5d774d"
 [[files]]
 file = "configureddefaults/paxi-neoforge-1_21.toml"
 hash = "1c060e845e29386597054765729f34b0933fa3d1ff75cdd686a4e925cfe973d8"
-
-[[files]]
-file = "configureddefaults/paxi/datapack_load_order.json"
-hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/BetterEndCities-Vanilla-1.21.zip"
-hash = "37577397d228e112eba127d1dace316b7da7e1348cb931b34958666305adfbee"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/Continents_1.21_v1.1.9.zip"
-hash = "3fafc56b776cec33e90499fcdb1ac94513b7ae04fc556cecb6ae55c82ac2da53"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/Farmer's Delight Cutting Compat 1.0.zip"
-hash = "e7444cde0a4df808545b1b89daab457516ff6d879ee969a98957c00c5f1923a3"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip"
-hash = "26e66358fc8de45c068e02fc5dd42b1ba555a0001ce763528f6cda13318a7be7"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/Scarecrow_Obliterator.zip"
-hash = "5ba8f63dc84da829249049813403b343c40557b643af9c4b7e95268b380de32a"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/WDA-NoFlyingStructures-1.18.2-1.19.2.zip"
-hash = "78bee139bb66deba62bb3671203556e8a03f306aac320030242e29ac4ead60bf"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip"
-hash = "3bbcaca8a773be45a2f3f7e04c344d418f797641311d8b9f312bce829858edcb"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/comforts_ropenail_fix.zip"
-hash = "e62bee06da90968cfe8d4c3e61d0f96aa21f3ee2d8e975d7028f80efaf49ded3"
-
-[[files]]
-file = "configureddefaults/paxi/datapacks/formationsoverworldconfig.zip"
-hash = "56e19786aed6858fcb58ba370ffc3390901edbb9e11a92285e38956a1d6509fa"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepack_load_order.json"
-hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_0.png"
-hash = "1f5409aa902a422380699ec524d83097913196bf27f4ce80d8ea50197b2e43f3"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_1.png"
-hash = "65a8f663fc0ab22500027ccf3909eb9e02045b639b8e95cad8f4e1188bb1b73c"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_2.png"
-hash = "49cca6e62ada491a2296dee7aa5616e62fba2ad9f7dc8df02a836c67f3b0edff"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_3.png"
-hash = "da3c2b904dddc7a0e714b2df9a77b95d7a24a4ca3fba3b6748a86ad5f7048a6d"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_4.png"
-hash = "2186daa5cb720989e879f69d0d4ce6cdff48d071e844a3af9600dc1025ae913d"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/background/panorama_5.png"
-hash = "4ab0a0c1fdfdc177fb2ce436acc8d1f52fee3e992f4f4c91035efe2b1b831f1d"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/edition.png"
-hash = "faaa17abf3b2ca66c8a6cd89561e628f2dbb23e8c892abe6e799f5f5ba23dff2"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/minecraft.png"
-hash = "97be4b87ec01d3b1da999acac44bb6afbc5a4dede9111fbecbad6a95c5a9651b"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/assets/minecraft/textures/gui/title/minecraft.png.mcmeta"
-hash = "a4f5e3c3235dd128ee6d2ce397217e8c77037dbcf641aaa5bef65824e3b4b168"
-
-[[files]]
-file = "configureddefaults/paxi/resourcepacks/JSPCD6/pack.mcmeta"
-hash = "c77e55cbf12076d31c1978a1f84d00748ed618512128303b72e14b34ef1dc7de"
 
 [[files]]
 file = "configureddefaults/perception.yaml"
