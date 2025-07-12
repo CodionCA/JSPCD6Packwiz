@@ -1054,7 +1054,7 @@ hash = "4e3329aa1095d126180a7965ff404f25c104372efbab6c6d9d348909fec0932a"
 
 [[files]]
 file = "config/iceandfire/iaf-common.json"
-hash = "39f4db79962bcdd4299d0392ae87da4cee6566b896afdfcf83675fb44ce48f29"
+hash = "6446da2451707a7d540cef912f93f4a1854237a02ac45978ce2bdae40a6f5ef2"
 
 [[files]]
 file = "config/illagerinvasion-server.toml"
