@@ -5,42 +5,6 @@ file = "config/paxi/datapack_load_order.json"
 hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
 
 [[files]]
-file = "config/paxi/datapacks/BetterEndCities-Vanilla-1.21.zip"
-hash = "37577397d228e112eba127d1dace316b7da7e1348cb931b34958666305adfbee"
-
-[[files]]
-file = "config/paxi/datapacks/Continents_1.21_v1.1.9.zip"
-hash = "3fafc56b776cec33e90499fcdb1ac94513b7ae04fc556cecb6ae55c82ac2da53"
-
-[[files]]
-file = "config/paxi/datapacks/Farmer's Delight Cutting Compat 1.0.zip"
-hash = "e7444cde0a4df808545b1b89daab457516ff6d879ee969a98957c00c5f1923a3"
-
-[[files]]
-file = "config/paxi/datapacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip"
-hash = "26e66358fc8de45c068e02fc5dd42b1ba555a0001ce763528f6cda13318a7be7"
-
-[[files]]
-file = "config/paxi/datapacks/Scarecrow_Obliterator.zip"
-hash = "5ba8f63dc84da829249049813403b343c40557b643af9c4b7e95268b380de32a"
-
-[[files]]
-file = "config/paxi/datapacks/WDA-NoFlyingStructures-1.18.2-1.19.2.zip"
-hash = "78bee139bb66deba62bb3671203556e8a03f306aac320030242e29ac4ead60bf"
-
-[[files]]
-file = "config/paxi/datapacks/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip"
-hash = "3bbcaca8a773be45a2f3f7e04c344d418f797641311d8b9f312bce829858edcb"
-
-[[files]]
-file = "config/paxi/datapacks/comforts_ropenail_fix.zip"
-hash = "e62bee06da90968cfe8d4c3e61d0f96aa21f3ee2d8e975d7028f80efaf49ded3"
-
-[[files]]
-file = "config/paxi/datapacks/formationsoverworldconfig.zip"
-hash = "56e19786aed6858fcb58ba370ffc3390901edbb9e11a92285e38956a1d6509fa"
-
-[[files]]
 file = "config/paxi/resourcepack_load_order.json"
 hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
 
