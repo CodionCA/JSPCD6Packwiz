@@ -1,0 +1,13 @@
+name = "Unnamed Framework"
+filename = "u_framework-1.1.0+mc1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YNXsr9uf/versions/EMjWwXL6/u_framework-1.1.0%2Bmc1.21.jar"
+hash-format = "sha512"
+hash = "50ac0613dc39673c97fee639e9aaffb88c52e62f9effe2ea3ff5d5be72b0501d666d79b8a5bdfaded0ad5fa8a2cbb5f5e24e94b3537d2f40f6a05f5b1fa63148"
+
+[update]
+[update.modrinth]
+mod-id = "YNXsr9uf"
+version = "EMjWwXL6"

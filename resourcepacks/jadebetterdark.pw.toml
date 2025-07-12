@@ -1,0 +1,13 @@
+name = "Jade Better Dark Theme"
+filename = "JadeBetterDark.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3eXLwSSt/versions/LJmu1Z3v/JadeBetterDark.zip"
+hash-format = "sha512"
+hash = "0e15673c2238628b74a5159f3226d848ea3fc573a21e88d9adee8faf250023007d366a05074d4d91e28b1ae820916bc27a959a6e86131299f82a654eec1f4060"
+
+[update]
+[update.modrinth]
+mod-id = "3eXLwSSt"
+version = "LJmu1Z3v"
