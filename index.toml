@@ -2510,6 +2510,11 @@ hash = "297eb75ce1aedc28f183a8891fde9c67318953e6c8adf3d7531a17b211f9349d"
 metafile = true
 
 [[files]]
+file = "mods/ksyxis.pw.toml"
+hash = "7c6239fe970cd45a1f680493b9fceef6870afcfd2de72086bfef3f765bd3c4c6"
+metafile = true
+
+[[files]]
 file = "mods/lead_apple-1.0.1-neoforge-1.21.1.jar"
 hash = "09cc676f14cac7bfc6271e280f5faca6ca6b106a77c77d99536108ca2f4394c4"
 
