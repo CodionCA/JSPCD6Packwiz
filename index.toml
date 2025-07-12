@@ -2182,7 +2182,7 @@ metafile = true
 
 [[files]]
 file = "mods/distraction-free-recipes.pw.toml"
-hash = "68379d0a55b328fd389cbab544b62d66a1336647102e9222de183c04b1e3ef12"
+hash = "ff2865a2d5f3dfa552ef4646800f2a66591195aa5bafb79fc394f9f8c325ace8"
 metafile = true
 
 [[files]]
@@ -2887,7 +2887,7 @@ hash = "6842e00bdaeba759910e5d7a23e14769f4d5cf6f9922cf4db1f873784fba1a3c"
 
 [[files]]
 file = "mods/sound.pw.toml"
-hash = "03c7f8dd923a243289fa24368adcc4055e30fe3bb4fafb7dd5819015824cd1dd"
+hash = "09aada0b552bba47ff11aa0fea653b0694616d8af152926e6f7847a032cd186f"
 metafile = true
 
 [[files]]
