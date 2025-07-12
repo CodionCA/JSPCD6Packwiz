@@ -1,6 +1,6 @@
 name = "Distraction Free Recipes (EMI / REI / JEI)"
 filename = "distraction_free_recipes-neoforge-1.2.1-1.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
