@@ -1942,7 +1942,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "c92c73551dc3ba9f116e0cef1e90bb553bf59f34530c7c281af28ac624a3a9d6"
+hash = "f5cca797ae9120851a79a7ff110e5aea505baae6676fa84e38676625434bccf6"
 metafile = true
 
 [[files]]
@@ -2020,7 +2020,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "34d8e28f3e8f815361b9e867234c7bfe83e27f6cf7d3d77b8bb8f7bbff894043"
+hash = "9fb0ecbeb98d5783947f4535798ef29f23fcd77deb3a754db702e394014b80b2"
 metafile = true
 
 [[files]]
@@ -2675,7 +2675,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
+hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
 metafile = true
 
 [[files]]
@@ -2770,7 +2770,7 @@ metafile = true
 
 [[files]]
 file = "mods/project-alpha.pw.toml"
-hash = "ca38af84952cc1fea1e95986c529f3593e437ff55acee92f8335b15e4713adb2"
+hash = "895ddc02dad6b08dc2d0d927c59a91813fdb7d6e71e4e5c146cfd32fe3452c83"
 metafile = true
 
 [[files]]
@@ -2893,7 +2893,7 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]

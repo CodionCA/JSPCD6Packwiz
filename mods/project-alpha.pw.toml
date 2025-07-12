@@ -1,6 +1,6 @@
 name = "Project Alpha"
 filename = "project_alpha-0.21-neoforge-1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/8zAU4tG7/versions/1dJGUYN8/project_alpha-0.21-neoforge-1.21.1.jar"
