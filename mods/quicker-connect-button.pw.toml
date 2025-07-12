@@ -1,6 +1,6 @@
 name = "Quicker Connect Button"
 filename = "quickerconnectbutton-neoforge-2.2.1+1.21.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
