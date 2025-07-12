@@ -929,10 +929,6 @@ file = "config/doubledoors.json5"
 hash = "b1bcf5aef44e25fdb83ce068e45ebd7f413c285a37457948bfa07eff7912d43c"
 
 [[files]]
-file = "config/dynamic_fps.json"
-hash = "b0a93dcf6cd26c496d75a77b565d102a8974cb819f5f31502c72d0617eccc1bd"
-
-[[files]]
 file = "config/earlybedtime-common.toml"
 hash = "2ca844447b5084c70ea43c5665b0aa6f7629875f0f62bfa0dd046f18dc9f7da5"
 
@@ -2000,7 +1996,7 @@ hash = "46176d0eb4d41958456157faf1e9083f684d7f1408ad7b45006d5ff3e94beebf"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "cf0633c12a953d5e36e7c4af087753ef0f5970073a5496a2f11da195f8f60f1d"
+hash = "c7bc091f4b48122d61f9df0beb9f05a603b5684f87810ce40781eed5bff4ec40"
 metafile = true
 
 [[files]]
