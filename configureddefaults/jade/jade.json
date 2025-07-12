@@ -9,7 +9,7 @@
     "enableAccessibilityPlugin": false,
     "fluidMode": "ANY",
     "perspectiveMode": "CAMERA",
-    "extendedReach": 0.0,
+    "extendedReach": 0.5,
     "debug": false,
     "displayBosses": true,
     "displayMode": "TOGGLE",

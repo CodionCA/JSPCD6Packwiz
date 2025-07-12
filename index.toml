@@ -1186,7 +1186,7 @@ hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "configureddefaults/jade/jade.json"
-hash = "75d40b740354ce9477437e51396860bc5f7e1a410c40c9694b2f725a873185ff"
+hash = "aeb468856430b37192ee574c9ff84f749f481b55833a3636668dda2eecfcdab2"
 
 [[files]]
 file = "configureddefaults/jade/plugins.json"
