@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/jade/jade.json"
+hash = "f5f727f4861595cace83ade5de0b3fd20d8ae5d15618b8d666cf079d54ed0bfe"
+
+[[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
 
@@ -87,6 +91,10 @@ hash = "c77e55cbf12076d31c1978a1f84d00748ed618512128303b72e14b34ef1dc7de"
 [[files]]
 file = "config/quickerconnectbutton.json5"
 hash = "e32a34bfc43f8d72479243934fd88b08b92a513c9454bfe2d9d1711c163566a7"
+
+[[files]]
+file = "config/sounds/event.json"
+hash = "76d2f2a77b1387427f4dc2de00990eab29bcf3ea271e7382f542073c6272f7e9"
 
 [[files]]
 file = "configureddefaults/config/CoroUtil/General.toml"
@@ -1190,7 +1198,7 @@ hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "configureddefaults/config/jade/jade.json"
-hash = "aeb468856430b37192ee574c9ff84f749f481b55833a3636668dda2eecfcdab2"
+hash = "f5f727f4861595cace83ade5de0b3fd20d8ae5d15618b8d666cf079d54ed0bfe"
 
 [[files]]
 file = "configureddefaults/config/jade/plugins.json"
@@ -1590,7 +1598,7 @@ hash = "6b6527929287f45e660ca4c94bdd515223b48e9c94f418e05bd9676dd53f9a60"
 
 [[files]]
 file = "configureddefaults/config/sounds/event.json"
-hash = "6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f"
+hash = "76d2f2a77b1387427f4dc2de00990eab29bcf3ea271e7382f542073c6272f7e9"
 
 [[files]]
 file = "configureddefaults/config/sounds/mod_utils.json"
