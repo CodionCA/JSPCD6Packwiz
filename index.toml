@@ -1920,7 +1920,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "65a166188636a6e60aad7189b7b90e4cb452654acf63dc4a541fde4400b1d1e6"
+hash = "0831678d30da58c44e29e5ef6207e7be0111fd3d2f0f3c5cb815c195b0af0e3b"
 metafile = true
 
 [[files]]
@@ -2052,7 +2052,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "9fb0ecbeb98d5783947f4535798ef29f23fcd77deb3a754db702e394014b80b2"
+hash = "c9ff6bc3156c0a770e226cbb43dfccec61654a9d90f1d2644dbbae8ab23c0be2"
 metafile = true
 
 [[files]]
