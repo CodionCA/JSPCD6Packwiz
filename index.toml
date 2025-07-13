@@ -85,6 +85,10 @@ file = "config/paxi/resourcepacks/JSPCD6/pack.mcmeta"
 hash = "c77e55cbf12076d31c1978a1f84d00748ed618512128303b72e14b34ef1dc7de"
 
 [[files]]
+file = "config/quickerconnectbutton.json5"
+hash = "e32a34bfc43f8d72479243934fd88b08b92a513c9454bfe2d9d1711c163566a7"
+
+[[files]]
 file = "configureddefaults/config/CoroUtil/General.toml"
 hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
@@ -1481,10 +1485,6 @@ file = "configureddefaults/config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
-file = "configureddefaults/config/quickerconnectbutton.json5"
-hash = "4991403f2cfe3539629913fcfb41361ca0e7505e7d0710f95117db3aaa66cab0"
-
-[[files]]
 file = "configureddefaults/config/recipeessentials.json"
 hash = "f8cb1ba8412401a2d8cf5ae05af85e13af1bbda8b3c71dfe087e680075b78440"
 
@@ -1606,7 +1606,7 @@ hash = "820bccce5bd99fdeed446f04aa6b332d6353ece919189db1a29bef9618c12564"
 
 [[files]]
 file = "configureddefaults/config/sparsestructures.json5"
-hash = "603f585bb17d9ffc212ebdf63e3e5b2b53cd47c63fe1d3182418351624ad8ca4"
+hash = "c5f4a2a1b29eac942aace865a8b4843fbe23db70c681b9bf7bd6e4ae4f18ad41"
 
 [[files]]
 file = "configureddefaults/config/spyglass-improvements/settings.json"
