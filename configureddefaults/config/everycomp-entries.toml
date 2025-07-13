@@ -12,9 +12,6 @@
 		[types.wood_type.ars_nouveau]
 			archwood = true
 
-		[types.wood_type.mynethersdelight]
-			powdery = true
-
 		[types.wood_type.gardens_of_the_dead]
 			whistlecane = true
 			soulblight = true
@@ -60,6 +57,9 @@
 
 		[types.wood_type.iceandfire]
 			dreadwood = true
+
+		[types.wood_type.project_alpha]
+			alpha_oak = true
 
 		[types.leaves_type.ars_nouveau]
 			blue_archwood = true
@@ -211,6 +211,9 @@
 
 		[types.leaves_type.iceandfire]
 			dreadwood = true
+
+		[types.leaves_type.project_alpha]
+			alpha_oak = true
 
 #Disables specific entries
 [entries]

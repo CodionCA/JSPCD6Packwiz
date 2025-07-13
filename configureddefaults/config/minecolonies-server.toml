@@ -124,8 +124,7 @@
 	maxBarbarianSize = 80
 	#minecolonies.config.dobarbariansbreakthroughwalls.comment [Default: true]
 	dobarbariansbreakthroughwalls = true
-	#You just removed a favourite entry!
-	#You can add it back by clicking the + button over here! [Default: 14, min: 1, max: 50]
+	#The average number of nights between raids. [Default: 14, min: 1, max: 50]
 	# Default: 14
 	# Range: 1 ~ 50
 	averagenumberofnightsbetweenraids = 14

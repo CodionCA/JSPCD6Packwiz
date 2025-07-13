@@ -10,7 +10,7 @@
     "iceandfire.dragon.generate.skeletonChance": 0.0033333333333333335,
     "iceandfire.dragon.generate.denGoldAmount": 0.025,
     "iceandfire.dragon.generate.oreRatio": 0.0,
-    "iceandfire.dragon.griefing": false,
+    "iceandfire.dragon.griefing": true,
     "iceandfire.dragon.tamedGriefing": false,
     "iceandfire.dragon.flapNoiseDistance": 4,
     "iceandfire.dragon.fluteDistance": 8,
