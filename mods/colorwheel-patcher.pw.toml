@@ -1,13 +1,13 @@
 name = "Colorwheel Patcher"
-filename = "colorwheel_patcher-neoforge-0.2.3+mc1.21.1.jar"
+filename = "colorwheel_patcher-neoforge-0.2.4+mc1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/KPsw5jDu/versions/VGJwkyfg/colorwheel_patcher-neoforge-0.2.3%2Bmc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/KPsw5jDu/versions/TxG8hsQV/colorwheel_patcher-neoforge-0.2.4%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "15de51713766fd14ed489ab6801fa6002614f087f10682c08b3eee18dc44bba024bd7b8d69098b565ecff619e5241bffdfb050177b14714237a7f99761c51cf5"
+hash = "ee3fa2cee448fa7733a20d1e0cda6ca6868063ef234c78d55798cff7d62181880639a12655401c7e15329add38b8253292471dc5d96b57d666fec68cacd9ff26"
 
 [update]
 [update.modrinth]
 mod-id = "KPsw5jDu"
-version = "VGJwkyfg"
+version = "TxG8hsQV"

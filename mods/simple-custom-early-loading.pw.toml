@@ -1,0 +1,13 @@
+name = "Simple Custom Early Loading"
+filename = "SimpleCustomEarlyLoading-2.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "da0f41ed21eda5fa6893bad210c0f111fcfa89c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6440309
+project-id = 1214077

@@ -93,6 +93,18 @@ file = "config/quickerconnectbutton.json5"
 hash = "e32a34bfc43f8d72479243934fd88b08b92a513c9454bfe2d9d1711c163566a7"
 
 [[files]]
+file = "config/simple-custom-early-loading.json"
+hash = "b519929bad2999674ae456ce53bcfb5a31f903e845742e48ecb68968d8e27f81"
+
+[[files]]
+file = "config/simple-custom-early-loading/background.png"
+hash = "f93e8964e296953b1d27687b0706c6739e23d494f30f71aa6a84897aa73900b6"
+
+[[files]]
+file = "config/simple-custom-early-loading/loading.png"
+hash = "8f85b667b23198165d7de3324edeeec347fe78986fb9f9f9ce2f3ed52344906d"
+
+[[files]]
 file = "config/sounds/event.json"
 hash = "76d2f2a77b1387427f4dc2de00990eab29bcf3ea271e7382f542073c6272f7e9"
 
@@ -1887,7 +1899,7 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "ef5ba56db7a5b69477d4cd673520477af809da16c537de026913fe5417b12811"
+hash = "87f3b1dbbc4cce1eeb5566e041fae7431b1f607cade6232df8417fd241e298f2"
 metafile = true
 
 [[files]]
@@ -1920,7 +1932,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "0831678d30da58c44e29e5ef6207e7be0111fd3d2f0f3c5cb815c195b0af0e3b"
+hash = "22399e0157278281252971cde18e0c3eb6e0d96f722239ee5ec1238f77393ac4"
 metafile = true
 
 [[files]]
@@ -2052,7 +2064,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "c9ff6bc3156c0a770e226cbb43dfccec61654a9d90f1d2644dbbae8ab23c0be2"
+hash = "7fae1900c2960eba037ae1830977b9418f791714e0d723d85653334f447296c9"
 metafile = true
 
 [[files]]
@@ -2067,12 +2079,12 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel-patcher.pw.toml"
-hash = "7f73ce8baa7b27b1b6681c89c727ac216122e5e7a6ba34dc3844f425135585c2"
+hash = "2d8c419acad3bab8eb54c6d5461f99ab76d924b753a9c811e7e94d624fe32f61"
 metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "3e8a5d92b96baa31d7e22bb473d77db092dbfa5cf250db6a6172483ce06ae474"
+hash = "9da820e4bd91294a900ec2c2859fa8ae261a573922df3a15ca64cb838c76df9f"
 metafile = true
 
 [[files]]
@@ -2229,11 +2241,6 @@ hash = "c8383c70201cb18414db84f85f4326dd0ca564f0d57500cad8f7f22a42f41e73"
 metafile = true
 
 [[files]]
-file = "mods/dyed-flames.pw.toml"
-hash = "934815ee8a4c3935f7992f32c68afc3c93952eebf9e48858e1957eb980031a87"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "975f1280c712d2e86dd4ecddf89c516afbf3f1fb684499d3e5c71fc666c4888c"
 metafile = true
@@ -2241,16 +2248,6 @@ metafile = true
 [[files]]
 file = "mods/early-bedtime.pw.toml"
 hash = "8e4f8e1000e5bae8342956b3a734a1c70fba05a944150666d0675a7de353d19e"
-metafile = true
-
-[[files]]
-file = "mods/easy-anvils.pw.toml"
-hash = "3ded0d68b09fe994803e3129cefd1db3b20e0cc9a70892af7c9e4f70523d5536"
-metafile = true
-
-[[files]]
-file = "mods/easy-disenchanting.pw.toml"
-hash = "bc348d78c564e66bb4109519447eef1322c3cfeb28da458dac87652d6f111882"
 metafile = true
 
 [[files]]
@@ -2416,11 +2413,6 @@ metafile = true
 [[files]]
 file = "mods/gputape.pw.toml"
 hash = "08481ad00651a7603f846d9bbb4285e995eee8d883e024ffead443524c640ee4"
-metafile = true
-
-[[files]]
-file = "mods/handcrafted.pw.toml"
-hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
 
 [[files]]
@@ -2633,7 +2625,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "f3f5f631ee96a2b701c5f396f887a33a96955387e8c5085e8ebd72cb6996605c"
+hash = "a9593968393bae08257ba9aae887ad60fc49991f676b637006b2bcd89907f09a"
 metafile = true
 
 [[files]]
@@ -2900,6 +2892,11 @@ hash = "cc5914bc09a7362dfd660fbeff105d3595b19de9c6491327272f85c557d4aa3b"
 metafile = true
 
 [[files]]
+file = "mods/simple-custom-early-loading.pw.toml"
+hash = "27113bc69e0c3b903e27fcf9df5483e4937b2b67431e56e20601e554303f77a6"
+metafile = true
+
+[[files]]
 file = "mods/simple-splash-screen.pw.toml"
 hash = "189d4f5725f29e253319966b573674421512be2dcbed6854aba17dca9702b80e"
 metafile = true
@@ -3041,11 +3038,6 @@ metafile = true
 [[files]]
 file = "mods/villager-names.pw.toml"
 hash = "eb6493a160f157ae4d0f57edccf82036c8a3b514c56dacfe41f9c3fe72583396"
-metafile = true
-
-[[files]]
-file = "mods/visual-workbench.pw.toml"
-hash = "1139403fa449692a4cea41e24328533ccae30d0cd92c8e95fef43109ff72b490"
 metafile = true
 
 [[files]]
