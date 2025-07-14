@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fml.toml"
-hash = "23710bf5c5cc2268645b9213e4c8f96a0fda4c8069e88fb52b97d7aa11171208"
+hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -2302,11 +2302,6 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "9d5ef968a0955a935959591721cc774ba1f487263a5c76efa1aeee00f0359614"
-metafile = true
-
-[[files]]
-file = "mods/explorations.pw.toml"
-hash = "92d9c16913173e1e3385c0e5b3a109be4ab75007f5425c5a5bd2460d4a467418"
 metafile = true
 
 [[files]]
