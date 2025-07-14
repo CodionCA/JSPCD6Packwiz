@@ -1912,11 +1912,6 @@ hash = "7f2b889d381bcf6cb9cd0075567672b467e9de8780dbcb3d4b6f6868fd3241b4"
 metafile = true
 
 [[files]]
-file = "mods/adorabuild-structures.pw.toml"
-hash = "645d62622dc3aa067a87b61d42aa4ebe6d6bb68f5b25f202192e2f73cc88df03"
-metafile = true
-
-[[files]]
 file = "mods/adventure-dungeons-mod-edition.pw.toml"
 hash = "3571243aea97321410039ab44f35dd5f295761b888a3a7503069e03d87dfb7ed"
 metafile = true
