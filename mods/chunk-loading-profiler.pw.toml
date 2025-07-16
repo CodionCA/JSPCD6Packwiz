@@ -1,0 +1,13 @@
+name = "Chunk Loading Profiler"
+filename = "chunkloadingprofiler-1.21.1+0.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5fe87e7d42e95e8bd145e3c2160d4f744cdd45b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6342085
+project-id = 1224670

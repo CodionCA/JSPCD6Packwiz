@@ -1,13 +1,13 @@
 name = "Terra Curio"
-filename = "terra_curio-1.1.0.jar"
+filename = "terra_curio-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0270b334df476bf45fd97ba700cd19f7cdcc0406"
+hash = "15b0fd7aea359280681918a8bdd4ed1d7b0534c8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6545988
+file-id = 6775102
 project-id = 1027625
