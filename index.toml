@@ -2153,8 +2153,13 @@ file = "journeymap/journeymap.log"
 hash = "0d38e43118b070b1e523fafbec03594613c066edee2586b1d130ebf522b5d63f"
 
 [[files]]
-file = "mods/1realisticoregen-neoforge-0.9.9+1.21.1.jar"
-hash = "0744a2e0bcc4bdb24fd27ed940ca677cd94153cd0fe58a17834936cd7e0ac82a"
+file = "mods/1realisticoregen-neoforge-1.1.0+1.21.1.jar"
+hash = "0a4c9e393aac9f3d5e387f03384e15bdd873f4ff15d1c1a8084c5d911e57dc1c"
+
+[[files]]
+file = "mods/24w33a_bundle_recipe.pw.toml"
+hash = "dd07b6f3ff63999c1dae3a1937a437c2aaebeb277a4b9aa951a0c47ebc816c4c"
+metafile = true
 
 [[files]]
 file = "mods/777-1.0.jar"
@@ -2203,7 +2208,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "536df9d591231664006ccb886822cda12f280b26f9adb5dce6c27c0f7ef1e9dd"
+hash = "467b52f808473c3a8c8381102a34d2d863b42d97760f92160ed04125629ea3e5"
 metafile = true
 
 [[files]]
@@ -2303,11 +2308,6 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "0eb5a072fdf96bbebe654c96a571123e4f4cb25ad67d8e4aaca1160358459531"
-metafile = true
-
-[[files]]
-file = "mods/bundle-recipe.pw.toml"
-hash = "24839d5359a47def2ebe1a9ff9dee26a77f3480ff7c5b29f7db2080e3d0ad58d"
 metafile = true
 
 [[files]]
@@ -2543,7 +2543,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
 metafile = true
 
 [[files]]
@@ -3045,7 +3045,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "54b1a62c202dd0406129bb15c76e1c5e4677a033b375de2ccd456e9a31b95d1a"
+hash = "2042bf4b5b3bdd0faafa8310673ab3a6115240f4f36e5e2ff38c7d933e483637"
 metafile = true
 
 [[files]]
@@ -3121,6 +3121,16 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-emi-integration.pw.toml"
+hash = "4a5af515250fbde913593346d51b2c4ac8f660e71ba21f65f49a02209bb65509"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "0bdf00282ab81f673f763a2a0afbe76d499f5193f5e738eef333fc131922d5e3"
 metafile = true
 
 [[files]]
