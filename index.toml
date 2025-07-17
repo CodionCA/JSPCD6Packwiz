@@ -2189,6 +2189,11 @@ hash = "7f2b889d381bcf6cb9cd0075567672b467e9de8780dbcb3d4b6f6868fd3241b4"
 metafile = true
 
 [[files]]
+file = "mods/advancedperipherals.pw.toml"
+hash = "56485be0c1e5773aa608bbb7980f228c7c79396c40fdbc87bee25adabc1fe7e0"
+metafile = true
+
+[[files]]
 file = "mods/adventure-dungeons-mod-edition.pw.toml"
 hash = "3571243aea97321410039ab44f35dd5f295761b888a3a7503069e03d87dfb7ed"
 metafile = true
@@ -2318,6 +2323,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked-1.21.1-forge-1.116.0.jar"
 hash = "3ed8e6f0b8519f01f01f4bbc8d1720a63d165a879725af66c4b860c2a90d5709"
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "88773a3eb40bdea95e454e38e9f8b8154d119997fbdd31c7c4bf8c24baaf4de4"
+metafile = true
 
 [[files]]
 file = "mods/ccbr-1.1.4-neoforge-1.21.1.jar"
