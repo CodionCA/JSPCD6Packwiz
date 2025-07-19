@@ -9,6 +9,10 @@ file = "config/fml.toml"
 hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
+file = "config/item_obliterator.json5"
+hash = "6d012e14ab053bbcff6d77f69502f15191bc30522aa4fdc9bc3f00576f417844"
+
+[[files]]
 file = "config/jade/jade.json"
 hash = "f5f727f4861595cace83ade5de0b3fd20d8ae5d15618b8d666cf079d54ed0bfe"
 
@@ -2296,6 +2300,11 @@ hash = "f231645246372f27f87a7002d40bf646d82e6e4733c3d1b9f13b01904cf980d1"
 metafile = true
 
 [[files]]
+file = "mods/better-ping-display.pw.toml"
+hash = "cc2e6dda94a7a6f5487843cafe569d8044bf9482cbf03f062cf4595f1fb05281"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c495c19a48e96ad7d32d8738a9209539968f7f41db7a5f8d20eed1b0f477fcad"
 metafile = true
@@ -2476,6 +2485,11 @@ metafile = true
 [[files]]
 file = "mods/create_trimmed.jar"
 hash = "77c94f473baee87f89bd6793da0e3425c578425ca31af148b2840221ea79f19a"
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "0d3bcce402b76cfa495a68c987e2a67a79a9bdf625a45266dec855610f1bd48e"
+metafile = true
 
 [[files]]
 file = "mods/creeper-overhaul.pw.toml"
@@ -2777,6 +2791,11 @@ hash = "a53db3cbfcc59ff30269743315bdaa929271bb7cd31674285a364e8162e44a7f"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "139c5ee36d4528998d33d47ec4c5538f9ce7043b2197879db5f8945e8fe991bb"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "407c4cc8cb9920a9b23674d81952c512302525755d8fba12e94acecaaae949e7"
 metafile = true
@@ -2986,7 +3005,7 @@ metafile = true
 
 [[files]]
 file = "mods/necronomicon.pw.toml"
-hash = "6acba5e53610fc3e62bd9641aeaaba056f99248a2d1d86bbf032061a1e408826"
+hash = "f4e01222594116f7ebe3bd3908ae066550172eafb9a1ef383b277be569c38e45"
 metafile = true
 
 [[files]]
