@@ -1722,7 +1722,7 @@ hash = "4d3a991d0f3b9c6dfde2c5c8ecf54968833f4e4a3cf728dc39af99634e3047e5"
 
 [[files]]
 file = "configureddefaults/config/options.txt"
-hash = "05914b911e2789b0854185555be8faf532916d084888c013e95a8bcdd45976a6"
+hash = "99a96c8a8efe5a180e26762fc697bf5c1048f5e76d56b4c9db85254f567dbb78"
 
 [[files]]
 file = "configureddefaults/config/otbwgdelight-common.toml"
@@ -2448,7 +2448,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "ef9a6da83be95d05a9328f74e3ef7378d7a5c82f191001bce69efb220f6c2498"
+hash = "d41d4ec1f45e8df91975f0484a52489edaf61defbcb5ad8e5ee67ba2b79a3ffb"
 metafile = true
 
 [[files]]
@@ -3407,6 +3407,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
+metafile = true
+
+[[files]]
+file = "mods/unilib.pw.toml"
+hash = "2dda0b5d6b386fbbf9cf0deae33bdb4491b6aabda716a2d65040e4a730530473"
 metafile = true
 
 [[files]]

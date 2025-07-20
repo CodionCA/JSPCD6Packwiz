@@ -1,13 +1,13 @@
 name = "CraftPresence"
-filename = "CraftPresence-2.4.3+1.21.jar"
+filename = "CraftPresence-2.6.1+1.21.1-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/QcpLHnp7/CraftPresence-2.4.3%2B1.21.jar"
+url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/P6M5nES1/CraftPresence-2.6.1%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "6e440770d3291bb90d8a3b5bbbd1a223c933c16a8d7cc0804a2248fd58d5a4a4fa932e20e5502c9710646a67fc2b8af38e14fded01c72f0e86a61e78c5eb546a"
+hash = "2bcca798167d4ac722db43d058360cab266f64eb762380521fba87c46712e3bed3c36081a06f4eecbff6fe5623e1c319e18731868144f593ee715492fe62d829"
 
 [update]
 [update.modrinth]
 mod-id = "DFqQfIBR"
-version = "QcpLHnp7"
+version = "P6M5nES1"
