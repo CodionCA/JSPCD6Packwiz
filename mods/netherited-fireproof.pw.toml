@@ -1,0 +1,13 @@
+name = "Netherited"
+filename = "netherited-neoforge-1.21-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LboV1AEJ/versions/6eOwwGrm/netherited-neoforge-1.21-2.0.2.jar"
+hash-format = "sha512"
+hash = "52d9404234cccaa6eeed3594202b55457fc1a33d2412f46160bfb205e392d2cbfe5b3065de56b26278edcaf8e779129c04f2665bf283f144331e34e405774437"
+
+[update]
+[update.modrinth]
+mod-id = "LboV1AEJ"
+version = "6eOwwGrm"

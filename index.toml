@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/corpse-server.toml"
+hash = "b51aab3ec57fecbdbe030155dba17ca7e548c6b929a528d23c5b5b80b7ef35a6"
+
+[[files]]
 file = "config/craftpresence.json"
 hash = "b525be344179268fa552f13d48741ab6e112687c08677fe3e073a475cec7a3e3"
 
@@ -2379,7 +2383,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "d3c143c5b518d2a57888cf1916e06bdb0f50e83b8341bf65885cdc769886647f"
+hash = "3c77cfac6baca0b34f29f071d47aed281cf0a27c5284145fff9b1461c24e26f8"
 metafile = true
 
 [[files]]
@@ -2435,6 +2439,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
+metafile = true
+
+[[files]]
+file = "mods/corpse.pw.toml"
+hash = "d0c4db41717ede48a6f9c47ce2cd30a4336b7520279cac56649f96939cd1e7cb"
 metafile = true
 
 [[files]]
@@ -2504,6 +2513,11 @@ metafile = true
 [[files]]
 file = "mods/cyanide.pw.toml"
 hash = "5dc1d489ff26e602c1816d0f4d41817fca10d2de0be4a6525bcb605dc47bc5d0"
+metafile = true
+
+[[files]]
+file = "mods/death-backup.pw.toml"
+hash = "8136c505639b50713160f2634bc7d12c44a47e167a852e9745aa716ba8e44cc4"
 metafile = true
 
 [[files]]
@@ -3009,6 +3023,11 @@ hash = "f4e01222594116f7ebe3bd3908ae066550172eafb9a1ef383b277be569c38e45"
 metafile = true
 
 [[files]]
+file = "mods/netherited-fireproof.pw.toml"
+hash = "a27decfb02aab10cabc0a2c27ddb05c03dbee828cefe09bc0b13788a166df3d8"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar"
 hash = "242267afa324352130adb2263a5667e421c6f4c573ad0dfe0565971255ea5a1e"
 
@@ -3278,6 +3297,11 @@ metafile = true
 [[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "dc97ef16a6526c12945cf70ca642148a9bdcb75a98d986245a7e20d35cabb5d5"
+metafile = true
+
+[[files]]
+file = "mods/stop-lightning-destruction-of-item.pw.toml"
+hash = "1f17dc4701a4ac40bfd0b9357ed30678ee89dfebcb3e61e90a485c2af8a185a9"
 metafile = true
 
 [[files]]

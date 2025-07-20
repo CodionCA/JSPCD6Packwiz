@@ -1,0 +1,13 @@
+name = "Stop Lightning Destruction of Item"
+filename = "stop_lightning_destruction_of_item-1.0.0+1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/5nD2Yl0n/versions/taoodt0E/stop_lightning_destruction_of_item-1.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "c867075751420b6cd312487559f82955db69c25b023b8de97ba647b902b60c8d77dd6b98feedef8fb682807333c72af2cfd1a8533dbeecf652bc1ba3cf7ef6ff"
+
+[update]
+[update.modrinth]
+mod-id = "5nD2Yl0n"
+version = "taoodt0E"
