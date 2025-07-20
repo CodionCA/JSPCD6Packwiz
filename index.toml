@@ -21,6 +21,10 @@ file = "config/jade/jade.json"
 hash = "f5f727f4861595cace83ade5de0b3fd20d8ae5d15618b8d666cf079d54ed0bfe"
 
 [[files]]
+file = "config/minecolonies-common.toml"
+hash = "00911fd52ff86068406c4646ab6bde024ed3d64c5f1b7ada3aa80b400ed9435e"
+
+[[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "89a86742f6110ea11b461860ec4eda79e3adf059272f1e1a0f2e1e6690dfd736"
 
@@ -2781,7 +2785,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "dbc34ada7af1fe08105d440312f544dc1fc0ef2032ef8bc0adda9f0e9c4fb067"
+hash = "019fea93516a470bbcad284dd0cbad6f4e2914d96221c86e3f87c12fe6321e10"
 metafile = true
 
 [[files]]
@@ -2822,6 +2826,11 @@ metafile = true
 [[files]]
 file = "mods/it-takes-a-pillage-continuation.pw.toml"
 hash = "afe83fa4b59374fae3365933b82703b1aea396c67b1c420c4606a58cae3afe4c"
+metafile = true
+
+[[files]]
+file = "mods/item-borders.pw.toml"
+hash = "709a01e949975ef624c4fbeabb1d8a2339eb50709d2b3e1e84732ca31f341c4d"
 metafile = true
 
 [[files]]
@@ -2910,6 +2919,11 @@ metafile = true
 [[files]]
 file = "mods/loading-invincibility.pw.toml"
 hash = "117af7f7407e572a222fa1ee017d21c4da9bb7a9465ce12975ccc54ccd031006"
+metafile = true
+
+[[files]]
+file = "mods/loot-beams-refork.pw.toml"
+hash = "9fa5b4be2314cc12c5d516e6d9f3c573b0b8689f83f4a41e59fe6eaafbfcb57a"
 metafile = true
 
 [[files]]
@@ -3067,6 +3081,11 @@ hash = "f77449a8b5e469eca264a2372ed8c180a2dfb8f068013c8c1a2717c00f2aefc2"
 metafile = true
 
 [[files]]
+file = "mods/nirvana-library.pw.toml"
+hash = "6048c4793611860f18d124f2e52c019a6e90f62c03c453d2bf9fbdaa29ac97f3"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
 metafile = true
@@ -3164,6 +3183,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "a69a8ba0d9e52361b1853cf59b2cf2a38b668b1d508a565f315f2fa30407f546"
+metafile = true
+
+[[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "d9b38ba42434eb436d036b1c8add839bee003240dc85cc54ec626aac58c59070"
 metafile = true
 
 [[files]]

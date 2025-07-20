@@ -1,0 +1,13 @@
+name = "Loot Beams: Refork"
+filename = "Loot Beams Refork-neoforge-1.21.1-3.2.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rp7ooqvq/versions/s3RCNrPO/Loot%20Beams%20Refork-neoforge-1.21.1-3.2.6.jar"
+hash-format = "sha512"
+hash = "9be84a3fdea06a11ef6360a38c13fac71168131f744bb2ac4278aaef15c559eae161bec06355bed979b1ca5a6577064135cf673f91925e959b6ae0127e510d9f"
+
+[update]
+[update.modrinth]
+mod-id = "rp7ooqvq"
+version = "s3RCNrPO"
