@@ -2338,10 +2338,6 @@ hash = "c7bc091f4b48122d61f9df0beb9f05a603b5684f87810ce40781eed5bff4ec40"
 metafile = true
 
 [[files]]
-file = "mods/cc-tweaked-1.21.1-forge-1.116.0.jar"
-hash = "3ed8e6f0b8519f01f01f4bbc8d1720a63d165a879725af66c4b860c2a90d5709"
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "88773a3eb40bdea95e454e38e9f8b8154d119997fbdd31c7c4bf8c24baaf4de4"
 metafile = true
