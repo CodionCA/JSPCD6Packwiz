@@ -13,6 +13,10 @@ file = "config/fml.toml"
 hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
+file = "config/iceandfire/iaf-common.json"
+hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
+
+[[files]]
 file = "config/item_obliterator.json5"
 hash = "6d012e14ab053bbcff6d77f69502f15191bc30522aa4fdc9bc3f00576f417844"
 
@@ -2657,11 +2661,6 @@ metafile = true
 [[files]]
 file = "mods/explosive-enhancement-forge.pw.toml"
 hash = "fc8948d1a8837b7a89a3b754335fd53086ba89c78af9c3d07fa899761c6a9e50"
-metafile = true
-
-[[files]]
-file = "mods/extra-mod-integrations.pw.toml"
-hash = "6f59e18621f30c6dc0ffa7f34324b423f3e3a7a8c251560c6a1dd835b6bce87a"
 metafile = true
 
 [[files]]
