@@ -2992,11 +2992,6 @@ hash = "65affb798d61bda1cd391845d321a8b5779893851b037b3209e8dfe419c8b774"
 metafile = true
 
 [[files]]
-file = "mods/moonlight.pw.toml"
-hash = "95d33b7b3566eb54d99be7084a1f2903e670ab376e5c50ad4fa566b53e2987ff"
-metafile = true
-
-[[files]]
 file = "mods/more-villagers-re-employed.pw.toml"
 hash = "729c7821919b9e17d83cbf8b8c59b6107527d4b5e2e5cbb1608fe2aee458f872"
 metafile = true
@@ -3262,6 +3257,11 @@ hash = "879d6677ad94894fda34b6b3d993533c37a8b2dfb914f9407a5ff4f0ba511330"
 [[files]]
 file = "mods/seasonhud.pw.toml"
 hash = "c381bda8cace58c9938478ca5eeb0ed0898f8fddd4d9a66c108ef1576d95e7e2"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "a0822a53e5d1c22e28d6074ac0f5eaf968e3bd9282a4e35799b4a0e14a7d69c1"
 metafile = true
 
 [[files]]
