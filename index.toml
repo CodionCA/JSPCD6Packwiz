@@ -3491,6 +3491,10 @@ file = "packwizconverter.py"
 hash = "3c7efc88823350c91c9189790ef643e079c7c2cffa5801f98ad7e00c4f2a3d43"
 
 [[files]]
+file = "resourcepacks/CodionsEpicShieldMovingRP.zip"
+hash = "86737d2fbf27e94ceedd116aaa71c6b613447354562f2111f3f0b5f48f29ba00"
+
+[[files]]
 file = "resourcepacks/CodionsVanillaTweaks_r366274_MC1.21.x.zip"
 hash = "cad4971db33dfbefde82a387ba93b8da54ab74c1f9ad827ab22edf37caec971d"
 
