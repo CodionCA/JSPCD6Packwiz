@@ -13,6 +13,10 @@ file = "config/fml.toml"
 hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
+file = "config/goblintraders-entities.toml"
+hash = "e398578d2de6eea5d3c30de865f7facc1a288549127d2dcc371ebaff8f400a78"
+
+[[files]]
 file = "config/iceandfire/iaf-common.json"
 hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
 
@@ -417,6 +421,18 @@ hash = "76d2f2a77b1387427f4dc2de00990eab29bcf3ea271e7382f542073c6272f7e9"
 [[files]]
 file = "config/terra_curio-client.toml"
 hash = "5b05e1decc37d3d972557d4d361d77deaefb86e1b88c7ea255992f2298674b50"
+
+[[files]]
+file = "config/watut-client.toml"
+hash = "25bcc69769d337c9816cc722013573f00d08dc13aef017f231d7dbd9a4df42ad"
+
+[[files]]
+file = "config/watut-common.toml"
+hash = "93d4055b22552b80ae5f96d396b335910993ab7010b562a34291adade59df4f6"
+
+[[files]]
+file = "config/watut-item-arm-adjustments.json"
+hash = "c3f6428a4b3f952eb3fcd29dc370f270b97dc720bf0806d1e660d11ff2327051"
 
 [[files]]
 file = "configureddefaults/config/CoroUtil/General.toml"
@@ -2987,7 +3003,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "9679dcabee0aff02517a565be11cca9a2132cad31011af25721a58a503fd755c"
+hash = "6d41fd7a35171d8636eae84079da9c523189fc081821ed91b0458b9cc74958d4"
 metafile = true
 
 [[files]]
@@ -3404,6 +3420,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.pw.toml"
 hash = "ded0cc902953a8a2d042c9948ff3ab623701dd557e59659e5840dbe799330126"
+metafile = true
+
+[[files]]
+file = "mods/towntalk.pw.toml"
+hash = "a7074e8e499d34f5ce633dbd33f818e376dd1941ec5b1d97a33acd019df69b5a"
 metafile = true
 
 [[files]]
