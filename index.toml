@@ -427,6 +427,10 @@ file = "config/terra_curio-client.toml"
 hash = "5b05e1decc37d3d972557d4d361d77deaefb86e1b88c7ea255992f2298674b50"
 
 [[files]]
+file = "config/variantsandventures.json"
+hash = "6a9db23e7b59e96423fb06ae06a6fc8ac0b217048317d1f1782cd2292a31a525"
+
+[[files]]
 file = "config/watut-client.toml"
 hash = "9a942ad74b1ea39603aa28a5047e0e46587734a5a7c6474801023c9cadc8d69e"
 
@@ -1468,7 +1472,7 @@ hash = "9b9525f6baadc8312819ae21ad8688b20fb887e0e2bec4bceece4cbb296196b8"
 
 [[files]]
 file = "configureddefaults/config/fml.toml"
-hash = "17db07e549f449b90c275eb326600016cfc4b7587f2757a9baaafe0923caa482"
+hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
 file = "configureddefaults/config/friendsandfoes.json"
@@ -1484,7 +1488,7 @@ hash = "d49c40d5f74d1bc8533cca1e6e1867489d528ccc3348874382d3163b3cc20192"
 
 [[files]]
 file = "configureddefaults/config/goblintraders-entities.toml"
-hash = "4e2a2b7fcc344b3ac10f1f96b0d951fa2c429b5685c1f572af33bb7226ddeefe"
+hash = "e398578d2de6eea5d3c30de865f7facc1a288549127d2dcc371ebaff8f400a78"
 
 [[files]]
 file = "configureddefaults/config/highlighter.toml"
@@ -1496,7 +1500,7 @@ hash = "4e3329aa1095d126180a7965ff404f25c104372efbab6c6d9d348909fec0932a"
 
 [[files]]
 file = "configureddefaults/config/iceandfire/iaf-common.json"
-hash = "d555e5104f79f7c334af572d6cc2ffde6cbf9eef2fcb52c76ba973ec1bc913e1"
+hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
 
 [[files]]
 file = "configureddefaults/config/illagerinvasion-server.toml"
@@ -1668,7 +1672,7 @@ hash = "7da5dea39484cb510be57fe2fd44255a2c9ce4a32918e0521743803d642a55c4"
 
 [[files]]
 file = "configureddefaults/config/minecolonies-common.toml"
-hash = "b7308712fbb5044fff1f8354302921fad9e19b053da60d5c0c69f4c4c819a37a"
+hash = "00911fd52ff86068406c4646ab6bde024ed3d64c5f1b7ada3aa80b400ed9435e"
 
 [[files]]
 file = "configureddefaults/config/minecolonies-server.toml"
@@ -1940,7 +1944,7 @@ hash = "6b6527929287f45e660ca4c94bdd515223b48e9c94f418e05bd9676dd53f9a60"
 
 [[files]]
 file = "configureddefaults/config/sounds/event.json"
-hash = "6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f"
+hash = "76d2f2a77b1387427f4dc2de00990eab29bcf3ea271e7382f542073c6272f7e9"
 
 [[files]]
 file = "configureddefaults/config/sounds/mod_utils.json"
@@ -2000,7 +2004,7 @@ hash = "1f795c0fac11be90c4232254c1126f225ea355c752f1cbcf3898ce524311605c"
 
 [[files]]
 file = "configureddefaults/config/terra_curio-client.toml"
-hash = "92f5f0eb23d4a7cb6b4c0277e8264426ca50b8cad2c32f7c4ac9509f764817b8"
+hash = "5b05e1decc37d3d972557d4d361d77deaefb86e1b88c7ea255992f2298674b50"
 
 [[files]]
 file = "configureddefaults/config/terra_curio-common.toml"
@@ -2052,7 +2056,7 @@ hash = "71cf159f84792b5c00419bff2d4cbc8f4248a1c428dadee9255919313bcd1f9b"
 
 [[files]]
 file = "configureddefaults/config/variantsandventures.json"
-hash = "488075f69dc9f2e1853336785992293b6061b1d36c4971273b84bab97336650d"
+hash = "6a9db23e7b59e96423fb06ae06a6fc8ac0b217048317d1f1782cd2292a31a525"
 
 [[files]]
 file = "configureddefaults/config/variantsandventures/mod_mobs.json"
@@ -2120,7 +2124,7 @@ hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
 file = "configureddefaults/config/watut-client.toml"
-hash = "74dccaedabe8d47bb8ffbbb78d5ce28de6526650dfc8bdc6cd361a6448122c3d"
+hash = "9a942ad74b1ea39603aa28a5047e0e46587734a5a7c6474801023c9cadc8d69e"
 
 [[files]]
 file = "configureddefaults/config/watut-common.toml"
@@ -2132,7 +2136,7 @@ hash = "c3f6428a4b3f952eb3fcd29dc370f270b97dc720bf0806d1e660d11ff2327051"
 
 [[files]]
 file = "configureddefaults/config/watut-server.toml"
-hash = "77c32650cc543180e5d03cf079956b631da769ef0c845cc75f34d95718be91f3"
+hash = "dcf0e71fb7872254afeebd07d4694b7da8511b37dc33940d6f339968659afe8b"
 
 [[files]]
 file = "configureddefaults/config/wetland_whimsy-common.toml"

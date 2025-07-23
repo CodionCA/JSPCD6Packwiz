@@ -1,6 +1,6 @@
 # If true, prevents the trader from despawning if named
 # Valid values: true, false
-preventDespawnIfNamed = true
+preventDespawnIfNamed = false
 
 [goblinTrader]
 	# The maximum level the trader can spawn

@@ -1,14 +1,14 @@
 {
   "dragon": {
-    "iceandfire.dragon.maxHealth": 1200.0,
+    "iceandfire.dragon.maxHealth": 750.0,
     "iceandfire.dragon.eggBornTime": 7200,
     "iceandfire.dragon.maxPathingNodes": 5000,
     "iceandfire.dragon.villagersFear": true,
     "iceandfire.dragon.animalsFear": true,
     "": {},
-    "iceandfire.dragon.generate.skeletons": false,
-    "iceandfire.dragon.generate.skeletonChance": 0.0033333333333333335,
-    "iceandfire.dragon.generate.denGoldAmount": 0.025,
+    "iceandfire.dragon.generate.skeletons": true,
+    "iceandfire.dragon.generate.skeletonChance": 0.00001,
+    "iceandfire.dragon.generate.denGoldAmount": 0.0025,
     "iceandfire.dragon.generate.oreRatio": 0.0,
     "iceandfire.dragon.griefing": true,
     "iceandfire.dragon.tamedGriefing": false,
@@ -35,6 +35,9 @@
     "iceandfire.dragon.maxTamedDragonAge": 128,
     "iceandfire.dragon.maxBreathTimeMul": 2.0,
     "iceandfire.dragon.neutralToPlayer": false,
+    "iceandfire.dragon.enableBrushDragonScales": true,
+    "iceandfire.dragon.maxBrushScalesDropPerTime": 2,
+    "iceandfire.dragon.brushTimesMul": 1.0,
     "iceandfire.dragon.loot.skull": true,
     "iceandfire.dragon.loot.heart": true,
     "iceandfire.dragon.loot.blood": true
@@ -65,14 +68,14 @@
     "iceandfire.gorgon.maxHealth": 100.0
   },
   "deathworm": {
-    "iceandfire.deathworm.spawnChance": 0.03333333333333333,
+    "iceandfire.deathworm.spawnChance": 0.00333333333333333,
     "iceandfire.deathworm.targetSearchLength": 48,
     "iceandfire.deathworm.maxHealth": 10.0,
     "iceandfire.deathworm.attackDamage": 3.0,
     "iceandfire.deathworm.attackMonsters": true
   },
   "cockatrice": {
-    "iceandfire.cockatrice.spawn": false,
+    "iceandfire.cockatrice.spawn": true,
     "iceandfire.cockatrice.spawnWeight": 4,
     "iceandfire.cockatrice.chickenSearchLength": 32,
     "iceandfire.cockatrice.eggChance": 0.03333333333333333,
@@ -95,15 +98,6 @@
     "iceandfire.troll.maxHealth": 50.0,
     "iceandfire.troll.attackDamage": 10.0
   },
-  "myrmex": {
-    "iceandfire.myrmex.pregnantTicks": 2500,
-    "iceandfire.myrmex.eggTicks": 3000,
-    "iceandfire.myrmex.larvaTicks": 35000,
-    "iceandfire.myrmex.colonySize": 80,
-    "iceandfire.myrmex.maximumWanderRadius": 50,
-    "iceandfire.myrmex.hiveIgnoreDaytime": false,
-    "iceandfire.myrmex.baseAttackDamage": 3.0
-  },
   "amphithere": {
     "iceandfire.amphithere.spawn": false,
     "iceandfire.amphithere.spawnWeight": 50,
@@ -114,7 +108,7 @@
     "iceandfire.amphithere.attackDamage": 7.0
   },
   "seaSerpent": {
-    "iceandfire.seaSerpent.spawnChance": 0.001,
+    "iceandfire.seaSerpent.spawnChance": 0.0001,
     "iceandfire.seaSerpent.griefing": false,
     "iceandfire.seaSerpent.baseHealth": 20.0,
     "iceandfire.seaSerpent.attackDamage": 4.0
@@ -174,8 +168,6 @@
     "iceandfire.worldgen.generateGraveYardChance": 0.0,
     "iceandfire.worldgen.generateHydraCaveChance": 0.5,
     "iceandfire.worldgen.generateMausoleumChance": 0.3,
-    "iceandfire.worldgen.generateMyemexHiveDesertChance": 0.2,
-    "iceandfire.worldgen.generateMyemexHiveJungleChance": 0.2,
     "iceandfire.worldgen.generatePixieVillageChance": 0.2,
     "iceandfire.worldgen.generateSirenIslandChance": 0.1
   },

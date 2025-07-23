@@ -7,7 +7,7 @@
 	#Delay in ticks before sending a new image of a gui to other clients, 10 = twice a second, 0 = no delay, 20 = once a second, more frequent might affect performance and network load
 	# Default: 10
 	# Range: > 5
-	dynamicGuiTickSendRateOfGUIUpdates = 10
+	dynamicGuiTickSendRateOfGUIUpdates = 50
 	#If enabled, only sends the initial image of a players gui, does not constantly update after it's been opened.
 	dynamicGuiDontSendConstantGUIUpdates = true
 	#Blur is used to prevent nasty aliasing/flicker artifacts at the cost of clarity
@@ -17,9 +17,9 @@
 	#Adjust the size of the circle used to cut off extra info beyond their main area of their gui, visual issues may occur of too big. Set to -1 to disable
 	# Default: 112.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	dynamicGuiSizeRadiusInPixelsToShow = 112.0
+	dynamicGuiSizeRadiusInPixelsToShow = -1
 	#Show a clients entire screen instead of using dynamicGuiSizeRadiusInPixelsToShow for a circle fade in a 512x512 area, WARNING: experimental, has cpu and network performance impact. Tweak dynamicGuiSizeRadiusInPixelsToShow to -1 or something large if you use this setting.
-	dynamicGuiShowClientsEntireScreen = false
+	dynamicGuiShowClientsEntireScreen = true
 	#Disables the background rendering for most guis, might hide things like JEI or other things count as background rendering
 	dynamicGuiDisableBackgroundRendering = true
 	#Show items being transferred between player and container
