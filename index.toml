@@ -22,7 +22,7 @@ hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "6d012e14ab053bbcff6d77f69502f15191bc30522aa4fdc9bc3f00576f417844"
+hash = "ecf924aba95b349b03eca8d77842110ef3fcda6c719a3284d461a0d75e3089a6"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -424,7 +424,7 @@ hash = "5b05e1decc37d3d972557d4d361d77deaefb86e1b88c7ea255992f2298674b50"
 
 [[files]]
 file = "config/watut-client.toml"
-hash = "25bcc69769d337c9816cc722013573f00d08dc13aef017f231d7dbd9a4df42ad"
+hash = "9a942ad74b1ea39603aa28a5047e0e46587734a5a7c6474801023c9cadc8d69e"
 
 [[files]]
 file = "config/watut-common.toml"
@@ -433,6 +433,10 @@ hash = "93d4055b22552b80ae5f96d396b335910993ab7010b562a34291adade59df4f6"
 [[files]]
 file = "config/watut-item-arm-adjustments.json"
 hash = "c3f6428a4b3f952eb3fcd29dc370f270b97dc720bf0806d1e660d11ff2327051"
+
+[[files]]
+file = "config/watut-server.toml"
+hash = "dcf0e71fb7872254afeebd07d4694b7da8511b37dc33940d6f339968659afe8b"
 
 [[files]]
 file = "configureddefaults/config/CoroUtil/General.toml"
@@ -2151,6 +2155,10 @@ file = "configureddefaults/config/yungsmenutweaks-neoforge-1_21.toml"
 hash = "f03258dd68fab838e12affe9c56d7a558a808f0803458b657b77acdc84fd4915"
 
 [[files]]
+file = "desktop.ini"
+hash = "8672a46fcfefe6c17fe8c5e595274c6e6d065a8d8749ac11b2437220634e569a"
+
+[[files]]
 file = "icon.png"
 hash = "3571a0aa82fa15e6bdfffdc43fb34236c66a9adca0ce94b6a3f4df6643f136df"
 
@@ -2456,6 +2464,11 @@ hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
 metafile = true
@@ -2664,8 +2677,23 @@ hash = "e99bc192266affa7203e3536f96a9a584e2fb348a20d780a7c0afcb60623fa7d"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "3a4e194e945214cc457178f48e65b9ab6a8201b6d15b9736cd673324b70b6edd"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "ebac4adabaa55172ac0fef5f0fa5edcd4306f78aa13f1e23763d35099d238ca2"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "65cd00e90de065e99d13352fd5d8aa3bc28d062b9dc935cf1da914a2047b2208"
+metafile = true
+
+[[files]]
+file = "mods/esf.pw.toml"
+hash = "fdfff11b4cf4a475d3f0c3204e7f955bf318df6ab3f86d131a80253af95a7df4"
 metafile = true
 
 [[files]]
@@ -3270,6 +3298,11 @@ hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
+file = "mods/responsiveshields.pw.toml"
+hash = "159ebf21146d6624bb9de04466210ec0144d99225335f1e823325eaac2cae772"
+metafile = true
+
+[[files]]
 file = "mods/revampedwolf.pw.toml"
 hash = "f9bc0b38255bb048df308e350822c7b16d12fae184fdc59eee6031d13583b2a0"
 metafile = true
@@ -3413,6 +3446,11 @@ hash = "a778178142291a92adbc31f57914b8366964a1f81038969c9e53a670dfc004f1"
 metafile = true
 
 [[files]]
+file = "mods/toms-peripherals.pw.toml"
+hash = "b5be069a2fae0df4cf4d032a8332c6011029f9ab9c3b9532d209747d44961dee"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "27f23c2bc5266717f83de1376149ed67107630e0e89f21ec204aa806a448dcfe"
 metafile = true
@@ -3522,6 +3560,11 @@ hash = "cad4971db33dfbefde82a387ba93b8da54ab74c1f9ad827ab22edf37caec971d"
 [[files]]
 file = "resourcepacks/Fast Better Grass.zip"
 hash = "6e2085199c3a4f6a6ca3d1b2527518cadc3d6cc527e5495a8fec4b70890c20ae"
+
+[[files]]
+file = "resourcepacks/armory-conglomery.pw.toml"
+hash = "aab39fcca48e06a31559bc35e3773de55334db04be710475ee5ccb52a3509193"
+metafile = true
 
 [[files]]
 file = "servers.dat"
