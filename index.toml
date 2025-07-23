@@ -9,6 +9,10 @@ file = "config/craftpresence.json"
 hash = "b525be344179268fa552f13d48741ab6e112687c08677fe3e073a475cec7a3e3"
 
 [[files]]
+file = "config/everycomp-common.toml"
+hash = "d779e2010a5fd0ca014ecf4cd522f142df052f931cf3ed432fd91b41394e7ce2"
+
+[[files]]
 file = "config/fml.toml"
 hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
@@ -22,7 +26,7 @@ hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "ecf924aba95b349b03eca8d77842110ef3fcda6c719a3284d461a0d75e3089a6"
+hash = "a54d00c0ddb8603c5f4fdb79eeb9fc936188a7e914c2e19ac82ffeaa87492c70"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -1400,7 +1404,7 @@ hash = "7b9af0b5646ba4bbc8a3889c64cac32f3a2706c00dfe2321dcea94351df40771"
 
 [[files]]
 file = "configureddefaults/config/everycomp-common.toml"
-hash = "13ad4e42471f2c6fe6672f0e32ea676ba96f4d2f9119176b546ee1a744833068"
+hash = "d779e2010a5fd0ca014ecf4cd522f142df052f931cf3ed432fd91b41394e7ce2"
 
 [[files]]
 file = "configureddefaults/config/everycomp-entries.toml"
