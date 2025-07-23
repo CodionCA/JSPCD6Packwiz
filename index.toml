@@ -2155,10 +2155,6 @@ file = "configureddefaults/config/yungsmenutweaks-neoforge-1_21.toml"
 hash = "f03258dd68fab838e12affe9c56d7a558a808f0803458b657b77acdc84fd4915"
 
 [[files]]
-file = "desktop.ini"
-hash = "8672a46fcfefe6c17fe8c5e595274c6e6d065a8d8749ac11b2437220634e569a"
-
-[[files]]
 file = "icon.png"
 hash = "3571a0aa82fa15e6bdfffdc43fb34236c66a9adca0ce94b6a3f4df6643f136df"
 
