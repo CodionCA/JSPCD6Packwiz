@@ -7,3 +7,6 @@
 .git
 .gitignore
 .gitattributes
+packwizconverter.py
+packwiz.exe
+README.md

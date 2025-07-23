@@ -25,6 +25,10 @@ file = "config/jade/jade.json"
 hash = "f5f727f4861595cace83ade5de0b3fd20d8ae5d15618b8d666cf079d54ed0bfe"
 
 [[files]]
+file = "config/lootbeams/loot_information_config.toml"
+hash = "d4e5a33fe3d843ee5860e0cd2695f994d4ebf700734842e599f106ac637ba1e3"
+
+[[files]]
 file = "config/minecolonies-common.toml"
 hash = "00911fd52ff86068406c4646ab6bde024ed3d64c5f1b7ada3aa80b400ed9435e"
 
@@ -377,8 +381,22 @@ file = "config/paxi/resourcepacks/JSPCD6/pack.mcmeta"
 hash = "c77e55cbf12076d31c1978a1f84d00748ed618512128303b72e14b34ef1dc7de"
 
 [[files]]
+file = "config/paxi/resourcepacks/LowerEnchantersShieldArsNouveau_MC1.21.x_v1.0.zip"
+hash = "15a23be14584c4dbe1b158197bed3c122b26718a0daf668c9dd6530caf278ac3"
+
+[[files]]
+file = "config/paxi/resourcepacks/ars-nouveau-refresh.pw.toml"
+hash = "aac1132d84afb2ce0bd354d1fb4b014e4922adfba3206d5ab8a6262bcf2fa199"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/biome-music-plus-v1.0.pw.toml"
+hash = "1a60d331b729044e57041a7903c9b608dc6504c084045e3763832e796fe717f4"
+metafile = true
+
+[[files]]
 file = "config/quickerconnectbutton.json5"
-hash = "e32a34bfc43f8d72479243934fd88b08b92a513c9454bfe2d9d1711c163566a7"
+hash = "4bf85fad4bec9c1ad699301e78d6bf23d80a297ab9190ac8625d8157d9a81500"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
@@ -499,10 +517,6 @@ hash = "545e1023486e9231ab8415bf1c25ee24f714746f575dc76666a1bf425db66a7d"
 [[files]]
 file = "configureddefaults/config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
-
-[[files]]
-file = "configureddefaults/config/NoChatReports/README.md"
-hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
 
 [[files]]
 file = "configureddefaults/config/SeasonHUD-client.toml"
@@ -3081,11 +3095,6 @@ hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
 metafile = true
 
 [[files]]
-file = "mods/no-report-button.pw.toml"
-hash = "d6a1f73f65bd0c9c0d1e565bd46cfd37c806f4830409e95f1dc0589693792250"
-metafile = true
-
-[[files]]
 file = "mods/noisium.pw.toml"
 hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
 metafile = true
@@ -3196,9 +3205,8 @@ hash = "b27fedf73ce2b829db06bf18fea5afd33f0a001b75465301c7f5bafe7e3c04d8"
 metafile = true
 
 [[files]]
-file = "mods/quicker-connect-button.pw.toml"
-hash = "b1272c313546b73a3002fc19b4f93289176aaa5276ff1c52935aa6e83abbc1be"
-metafile = true
+file = "mods/quickerconnectbutton-neoforge-2.3.0+1.21+Codion.jar"
+hash = "21c41cbdd9a0f4f25d5ef386ebe74f464b08e13873b62a70f2cb2e76455f2d3e"
 
 [[files]]
 file = "mods/redirected.pw.toml"
@@ -3487,30 +3495,12 @@ file = "packwiz-installer-bootstrap.jar"
 hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
-file = "packwizconverter.py"
-hash = "3c7efc88823350c91c9189790ef643e079c7c2cffa5801f98ad7e00c4f2a3d43"
-
-[[files]]
-file = "resourcepacks/CodionsEpicShieldMovingRP.zip"
-hash = "86737d2fbf27e94ceedd116aaa71c6b613447354562f2111f3f0b5f48f29ba00"
-
-[[files]]
 file = "resourcepacks/CodionsVanillaTweaks_r366274_MC1.21.x.zip"
 hash = "cad4971db33dfbefde82a387ba93b8da54ab74c1f9ad827ab22edf37caec971d"
 
 [[files]]
 file = "resourcepacks/Fast Better Grass.zip"
 hash = "6e2085199c3a4f6a6ca3d1b2527518cadc3d6cc527e5495a8fec4b70890c20ae"
-
-[[files]]
-file = "resourcepacks/biome-music-plus-v1.0.pw.toml"
-hash = "1a60d331b729044e57041a7903c9b608dc6504c084045e3763832e796fe717f4"
-metafile = true
-
-[[files]]
-file = "resourcepacks/jadebetterdark.pw.toml"
-hash = "90e43b6e50714613e7eb8655299f2491fb37949e610ddc585f88f4591ebfcff7"
-metafile = true
 
 [[files]]
 file = "servers.dat"

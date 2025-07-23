@@ -1,2 +1,2 @@
-# Exclude exported Modrinth modpacks
-*.mrpack
+packwizconverter.py
+packwiz.exe
