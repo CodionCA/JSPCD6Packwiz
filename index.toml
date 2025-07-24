@@ -3570,16 +3570,16 @@ file = "servers.dat"
 hash = "0f8c5b85bbbd4cffd6a692198f9a0aac7e1364f5fb98147431a77f8695be1361"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.txt"
-hash = "62a2b81ac8fd8c6262d802e2b8738a7195c7e9f14e37c4b75e422b1905d3e4b8"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.zip"
-hash = "e3639e6f627d77d55f0abbeaef69efce4414624b492ab8f95fc17fd183c14e4d"
-
-[[files]]
 file = "shaderpacks/DH Realistic (Bliss-Shader) - FPSHEAVY.zip"
 hash = "b9f12fb6836d4143ffcb204c995f9ee2b30c70ee7ccc8c7f09361d94d9dd4d40"
+
+[[files]]
+file = "shaderpacks/Recommended - ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.txt"
+hash = "4b6e0690e3fc7776458a37e7ca520fb6841e96ba00e3c7046c37ffaebec28719"
+
+[[files]]
+file = "shaderpacks/Recommended - ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.zip"
+hash = "e3639e6f627d77d55f0abbeaef69efce4414624b492ab8f95fc17fd183c14e4d"
 
 [[files]]
 file = "shaderpacks/Vibrant Visuals (Miniature Shader) - FPSLIGHT.zip"
