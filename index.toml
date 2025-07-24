@@ -26,7 +26,7 @@ hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "a54d00c0ddb8603c5f4fdb79eeb9fc936188a7e914c2e19ac82ffeaa87492c70"
+hash = "9781f7288e595e8f4fcc2ba3dd591bbb5ec400ca6fef8e70f7a7677920e953ea"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -1704,7 +1704,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
-hash = "1868996044ee80f75a778d6c0e738dc58459b49818ffc4a918424ca120c2890c"
+hash = "eef9f9676fedebc43690c8986c1f3bfd93ef3b778f895ef7ad1bfa9e80f05122"
 
 [[files]]
 file = "configureddefaults/config/moonlight-client.toml"
@@ -3317,11 +3317,6 @@ hash = "71c69a20c6325a3b41de44f5963e5d74afed3bc9d86eb29c5fd0352c72db38cd"
 metafile = true
 
 [[files]]
-file = "mods/scalablelux.pw.toml"
-hash = "8d634f8aec598bda3a07d3cb3071d31e6fa6e56915f0214a421956872feddc33"
-metafile = true
-
-[[files]]
 file = "mods/seamless-loading-screen.pw.toml"
 hash = "ff82eb4524b29dda9d14ac266058382c1989e654952cddd9474825b9f01b8052"
 metafile = true
@@ -3575,12 +3570,12 @@ file = "servers.dat"
 hash = "0f8c5b85bbbd4cffd6a692198f9a0aac7e1364f5fb98147431a77f8695be1361"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5.txt"
-hash = "220a84a90f489cd7139a0c885f8eb8712e435d37b96290156724cdbfb3d50f8b"
+file = "shaderpacks/ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.txt"
+hash = "62a2b81ac8fd8c6262d802e2b8738a7195c7e9f14e37c4b75e422b1905d3e4b8"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.5.1 - FPSMEDIUM.zip"
-hash = "61d133b24b6a92e46a3d7df791bb2ff163bbba10eed59df979b9bd727c24fbaf"
+file = "shaderpacks/ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.zip"
+hash = "e3639e6f627d77d55f0abbeaef69efce4414624b492ab8f95fc17fd183c14e4d"
 
 [[files]]
 file = "shaderpacks/DH Realistic (Bliss-Shader) - FPSHEAVY.zip"

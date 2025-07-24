@@ -48,7 +48,9 @@
     "terra_curio:sun_stone",
     "terra_curio:celestial_shell",
     "terra_curio:celestial_stone",
-    "terra_curio:terraspark_boots"
+    "terra_curio:terraspark_boots",
+    "ars_nouveau:belt_of_levitation",
+    "create_sa:netherite_jetpack_chestplate"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
