@@ -26,7 +26,7 @@ hash = "aefe09b5ee8186ccb47311fa412f8d6d72543f2f07531b870b4945c1deef52e6"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "9781f7288e595e8f4fcc2ba3dd591bbb5ec400ca6fef8e70f7a7677920e953ea"
+hash = "22e47b404e8bafa81dc82100dfcacad84486cb970abf5012c5ab0fa6808927f5"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -39,6 +39,10 @@ hash = "d4e5a33fe3d843ee5860e0cd2695f994d4ebf700734842e599f106ac637ba1e3"
 [[files]]
 file = "config/minecolonies-common.toml"
 hash = "00911fd52ff86068406c4646ab6bde024ed3d64c5f1b7ada3aa80b400ed9435e"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "1868996044ee80f75a778d6c0e738dc58459b49818ffc4a918424ca120c2890c"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -55,6 +59,10 @@ hash = "3fafc56b776cec33e90499fcdb1ac94513b7ae04fc556cecb6ae55c82ac2da53"
 [[files]]
 file = "config/paxi/datapacks/Farmer's Delight Cutting Compat 1.0.zip"
 hash = "e7444cde0a4df808545b1b89daab457516ff6d879ee969a98957c00c5f1923a3"
+
+[[files]]
+file = "config/paxi/datapacks/JSPCDTerraCurioRebalancev1.0.zip"
+hash = "ba3c267bd1b0336b15d3dbbd1c1ade840967420c7a0f696f08ff2d435a2cc187"
 
 [[files]]
 file = "config/paxi/datapacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip"
