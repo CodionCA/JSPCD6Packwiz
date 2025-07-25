@@ -3407,6 +3407,11 @@ hash = "faf7ea7a94817783aa5bbf75dfe971c00960dcf7f36f2c93e548eb1e80b6392a"
 metafile = true
 
 [[files]]
+file = "mods/stack-refill.pw.toml"
+hash = "00da2960ca396b98aee61d0b3b73bff01ed2ae22569df718f5f1028a04819bf6"
+metafile = true
+
+[[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "dc97ef16a6526c12945cf70ca642148a9bdcb75a98d986245a7e20d35cabb5d5"
 metafile = true
