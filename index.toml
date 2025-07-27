@@ -423,6 +423,10 @@ hash = "1a60d331b729044e57041a7903c9b608dc6504c084045e3763832e796fe717f4"
 metafile = true
 
 [[files]]
+file = "config/phantasm.json"
+hash = "9d7ab70bdd6fab4b5576a392569917276c30f02e1b02a46a0bf00d1fc05fdb43"
+
+[[files]]
 file = "config/quickerconnectbutton.json5"
 hash = "4bf85fad4bec9c1ad699301e78d6bf23d80a297ab9190ac8625d8157d9a81500"
 
