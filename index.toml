@@ -3453,10 +3453,6 @@ hash = "fb422cc004d5f154cd50f333601bd1c030bdc8b69362798e2a26df4df94d6d43"
 metafile = true
 
 [[files]]
-file = "mods/test.py"
-hash = "25ccfc3d88a1adcf9bafaa7fd185c341d5103e0242dff47e5ab8d3508084da27"
-
-[[files]]
 file = "mods/threadtweak-reforged.pw.toml"
 hash = "a778178142291a92adbc31f57914b8366964a1f81038969c9e53a670dfc004f1"
 metafile = true
