@@ -2386,11 +2386,6 @@ hash = "f231645246372f27f87a7002d40bf646d82e6e4733c3d1b9f13b01904cf980d1"
 metafile = true
 
 [[files]]
-file = "mods/better-ping-display.pw.toml"
-hash = "cc2e6dda94a7a6f5487843cafe569d8044bf9482cbf03f062cf4595f1fb05281"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
 metafile = true
@@ -3596,7 +3591,7 @@ hash = "e3639e6f627d77d55f0abbeaef69efce4414624b492ab8f95fc17fd183c14e4d"
 
 [[files]]
 file = "shaderpacks/Recommended - ComplementaryUnbound_r5.5.1 - FPSMEDIUM + EuphoriaPatches_1.6.5 + Colorwheel_0.2.4.zip.txt"
-hash = "4b6e0690e3fc7776458a37e7ca520fb6841e96ba00e3c7046c37ffaebec28719"
+hash = "b6719721c7c45a56a1ae62860ca0bfc7201f829b09b72e1eecf7c55e1bfb7958"
 
 [[files]]
 file = "shaderpacks/Vibrant Visuals (Miniature Shader) - FPSLIGHT.zip"
