@@ -1,6 +1,6 @@
 name = "Too Fast"
 filename = "toofast-0.7.5.7.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

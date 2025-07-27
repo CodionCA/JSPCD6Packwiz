@@ -2581,7 +2581,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyanide.pw.toml"
-hash = "5dc1d489ff26e602c1816d0f4d41817fca10d2de0be4a6525bcb605dc47bc5d0"
+hash = "9bf8a678388b0d1bd5811cc74052d33bccdbdd08456c075cf38c417abebc5678"
 metafile = true
 
 [[files]]
@@ -3335,8 +3335,9 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
-file = "mods/seasonal_lets_do-neoforge-1.2.0.jar"
-hash = "879d6677ad94894fda34b6b3d993533c37a8b2dfb914f9407a5ff4f0ba511330"
+file = "mods/seasonal-lets-do.pw.toml"
+hash = "af787190a7303a7d59ffdefee8afb6ea0a16105bbd10b57aca46f9c47d1c10c6"
+metafile = true
 
 [[files]]
 file = "mods/seasonhud.pw.toml"
@@ -3355,7 +3356,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "cc5914bc09a7362dfd660fbeff105d3595b19de9c6491327272f85c557d4aa3b"
+hash = "00f400af981bbe8be3767ef49f4bc422a9649c3fa2d403bae7b25202a05fda1a"
 metafile = true
 
 [[files]]
@@ -3469,7 +3470,7 @@ metafile = true
 
 [[files]]
 file = "mods/too-fast.pw.toml"
-hash = "ded0cc902953a8a2d042c9948ff3ab623701dd557e59659e5840dbe799330126"
+hash = "22a28caa0142b4a5a420cdd7f29b05d0ad0560dcb57ec398ce90b863e9baaf2b"
 metafile = true
 
 [[files]]
