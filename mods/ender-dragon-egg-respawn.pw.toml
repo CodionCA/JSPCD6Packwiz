@@ -1,0 +1,13 @@
+name = "Ender Dragon Egg Respawn"
+filename = "enderdragoneggrespawn-neoforge-1.21.1-1.21.1-0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NNrn7oOR/versions/QfXEpHhj/enderdragoneggrespawn-neoforge-1.21.1-1.21.1-0.1.jar"
+hash-format = "sha512"
+hash = "70aae7a4ee95a8f0d7228668f36a72861757028544957b34b8c2c86c8f08684726fe175e11d206280a0337079a4ccb361330199d25fba48f2d6d8876150c21e0"
+
+[update]
+[update.modrinth]
+mod-id = "NNrn7oOR"
+version = "QfXEpHhj"

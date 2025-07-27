@@ -2678,6 +2678,16 @@ hash = "118a913715617f19779a2b9e6685bb17a7c2f3665546a98354be9a8bdff6c105"
 metafile = true
 
 [[files]]
+file = "mods/ender-dragon-egg-respawn.pw.toml"
+hash = "66da7ca8d5fd041955b198f60b12114c966f3119a1cd87f1b10b08ba348b5488"
+metafile = true
+
+[[files]]
+file = "mods/endercon.pw.toml"
+hash = "a17ed3aa3c2d475b80f6c11005f178ecf9a142e980f8a353d30083fa6539a679"
+metafile = true
+
+[[files]]
 file = "mods/enderman-overhaul.pw.toml"
 hash = "18ff135f3f902bd5350f6f8a7117ef4c7bfc106cf34ad1115722bcdff154971b"
 metafile = true
