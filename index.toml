@@ -2388,7 +2388,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "c495c19a48e96ad7d32d8738a9209539968f7f41db7a5f8d20eed1b0f477fcad"
+hash = "3330f934f8dd4d6fa0c188d96cae55449dc8e9b27458ba73cceb801f1a81e082"
 metafile = true
 
 [[files]]
@@ -2427,7 +2427,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "fbee29e0f3f046515c7f95bd69884feb70c7a381fa4803e0f35650db244121da"
+hash = "316163a6c1aec3dbd5a5ab4be3663b6d2783ca193a680ae2ff402b4db681bbcc"
 metafile = true
 
 [[files]]
@@ -2905,7 +2905,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-highlighter.pw.toml"
-hash = "a53db3cbfcc59ff30269743315bdaa929271bb7cd31674285a364e8162e44a7f"
+hash = "32a5ca8e50680882e370246fe1cebdf660a28f75145e85d7ed1d14ca1194eec9"
 metafile = true
 
 [[files]]
@@ -3335,9 +3335,8 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
-file = "mods/seasonal-lets-do.pw.toml"
-hash = "af787190a7303a7d59ffdefee8afb6ea0a16105bbd10b57aca46f9c47d1c10c6"
-metafile = true
+file = "mods/seasonal_lets_do-neoforge-1.2.0.jar"
+hash = "879d6677ad94894fda34b6b3d993533c37a8b2dfb914f9407a5ff4f0ba511330"
 
 [[files]]
 file = "mods/seasonhud.pw.toml"
@@ -3452,6 +3451,10 @@ metafile = true
 file = "mods/terra-curio.pw.toml"
 hash = "fb422cc004d5f154cd50f333601bd1c030bdc8b69362798e2a26df4df94d6d43"
 metafile = true
+
+[[files]]
+file = "mods/test.py"
+hash = "25ccfc3d88a1adcf9bafaa7fd185c341d5103e0242dff47e5ab8d3508084da27"
 
 [[files]]
 file = "mods/threadtweak-reforged.pw.toml"
