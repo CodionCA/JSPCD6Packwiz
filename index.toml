@@ -3016,6 +3016,11 @@ hash = "543b8a8ff5796648146f3102dea686e806f793052d329d0fa3efee8194d4df52"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
+metafile = true
+
+[[files]]
 file = "mods/lukis-crazy-chambers.pw.toml"
 hash = "b50994d77b8951f210911a98e415a9357a1043c6c3a3aae22fbd8877e483e018"
 metafile = true
