@@ -3442,6 +3442,11 @@ hash = "c66556917c084e7f2b4d98f81114dbbb0f3dd71121484368d3d70fd150e1be7e"
 metafile = true
 
 [[files]]
+file = "mods/tab-list.pw.toml"
+hash = "6028ed1da2563c5def1ed0cd57f0472936a126c7a7ee0cee8970fba0f8ef2774"
+metafile = true
+
+[[files]]
 file = "mods/terra-curio.pw.toml"
 hash = "fb422cc004d5f154cd50f333601bd1c030bdc8b69362798e2a26df4df94d6d43"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Tab List"
+filename = "tablist-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/veruP9P9/versions/lLPyZA1F/tablist-1.0.1.jar"
+hash-format = "sha512"
+hash = "2dc46096f980f103746e7dc337e72dc181545c4fc77c20cf9a0fa264fe8568de63c9fd82db5f6c06839b49ca7ad06ec6b37cbab4ef2a1f2c846268c419243370"
+
+[update]
+[update.modrinth]
+mod-id = "veruP9P9"
+version = "lLPyZA1F"
