@@ -3294,13 +3294,14 @@ hash = "4a5af515250fbde913593346d51b2c4ac8f660e71ba21f65f49a02209bb65509"
 metafile = true
 
 [[files]]
-file = "mods/refined-storage.pw.toml"
-hash = "81a8fe02b00bda52268166d35552c131a323a56c669ce37b86e3e9c7ea10cd9b"
+file = "mods/refined-storage-quartz-arsenal.pw.toml"
+hash = "589076c23a82cb5aa46c184bf3a5cb64caf8c91e9b86fc7fdb0ef73045e74b09"
 metafile = true
 
 [[files]]
-file = "mods/refinedstorage-quartz-arsenal-neoforge-1.0.2.jar"
-hash = "adb8b8413637edddcfd12bbe0a4b83bf928cc211c069cb53cce0cb3e06b9d3f5"
+file = "mods/refined-storage.pw.toml"
+hash = "81a8fe02b00bda52268166d35552c131a323a56c669ce37b86e3e9c7ea10cd9b"
+metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-farmers-delight-compat-mod.pw.toml"
