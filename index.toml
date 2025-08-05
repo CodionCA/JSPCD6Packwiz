@@ -1852,7 +1852,7 @@ hash = "76509d3988022daabed643b43625905a1023d631cd42fb06732dcc765f306918"
 
 [[files]]
 file = "configureddefaults/config/phantasm.json"
-hash = "ecf35890bc27d9399da1973f11143e0c9119d96936deb527e59033e327c9bf05"
+hash = "0f6a5105b5ae08d0eb4529f88b67133bff2fa12711d236a256474a6e7a636696"
 
 [[files]]
 file = "configureddefaults/config/pickupnotifier/pickupnotifier-client.toml"
@@ -3504,6 +3504,11 @@ metafile = true
 [[files]]
 file = "mods/trading-post.pw.toml"
 hash = "2ce88d616a4a4c4030bdcaa478adc5afae24c7b901375ae366aceb2d7f43e812"
+metafile = true
+
+[[files]]
+file = "mods/trimmable-tools.pw.toml"
+hash = "113988ed5fa0ab2b2fbe56041852290579abc57db5f828a4c570acd4be1204e6"
 metafile = true
 
 [[files]]
