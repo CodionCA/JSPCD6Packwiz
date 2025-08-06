@@ -34,7 +34,7 @@ hash = "874acbb919b470109d36864467bb94a8cfb63476b70829d363535bee59691498"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "e35646fb39e4faa485f5e22e8a0d56363ea812e81bd28ffcf7e1a56a23a9df06"
+hash = "8aaa355692fce5ac2f4cd347daf36c6c52b2b6a3c47bcd5ec264fe559f93ed7f"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -2297,6 +2297,11 @@ file = "mods/afk-sleep-1.3.2.jar"
 hash = "6a52e880baa50bb9a770c4ae1bda53ff1d203541cc78eebb14ebaff82284e521"
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "62611a2b798035390a280b158563cfa590ab6f3465b77be46949839809dbe77f"
+metafile = true
+
+[[files]]
 file = "mods/all-the-wood-weve-got.pw.toml"
 hash = "39bacb8c9b775f0b38947a43e320c5fc01e49fd4b58aa49660df2a9cc8d4c673"
 metafile = true
@@ -2343,6 +2348,11 @@ hash = "6f019ed4828edbdf948d179189eaa1351f2f8a78800bd090b36d10087548bf45"
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "e1599947a8d78f74c129a8420569bb2453b2ce76fdc76a7151093923ea8366c9"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "586341de7078015cea16ffaf8e2e198a16c43b306d70bc439a15ea0298f9d3cb"
 metafile = true
 
 [[files]]
@@ -2398,6 +2408,11 @@ metafile = true
 [[files]]
 file = "mods/boat-item-view-forge.pw.toml"
 hash = "c9bddfd011a93a6ab2fc5fd9dea8ce1bf27275a6cf1ff50fe9562fdec9f2962e"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "293ec22e4e8342a9bd0f338505a14e3794b44cd7ca1e5278a86f41f99c69a3af"
 metafile = true
 
 [[files]]
@@ -2527,11 +2542,6 @@ metafile = true
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "90f38f6a4539b7f69be95865e409157605e7aad6d3a7f673b84f552caec3ccd1"
-metafile = true
-
-[[files]]
-file = "mods/create-dreams-and-desires.pw.toml"
-hash = "59ad052e60618924abec65d1ae84e37d61c522a155eb60c90823bb9f46e96bb2"
 metafile = true
 
 [[files]]
@@ -2760,11 +2770,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-structures.pw.toml"
 hash = "3cab074cc8b5d1b444f1d50845531180b850bb401be9b9c2081a050e288450f1"
-metafile = true
-
-[[files]]
-file = "mods/fastsuite.pw.toml"
-hash = "c3b0a110f11f64466cb233d2c06a7ab449f8f00165c87e468fcaee659a0eadc9"
 metafile = true
 
 [[files]]
@@ -3344,6 +3349,11 @@ hash = "71c69a20c6325a3b41de44f5963e5d74afed3bc9d86eb29c5fd0352c72db38cd"
 metafile = true
 
 [[files]]
+file = "mods/rsinfinitybooster.pw.toml"
+hash = "235ff3215c33cedf10466ed239f584ff2684fd1a835baeb80ae27f9f214a7f22"
+metafile = true
+
+[[files]]
 file = "mods/seamless-loading-screen.pw.toml"
 hash = "ff82eb4524b29dda9d14ac266058382c1989e654952cddd9474825b9f01b8052"
 metafile = true
@@ -3360,11 +3370,6 @@ hash = "879d6677ad94894fda34b6b3d993533c37a8b2dfb914f9407a5ff4f0ba511330"
 [[files]]
 file = "mods/seasonhud.pw.toml"
 hash = "c381bda8cace58c9938478ca5eeb0ed0898f8fddd4d9a66c108ef1576d95e7e2"
-metafile = true
-
-[[files]]
-file = "mods/selene.pw.toml"
-hash = "a0822a53e5d1c22e28d6074ac0f5eaf968e3bd9282a4e35799b4a0e14a7d69c1"
 metafile = true
 
 [[files]]
@@ -3474,11 +3479,6 @@ metafile = true
 [[files]]
 file = "mods/terra-curio.pw.toml"
 hash = "fb422cc004d5f154cd50f333601bd1c030bdc8b69362798e2a26df4df94d6d43"
-metafile = true
-
-[[files]]
-file = "mods/threadtweak-reforged.pw.toml"
-hash = "a778178142291a92adbc31f57914b8366964a1f81038969c9e53a670dfc004f1"
 metafile = true
 
 [[files]]

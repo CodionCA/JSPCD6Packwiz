@@ -16,6 +16,7 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "friendsandfoes:totem_of_illusion",
     "supplementaries:quiver",
     "ars_nouveau:belt_of_levitation",
     "terra_curio:magic_mirror",
