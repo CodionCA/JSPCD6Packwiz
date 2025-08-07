@@ -25,6 +25,10 @@ file = "config/fml.toml"
 hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
+file = "config/friendsandfoes.json"
+hash = "b921e9a1529b1526bf27624f14aaba6ef0327b87204382307e1f99399d976e9a"
+
+[[files]]
 file = "config/goblintraders-entities.toml"
 hash = "e398578d2de6eea5d3c30de865f7facc1a288549127d2dcc371ebaff8f400a78"
 
@@ -1523,10 +1527,6 @@ file = "configureddefaults/config/fml.toml"
 hash = "c9deed80f54406fe10b4077eb364b7a41504db34fba6da64ca6c1b0124203d11"
 
 [[files]]
-file = "configureddefaults/config/friendsandfoes.json"
-hash = "5378186838edcf828c352a47b0ea7e5f87efcadc7230eef08dc7d2c9ed6d27c7"
-
-[[files]]
 file = "configureddefaults/config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -2372,7 +2372,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "9605764353450757f20e153abdcedf770b4affab703869724b17454d23a45039"
+hash = "c51f5bc71fff2b0df7420b1c3df9f68cadb2572f6d8df239734db83c186b6715"
 metafile = true
 
 [[files]]
@@ -2883,6 +2883,11 @@ hash = "60e9e411aa56b6e6a0522c2436c8734826fc73ed6c16154842dacf1b948253c6"
 metafile = true
 
 [[files]]
+file = "mods/immersive-optimization.pw.toml"
+hash = "33b82ea2db30c5852e78f73f18f8608c0725f21f42f1ff6f50a9f7b85f29c0e9"
+metafile = true
+
+[[files]]
 file = "mods/improved-village-placement.pw.toml"
 hash = "6f88b7793211597db480b66457ba6efae2f0c8cf174faa3a31910c3acce370b0"
 metafile = true
@@ -2914,7 +2919,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "407c4cc8cb9920a9b23674d81952c512302525755d8fba12e94acecaaae949e7"
+hash = "e7d3f7e0472ba9a3ef946fa5defcb157e4126636e603c2306d4ad6065936d5e2"
 metafile = true
 
 [[files]]
@@ -2924,7 +2929,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "888283f82ec13bd4bb1076740c2fec706d237be8a6739cfbcaea5897883acb5e"
+hash = "23291e2fb4b1fd48cbfc28ec2e50a76a3d908c4477e6164698406a4c953935ae"
 metafile = true
 
 [[files]]
@@ -2953,7 +2958,7 @@ metafile = true
 
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
-hash = "9924c2bd3e271103a800b04f6b97cd5763b6d2490b6b0fe84704ff6e43581522"
+hash = "b07bbd76636d50d623dc1c41d27ca42f5f7ba196e3e2a9c846add0ee10c26531"
 metafile = true
 
 [[files]]
@@ -3122,7 +3127,7 @@ metafile = true
 
 [[files]]
 file = "mods/mru.pw.toml"
-hash = "741334c0b04ce1321a30ac548b4dd663670c2e1daa53ecf0d6308541c65f0c98"
+hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
 metafile = true
 
 [[files]]
@@ -3369,7 +3374,7 @@ hash = "879d6677ad94894fda34b6b3d993533c37a8b2dfb914f9407a5ff4f0ba511330"
 
 [[files]]
 file = "mods/seasonhud.pw.toml"
-hash = "c381bda8cace58c9938478ca5eeb0ed0898f8fddd4d9a66c108ef1576d95e7e2"
+hash = "b40ea975a8590b32afed02e1f570a7d3bde58c4aec322bc1e856ad83d821a298"
 metafile = true
 
 [[files]]
