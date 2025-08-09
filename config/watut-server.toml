@@ -3,7 +3,7 @@
 	#SETTING THESE SERVER SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME CLIENT SETTINGS THAT ARE SET TO TRUE (for all clients)
 	dummySetting = true
 	#Disable new dynamic gui system and use old simple visual.
-	dynamicGuiUseOldSimpleGUIVisual = false
+	dynamicGuiUseOldSimpleGUIVisual = true
 	#Delay in ticks before sending a new image of a gui to other clients, 10 = twice a second, 0 = no delay, 20 = once a second, more frequent might affect performance and network load
 	# Default: 10
 	# Range: > 5

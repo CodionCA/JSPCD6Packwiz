@@ -496,7 +496,7 @@ hash = "c3f6428a4b3f952eb3fcd29dc370f270b97dc720bf0806d1e660d11ff2327051"
 
 [[files]]
 file = "config/watut-server.toml"
-hash = "dcf0e71fb7872254afeebd07d4694b7da8511b37dc33940d6f339968659afe8b"
+hash = "dac6c3e21d4d547887661cf2c018468cc3033f1e702e8f81ef1aa86243ed0b36"
 
 [[files]]
 file = "configureddefaults/config/CoroUtil/General.toml"
@@ -2371,6 +2371,11 @@ hash = "f5cca797ae9120851a79a7ff110e5aea505baae6676fa84e38676625434bccf6"
 metafile = true
 
 [[files]]
+file = "mods/ballistix.pw.toml"
+hash = "9725cfb121595c550bd5d0c02c677b9398cf615ff532417401df98e0c4b07787"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "c51f5bc71fff2b0df7420b1c3df9f68cadb2572f6d8df239734db83c186b6715"
 metafile = true
@@ -2535,13 +2540,23 @@ hash = "8701d2de2aed028e47e6281adde0c0582e92518f72eac2e3774093ee6e51b3be"
 metafile = true
 
 [[files]]
+file = "mods/create-copper-zinc.pw.toml"
+hash = "f3d9737e7a571510c0a464f051d2d842ca018c05ad91eb52f6d4726e17edf6f1"
+metafile = true
+
+[[files]]
 file = "mods/create-design-n-decor.pw.toml"
 hash = "8d8c1d2270148b02ab4aa92275a55e879daf4fb9eab94750cf50c1d8b598e8d2"
 metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "90f38f6a4539b7f69be95865e409157605e7aad6d3a7f673b84f552caec3ccd1"
+hash = "8e88d68a9dee5ca107ea3fd5d5394e52ae4e4f03decfc33974d6a958ccb200b5"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "0177b98d7552743df5bd62e45d2efe012d8d416c53f94735a0d4074468f5a2ca"
 metafile = true
 
 [[files]]
@@ -2645,6 +2660,11 @@ metafile = true
 [[files]]
 file = "mods/early-bedtime.pw.toml"
 hash = "8e4f8e1000e5bae8342956b3a734a1c70fba05a944150666d0675a7de353d19e"
+metafile = true
+
+[[files]]
+file = "mods/electrodynamics.pw.toml"
+hash = "50593a22507f98cdc564667f554555ffc7f41738d0ae788de00fa0c58c74562a"
 metafile = true
 
 [[files]]
@@ -3185,6 +3205,11 @@ hash = "357a22e9cc8fadd4a31868b4a23ced6abbdd095eafd1e92daf048807806474cf"
 metafile = true
 
 [[files]]
+file = "mods/nuclear-science.pw.toml"
+hash = "8e7d508c4ce6a155ee2c3673dcda97d8759bb8fdf7abec237eca9dc34c4f91da"
+metafile = true
+
+[[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "60959e2d411a9a57e1eb3f64d75761ee9728eb1e480e3911d6714de71c2bf51f"
 metafile = true
@@ -3569,6 +3594,11 @@ metafile = true
 [[files]]
 file = "mods/voicechat-neoforge-1.21.1-2.5.33.jar"
 hash = "1ebfff4eec10cc175d492ba8e699ad4d85c66e9e0e72dbaab30f3f80661879a6"
+
+[[files]]
+file = "mods/voltaic.pw.toml"
+hash = "eb4c4178415f23af20f4cffcee2f054762d39667808f9918b3416d2bcccefaf7"
+metafile = true
 
 [[files]]
 file = "mods/wetland-whimsy.pw.toml"
