@@ -2546,7 +2546,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-hash = "8d8c1d2270148b02ab4aa92275a55e879daf4fb9eab94750cf50c1d8b598e8d2"
+hash = "bc4ef8bd7d32506703dcc175a62a12766addc393434ddbe8d17f01b071701943"
 metafile = true
 
 [[files]]
@@ -2879,7 +2879,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceandfire-ce.pw.toml"
-hash = "fb7e2ebc3835b7678070225dd179c693ace0cba3ebeb0837b629bbffeac6fb11"
+hash = "f274627e71129bc7dd6b920b04b4e0a439480b534988c84d8c559f2f280900ea"
 metafile = true
 
 [[files]]
@@ -2958,7 +2958,7 @@ hash = "1eb931a3b0e333c537be14231eee3ec67d262bc338ba6ecc36922690142c37a2"
 
 [[files]]
 file = "mods/jupiter.pw.toml"
-hash = "515b29774becd8bf29e0559e638f9044623dea9d3d5285624c39c02544741b80"
+hash = "78f6e6a3fe21b3e7c63de75e301c6e77b30eb9dff6599ab8fde10560068223e1"
 metafile = true
 
 [[files]]
@@ -3423,6 +3423,11 @@ hash = "189d4f5725f29e253319966b573674421512be2dcbed6854aba17dca9702b80e"
 metafile = true
 
 [[files]]
+file = "mods/smsn.pw.toml"
+hash = "ecffd45f3246442392fa8f1d83cd0fe139a191b6d1cc3e1c439f092fd38cbb65"
+metafile = true
+
+[[files]]
 file = "mods/sodium-options-api.pw.toml"
 hash = "40e1fdc8c58f72bb947b978a773cf963b2d28bb49832500c2bd886f7ac6629bb"
 metafile = true
@@ -3558,7 +3563,7 @@ metafile = true
 
 [[files]]
 file = "mods/uranus.pw.toml"
-hash = "327aed7decb757e32009f4246c4874073e054b54cf444408abdf4080b6b91c86"
+hash = "1c3944c6dc75e98c36873ea3d3191df5e96f1c7d1548c74c3731692e2785c88c"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Jupiter"
-filename = "Jupiter-2.2.1-neoforge.jar"
+filename = "Jupiter-2.2.2-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/XbiLGMMU/versions/cfrjzyiO/Jupiter-2.2.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/XbiLGMMU/versions/I4i9vhEW/Jupiter-2.2.2-neoforge.jar"
 hash-format = "sha512"
-hash = "45b24ef6d4fa57c81c1127d17185cf04e04db1fec0c1ba1603b14d9bbd602df0f32b3c704709e6ca86187f6abafc3390d4cd96f524a965cfb44b1fd5e0f1b573"
+hash = "370d388ecccb61657288d2a6856371f14b93407965bd1a4d78ced0675d3fce89d8918ff1e9deecd7652807980a5781e12696529d92dac42a9054b458b3b3eafa"
 
 [update]
 [update.modrinth]
 mod-id = "XbiLGMMU"
-version = "cfrjzyiO"
+version = "I4i9vhEW"
