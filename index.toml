@@ -37,6 +37,10 @@ file = "config/iceandfire/iaf-common.json"
 hash = "874acbb919b470109d36864467bb94a8cfb63476b70829d363535bee59691498"
 
 [[files]]
+file = "config/immediatelyfast.json"
+hash = "cce216651d63b1f113a92dd075ef0be65f567e0b4d15eaa3ecfbef6b8c62fca5"
+
+[[files]]
 file = "config/item_obliterator.json5"
 hash = "8aaa355692fce5ac2f4cd347daf36c6c52b2b6a3c47bcd5ec264fe559f93ed7f"
 
@@ -54,7 +58,7 @@ hash = "00911fd52ff86068406c4646ab6bde024ed3d64c5f1b7ada3aa80b400ed9435e"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "1868996044ee80f75a778d6c0e738dc58459b49818ffc4a918424ca120c2890c"
+hash = "acfd82d3a5203037da40b72145bef3900516b9710522044b7f84e1500b9c0b4c"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -1555,10 +1559,6 @@ file = "configureddefaults/config/illagerinvasion-server.toml"
 hash = "4a90e754beef1111b18a894ba924159de21720534b93fa55f78dc4ccded478a9"
 
 [[files]]
-file = "configureddefaults/config/immediatelyfast.json"
-hash = "cce216651d63b1f113a92dd075ef0be65f567e0b4d15eaa3ecfbef6b8c62fca5"
-
-[[files]]
 file = "configureddefaults/config/immersivearmorhud-client.toml"
 hash = "840390cbba6d8755e7c0600031497f62d471d1f5aa645d2037ffad8d95a8eac6"
 
@@ -2298,7 +2298,7 @@ hash = "6a52e880baa50bb9a770c4ae1bda53ff1d203541cc78eebb14ebaff82284e521"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
-hash = "62611a2b798035390a280b158563cfa590ab6f3465b77be46949839809dbe77f"
+hash = "3d8f918c52e27d4c640f78c67c0a51a2ddbe4e3703c149e8ed9461f43bd5fedd"
 metafile = true
 
 [[files]]
@@ -2609,11 +2609,6 @@ hash = "4c49bcbf4236ebf3eff68e66671c7129193df464cbdae9cdcac2346e848b8c4d"
 metafile = true
 
 [[files]]
-file = "mods/despawn-tweaks.pw.toml"
-hash = "c4cb0e99771912399791487f68c98ae8546642857bc8ec0c6683355df6631cf1"
-metafile = true
-
-[[files]]
 file = "mods/detect-afk-1.2.1.jar"
 hash = "b09657460005dfb0449874dc509efe371604f1935d8563f331b6198483621bba"
 
@@ -2860,11 +2855,6 @@ metafile = true
 [[files]]
 file = "mods/golem-spawn-fix.pw.toml"
 hash = "13e5e67f38f0045957f01c7bdfefe465c9bd11f8b8e8982a9b45adc24ad04904"
-metafile = true
-
-[[files]]
-file = "mods/gputape.pw.toml"
-hash = "08481ad00651a7603f846d9bbb4285e995eee8d883e024ffead443524c640ee4"
 metafile = true
 
 [[files]]
@@ -3131,11 +3121,6 @@ hash = "729c7821919b9e17d83cbf8b8c59b6107527d4b5e2e5cbb1608fe2aee458f872"
 metafile = true
 
 [[files]]
-file = "mods/moreculling.pw.toml"
-hash = "91696791780719730cb8826de0c53d8513a7c2b320f7d641dbeb6ca974e5cec3"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
@@ -3196,7 +3181,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
+hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
 metafile = true
 
 [[files]]
@@ -3307,11 +3292,6 @@ metafile = true
 [[files]]
 file = "mods/quickerconnectbutton-neoforge-2.3.0+1.21+Codion.jar"
 hash = "21c41cbdd9a0f4f25d5ef386ebe74f464b08e13873b62a70f2cb2e76455f2d3e"
-
-[[files]]
-file = "mods/redirected.pw.toml"
-hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
-metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
@@ -3425,11 +3405,6 @@ metafile = true
 [[files]]
 file = "mods/smsn.pw.toml"
 hash = "ecffd45f3246442392fa8f1d83cd0fe139a191b6d1cc3e1c439f092fd38cbb65"
-metafile = true
-
-[[files]]
-file = "mods/sodium-options-api.pw.toml"
-hash = "40e1fdc8c58f72bb947b978a773cf963b2d28bb49832500c2bd886f7ac6629bb"
 metafile = true
 
 [[files]]
