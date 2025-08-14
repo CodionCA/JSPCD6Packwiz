@@ -439,6 +439,10 @@ file = "config/quickerconnectbutton.json5"
 hash = "4bf85fad4bec9c1ad699301e78d6bf23d80a297ab9190ac8625d8157d9a81500"
 
 [[files]]
+file = "config/refinedstorage-common.toml"
+hash = "297ee0b8dcfd2e9fa2449dd1f7e6c37d1f9eda84a0878a8bd5e42f4b171a4d7e"
+
+[[files]]
 file = "config/simple-custom-early-loading.json"
 hash = "b519929bad2999674ae456ce53bcfb5a31f903e845742e48ecb68968d8e27f81"
 
